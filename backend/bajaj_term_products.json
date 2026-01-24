@@ -1,0 +1,259 @@
+{
+    "products": [
+        {
+            "product_name": "Bajaj Allianz Life Diabetic Term Plan Sub 8 HbA1c",
+            "category": "Term Insurance",
+            "source": "brochure",
+            "summary": "A term plan specifically designed for Type-2 diabetics with HbA1c levels up to 8.",
+            "key_benefits": [
+                "Tailored for Type-2 Diabetics",
+                "Health Management Services to monitor and manage diabetes",
+                "Flexible premium payment frequency",
+                "Tax benefits under Income Tax Act"
+            ],
+            "eligibility": {
+                "Condition": "Type-2 Diabetes with HbA1c <= 8"
+            },
+            "premium_options": [
+                "Annual",
+                "Semi-Annual",
+                "Quarterly",
+                "Monthly"
+            ],
+            "special_features": [
+                "Health Management Services",
+                "Incentives for improving HbA1c"
+            ],
+            "buy_link": "https://www.bajajlifeinsurance.com/",
+            "faq": []
+        },
+        {
+            "product_name": "Bajaj Allianz Life eTouch II",
+            "category": "Term Insurance",
+            "source": "brochure",
+            "summary": "A comprehensive term life insurance plan that offers protection against Death, Terminal Illness, and Accidental Death, with multiple plan variants.",
+            "key_benefits": [
+                "Life Cover with Terminal Illness Benefit",
+                "Accidental Death Benefit (in specific variants)",
+                "Waiver of Premium on Critical Illness",
+                "Option to receive death benefit in installments",
+                "Tax Benefits under Section 80C and 10(10D)"
+            ],
+            "eligibility": {
+                "Min Entry Age": "18 years",
+                "Max Entry Age": "60 years",
+                "Max Maturity Age": "75 years"
+            },
+            "premium_options": [
+                "Regular Pay",
+                "Limited Premium Pay"
+            ],
+            "special_features": [
+                "3 Plan Variants: Shield, Shield Plus, Shield Super",
+                "Healthy Lifestyle Reward",
+                "Payout of Sum Assured on Terminal Illness"
+            ],
+            "buy_link": "https://www.bajajlifeinsurance.com/term-insurance/etouch-term-plan.html",
+            "faq": []
+        },
+        {
+            "product_name": "Bajaj Allianz Life Superwoman Term",
+            "category": "Term Insurance",
+            "source": "brochure",
+            "summary": "A specialized term plan for women designed to cover critical illnesses like cancer and provide protection for congenital disabilities in children.",
+            "key_benefits": [
+                "Accelerated Critical Illness Benefit for cancers (Breast, Cervical, etc.)",
+                "Child Congenital Disability Benefit",
+                "Life Cover with Terminal Illness Benefit",
+                "Health Management Services"
+            ],
+            "eligibility": {
+                "Min Entry Age": "18 years",
+                "Max Entry Age": "50 years"
+            },
+            "premium_options": [
+                "Regular Pay"
+            ],
+            "special_features": [
+                "Support for female-specific health risks",
+                "Wellness services included",
+                "Customizable coverage amounts"
+            ],
+            "buy_link": "https://www.bajajlifeinsurance.com/term-insurance/superwoman-term-plan.html",
+            "faq": []
+        },
+        {
+            "product_name": "Term Insurance Shield",
+            "category": "Term Insurance",
+            "source": "website",
+            "summary": "Details about Term Insurance Shield could not be automatically extracted from the structure.",
+            "key_benefits": [],
+            "buy_link": "https://www.bajajlifeinsurance.com/term-insurance.html",
+            "faq": []
+        },
+        {
+            "product_name": "5 Crore Term Insurance",
+            "category": "Term Insurance",
+            "source": "website",
+            "summary": "Details about 5 Crore Term Insurance could not be automatically extracted from the structure.",
+            "key_benefits": [],
+            "buy_link": "https://www.bajajlifeinsurance.com/term-insurance.html",
+            "faq": []
+        },
+        {
+            "product_name": "2 Crore Term Insurance",
+            "category": "Term Insurance",
+            "source": "website",
+            "summary": "Details about 2 Crore Term Insurance could not be automatically extracted from the structure.",
+            "key_benefits": [],
+            "buy_link": "https://www.bajajlifeinsurance.com/term-insurance.html",
+            "faq": []
+        },
+        {
+            "product_name": "1.5 Crore Term Insurance",
+            "category": "Term Insurance",
+            "source": "website",
+            "summary": "Details about 1.5 Crore Term Insurance could not be automatically extracted from the structure.",
+            "key_benefits": [],
+            "buy_link": "https://www.bajajlifeinsurance.com/term-insurance.html",
+            "faq": []
+        },
+        {
+            "product_name": "1 Crore Term Insurance",
+            "category": "Term Insurance",
+            "source": "website",
+            "summary": "Details about 1 Crore Term Insurance could not be automatically extracted from the structure.",
+            "key_benefits": [],
+            "buy_link": "https://www.bajajlifeinsurance.com/term-insurance.html",
+            "faq": []
+        },
+        {
+            "product_name": "Affordable Term Plan 75L",
+            "category": "Term Insurance",
+            "source": "website",
+            "summary": "Details about Affordable Term Plans could not be automatically extracted from the structure.",
+            "key_benefits": [
+                "Low premiums",
+                "High coverage"
+            ],
+            "buy_link": "https://www.bajajlifeinsurance.com/term-insurance.html",
+            "faq": []
+        },
+        {
+            "product_name": "Affordable Term Plan 50L",
+            "category": "Term Insurance",
+            "source": "website",
+            "summary": "Details about Affordable Term Plans could not be automatically extracted from the structure.",
+            "key_benefits": [
+                "Low premiums",
+                "High coverage"
+            ],
+            "buy_link": "https://www.bajajlifeinsurance.com/term-insurance.html",
+            "faq": []
+        },
+        {
+            "product_name": "Affordable Term Plan 30L",
+            "category": "Term Insurance",
+            "source": "website",
+            "summary": "Details about Affordable Term Plans could not be automatically extracted from the structure.",
+            "key_benefits": [
+                "Low premiums",
+                "High coverage"
+            ],
+            "buy_link": "https://www.bajajlifeinsurance.com/term-insurance.html",
+            "faq": []
+        },
+        {
+            "product_name": "Affordable Term Plan 25L",
+            "category": "Term Insurance",
+            "source": "website",
+            "summary": "Details about Affordable Term Plans could not be automatically extracted from the structure.",
+            "key_benefits": [
+                "Low premiums",
+                "High coverage"
+            ],
+            "buy_link": "https://www.bajajlifeinsurance.com/term-insurance.html",
+            "faq": []
+        },
+        {
+            "product_name": "Tax Benefits of Term Insurance",
+            "category": "Term Insurance",
+            "source": "website",
+            "summary": "Details about Tax Benefits of Term Insurance could not be automatically extracted from the structure.",
+            "key_benefits": [],
+            "buy_link": "https://www.bajajlifeinsurance.com/term-insurance.html",
+            "faq": []
+        },
+        {
+            "product_name": "Term Insurance for NRIs in UAE",
+            "category": "Term Insurance",
+            "source": "website",
+            "summary": "Details about Term Insurance for NRIs in UAE could not be automatically extracted from the structure.",
+            "key_benefits": [],
+            "buy_link": "https://www.bajajlifeinsurance.com/term-insurance.html",
+            "faq": []
+        },
+        {
+            "product_name": "Senior Citizen Term Insurance Plan",
+            "category": "Term Insurance",
+            "source": "website",
+            "summary": "Details about Senior Citizen Term Insurance Plan could not be automatically extracted from the structure.",
+            "key_benefits": [],
+            "buy_link": "https://www.bajajlifeinsurance.com/term-insurance.html",
+            "faq": []
+        },
+        {
+            "product_name": "Term Insurance for Women",
+            "category": "Term Insurance",
+            "source": "website",
+            "summary": "Details about Term Insurance for Women could not be automatically extracted from the structure.",
+            "key_benefits": [],
+            "buy_link": "https://www.bajajlifeinsurance.com/term-insurance.html",
+            "faq": []
+        },
+        {
+            "product_name": "Policy Term 30 yrs",
+            "category": "Term Insurance",
+            "source": "website",
+            "summary": "Option for Policy Term 30 yrs coverage duration.",
+            "key_benefits": [
+                "Flexible tenure"
+            ],
+            "buy_link": "https://www.bajajlifeinsurance.com/term-insurance.html",
+            "faq": []
+        },
+        {
+            "product_name": "Policy Term 25 yrs",
+            "category": "Term Insurance",
+            "source": "website",
+            "summary": "Option for Policy Term 25 yrs coverage duration.",
+            "key_benefits": [
+                "Flexible tenure"
+            ],
+            "buy_link": "https://www.bajajlifeinsurance.com/term-insurance.html",
+            "faq": []
+        },
+        {
+            "product_name": "Policy Term 20 yrs",
+            "category": "Term Insurance",
+            "source": "website",
+            "summary": "Option for Policy Term 20 yrs coverage duration.",
+            "key_benefits": [
+                "Flexible tenure"
+            ],
+            "buy_link": "https://www.bajajlifeinsurance.com/term-insurance.html",
+            "faq": []
+        },
+        {
+            "product_name": "Policy Term 15 yrs",
+            "category": "Term Insurance",
+            "source": "website",
+            "summary": "Option for Policy Term 15 yrs coverage duration.",
+            "key_benefits": [
+                "Flexible tenure"
+            ],
+            "buy_link": "https://www.bajajlifeinsurance.com/term-insurance.html",
+            "faq": []
+        }
+    ]
+}

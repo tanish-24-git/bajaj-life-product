@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    container_name: bajaj_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+    environment:
+      - GEMINI_API_KEY=AIzaSyCxWSutrg_4ZSyUX1qRHlzp2oo6rmWrpBI
+      - USE_PERSONAPLEX=false
+
+  frontend:
+    build: ./frontend
+    container_name: bajaj_frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+    environment:
+      - VITE_API_URL=http://localhost:8000
+
+# Optional: PersonaPlex Service (Commented out for MVP CPU-safety)
+#   personaplex:
+#     image: nvidia/personaplex-7b-v1
+#     deploy:
+#       resources:
+#         reservations:
+#           devices:
+#             - driver: nvidia
+#               count: 1
+#               capabilities: [gpu]
