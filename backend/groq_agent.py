@@ -1,20 +1,22 @@
-import google.generativeai as genai
+from groq import Groq
 import os
 
-# We will expect the API Key to be in env var or passed here
-# For the prototype, we initialize it from env
-API_KEY = os.getenv("GEMINI_API_KEY")
+# Initialize Groq Client
+API_KEY = os.getenv("GROQ_API_KEY")
+client = None
 
 if API_KEY:
-    genai.configure(api_key=API_KEY)
+    print(f"Groq API Key found: {API_KEY[:5]}...{API_KEY[-3:]}")
+    client = Groq(api_key=API_KEY)
+else:
+    print("CRITICAL: Groq API Key NOT found in environment!")
 
-# Use the Flash model
-MODEL_NAME = "gemini-1.5-flash"
+# Use a fast, capable model
+MODEL_NAME = "llama-3.3-70b-specdec" # Powerful Llama 3 variant on Groq
 
 class BajajAgent:
     def __init__(self):
-        self.model = genai.GenerativeModel(MODEL_NAME)
-        self.chat = self.model.start_chat(history=[])
+        self.history = []
 
     def generate_response(self, user_query, additional_context):
         system_prompt = f"""
@@ -33,15 +35,18 @@ You are the Bajaj Life Insurance Sales Assistant.
 
 ### Context Products:
 {additional_context}
-
-### User Query:
-{user_query}
-
-Respond in a professional, warm, and conversational tone.
 """
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_query}
+        ]
         
         try:
-            response = self.chat.send_message(system_prompt)
-            return response.text
+            chat_completion = client.chat.completions.create(
+                messages=messages,
+                model=MODEL_NAME,
+            )
+            response_text = chat_completion.choices[0].message.content
+            return response_text
         except Exception as e:
-            return f"Error generating response: {str(e)}"
+            return f"Error generating response from Groq: {str(e)}"

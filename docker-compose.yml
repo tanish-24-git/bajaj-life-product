@@ -8,9 +8,13 @@ services:
       - "8000:8000"
     volumes:
       - ./backend:/app
+      - hf_cache:/data/huggingface
+    env_file:
+      - .env
     environment:
-      - GEMINI_API_KEY=AIzaSyCxWSutrg_4ZSyUX1qRHlzp2oo6rmWrpBI
-      - USE_PERSONAPLEX=false
+      - USE_PERSONAPLEX=true
+      - HF_HOME=/data/huggingface
+      - HF_TOKEN=${HF_TOKEN}
 
   frontend:
     build: ./frontend
@@ -35,3 +39,6 @@ services:
 #             - driver: nvidia
 #               count: 1
 #               capabilities: [gpu]
+
+volumes:
+  hf_cache:

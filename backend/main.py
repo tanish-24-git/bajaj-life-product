@@ -2,11 +2,13 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 from retriever import load_products, retrieve_products
-from gemini_agent import BajajAgent
+from groq_agent import BajajAgent
 from voice_personaplex import VoiceGenerator
 import os
 
-app = FastAPI(title="Bajaj Life PersonaPlex Assistant")
+from typing import Optional, List
+
+app = FastAPI(title="Bajaj Life PersonaPlex Sales Assistant")
 
 # CORS setup for Frontend
 app.add_middleware(
@@ -22,8 +24,8 @@ print("Loading Product Database...")
 PRODUCTS = load_products()
 print(f"Loaded {len(PRODUCTS)} products.")
 
-print("Initializing Agents...")
-gemini_agent = BajajAgent()
+print("Initializing Groq Agent...")
+agent = BajajAgent()
 voice_gen = VoiceGenerator()
 
 class ChatRequest(BaseModel):
@@ -32,8 +34,8 @@ class ChatRequest(BaseModel):
 
 class ChatResponse(BaseModel):
     response: str
-    audio_base64: str = None
-    products_found: list = []
+    audio_base64: Optional[str] = None
+    products_found: List[str] = []
 
 @app.get("/")
 def health_check():
@@ -50,7 +52,7 @@ async def chat_endpoint(request: ChatRequest):
     # Format context for the LLM
     context_str = "\n".join([str(p) for p in relevant_products])
     
-    ai_response_text = gemini_agent.generate_response(query, context_str)
+    ai_response_text = agent.generate_response(query, context_str)
     
     # 3. Voice Generation (Optional)
     audio_data = None
