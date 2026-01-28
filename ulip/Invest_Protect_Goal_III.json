@@ -1,0 +1,300 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life Invest Protect Goal III",
+    "category": "ULIP (Unit Linked Insurance Plan)",
+    "plan_type": "Unit-linked, Non-Participating, Individual Life Savings Insurance Plan",
+    "uin": "116L205V01",
+    "mode_of_sale": "Online",
+    "source_document": "invest-protect-goal-sl.pdf",
+    "company": "Bajaj Life Insurance Limited",
+    "risk_disclaimer": "Investment risk in the investment portfolio is borne by the policyholder."
+  },
+
+  "product_summary": {
+    "objective": "Invest Protect Goal III is a ULIP savings plan that provides high life cover protection throughout the policy term along with market-linked returns, loyalty advantages, return of charges, and fund maintenance support.",
+    "key_highlights": [
+      "Lump sum payout for loved ones in case of death",
+      "Market-linked returns to grow invested corpus",
+      "Return of Premium Allocation Charges (ROAC) at year 15",
+      "Return of Mortality Charges (ROMC) in multiple stages",
+      "Loyalty Additions at year 10, 20, 30, 40",
+      "Fund Maintenance Booster (FMB) ensures fund value does not fall below one annualized premium",
+      "Family Benefit of 1% at maturity (PT ≥ 20 years)",
+      "Riders available for enhanced protection",
+      "Lock-in period of 5 years as per ULIP regulations"
+    ],
+    "lock_in_rule": "No surrender or partial withdrawal allowed during the first 5 policy years."
+  },
+
+  "plan_variants": [
+    {
+      "variant_name": "Regular Premium ULIP",
+      "premium_mode": "Regular Pay",
+      "ppt": "Equal to Policy Term",
+      "return_of_charges": true,
+      "loyalty_additions": true
+    },
+    {
+      "variant_name": "Limited Premium ULIP",
+      "premium_mode": "Limited Pay",
+      "ppt_options": [5, 6, 7, 8, 9, 10, 11, 12],
+      "return_of_charges": true,
+      "loyalty_additions": true
+    }
+  ],
+
+  "core_benefits": [
+    {
+      "benefit_name": "Death Benefit",
+      "details": "Higher of Prevailing Sum Assured or Regular Premium Fund Value, plus higher of Top-up Fund Value or Top-up Sum Assured.",
+      "guarantee": "Minimum 105% of total premiums including Top-ups received up to date of death.",
+      "note": "Sum Assured reduces by partial withdrawals made from Regular Premium Fund in last 2 years."
+    },
+    {
+      "benefit_name": "Maturity Benefit",
+      "details": "Total Fund Value payable on survival till maturity date.",
+      "payout_type": "Lump sum"
+    },
+
+    {
+      "benefit_name": "Return of Premium Allocation Charges (ROAC)",
+      "details": "At end of 15th policy year, all premium allocation charges (excluding GST) are added back to fund value.",
+      "not_applicable_on": ["Top-up premiums", "Surrendered/Discontinued/Paid-up policies"]
+    },
+
+    {
+      "benefit_name": "Return of Mortality Charges (ROMC)",
+      "schedule": {
+        "year_7": "25% of mortality charges deducted till year 7",
+        "year_15": "50% till year 15 (minus already returned)",
+        "year_20": "100% till year 20 (minus already returned)",
+        "year_25_onwards": "100% charges returned in 5-year blocks until maturity"
+      },
+      "not_applicable_on": ["Surrendered/Discontinued/Paid-up policies", "Top-up premiums"]
+    },
+
+    {
+      "benefit_name": "Loyalty Additions",
+      "schedule": {
+        "year_10": "1.25%",
+        "year_20": "2.00%",
+        "year_30": "3.00%",
+        "year_40": "5.00%"
+      },
+      "basis": "Average of previous 3 years’ daily Regular Premium Fund Value",
+      "not_applicable_on": ["Top-up premiums", "Surrendered/Discontinued/Paid-up policies"]
+    },
+
+    {
+      "benefit_name": "Fund Maintenance Booster (FMB)",
+      "details": "From 4th year onwards, if Total Fund Value falls below one Annualized Premium, insurer adds difference to restore it.",
+      "formula": "FMB = Annualized Premium – Total Fund Value",
+      "not_applicable_on": ["Surrendered/Discontinued/Paid-up policies"]
+    },
+
+    {
+      "benefit_name": "Family Benefit",
+      "details": "If family member is an existing Bajaj Life policyholder, 1% of average daily fund value is added at maturity.",
+      "eligibility": "Policy Term ≥ 20 years"
+    }
+  ],
+
+  "fund_options": {
+    "portfolio_strategies": [
+      "Investor Selectable Portfolio Strategy",
+      "Automatic Transfer Strategy"
+    ],
+
+    "available_funds_sample": [
+      {
+        "fund_name": "Equity Growth Fund II",
+        "risk_profile": "Very High",
+        "fmc": "1.35%",
+        "sfin": "ULIF05106/01/10EQTYGROW02116"
+      },
+      {
+        "fund_name": "Pure Stock Fund II",
+        "risk_profile": "Very High",
+        "fmc": "1.30%",
+        "sfin": "ULIF07709/01/17PURSTKFUN2116"
+      },
+      {
+        "fund_name": "Bond Fund",
+        "risk_profile": "Moderate",
+        "fmc": "0.95%",
+        "sfin": "ULIF02610/07/06BONDFUNDLI116"
+      },
+      {
+        "fund_name": "Liquid Fund",
+        "risk_profile": "Low",
+        "fmc": "0.95%",
+        "sfin": "ULIF02510/07/06LIQUIDFUND116"
+      }
+    ],
+
+    "switching_rules": {
+      "free_switches": "Unlimited free switches allowed (Investor Selectable Strategy)",
+      "minimum_switch_amount": "₹5,000"
+    },
+
+    "automatic_transfer_strategy_rule": {
+      "allocation": "Premiums allocated to Bond Fund or Liquid Fund first, then systematically transferred monthly.",
+      "not_applicable_for": "Monthly premium mode"
+    }
+  },
+
+  "charges_structure": {
+    "fund_management_charge_range": "0.50% to 1.35% depending on fund",
+    "policy_administration_charge": {
+      "years_1_to_5": "1.08% of Annualized Premium (max ₹500/month)",
+      "year_6_onwards": "4.50% p.a. (max ₹500/month)"
+    },
+    "premium_allocation_charge": {
+      "yearly_mode": "6% in years 1–4, reduced thereafter",
+      "other_modes": "5% in years 1–4",
+      "top_up_charge": "2%"
+    },
+    "miscellaneous_charge": "₹100 per transaction (switches & withdrawals free)",
+    "discontinuance_charge": {
+      "year_1": "Up to 20% of AP/FV (max ₹3,000 or ₹6,000 depending on premium)",
+      "year_5_onwards": "Nil"
+    },
+    "mortality_charge": "Deducted monthly on Sum At Risk",
+    "gst": "Applicable on all charges"
+  },
+
+  "eligibility_and_parameters": {
+    "entry_age": {
+      "minimum": 18,
+      "maximum": 60
+    },
+    "maturity_age": {
+      "minimum": 38,
+      "maximum": 100
+    },
+    "policy_term": {
+      "minimum": 20,
+      "maximum": 40
+    },
+    "premium_rules": {
+      "minimum_premium_5_to_7_year_ppt": {
+        "yearly": "₹48,000",
+        "monthly": "₹4,000"
+      },
+      "minimum_premium_8_plus_ppt": {
+        "yearly": "₹18,000",
+        "monthly": "₹1,500"
+      },
+      "top_up_minimum": "₹5,000"
+    },
+    "sum_assured_rules": {
+      "minimum": "7× Annualized Premium",
+      "top_up_sa": "1.25× Top-up Premium"
+    }
+  },
+
+  "optional_features": {
+    "partial_withdrawals": {
+      "allowed_after": "5-year lock-in (from 6th policy year)",
+      "minimum": "₹5,000",
+      "condition": "Regular Fund Value must remain ≥ 3× Annualized Premium"
+    },
+    "top_up_premium": {
+      "allowed_until": "Except last 5 policy years",
+      "lock_in_each_topup": "5 years"
+    },
+    "sum_assured_change": {
+      "increase_or_decrease": "Allowed at policy anniversaries (subject to underwriting)",
+      "charges": "Miscellaneous charge applies"
+    },
+    "surrender_rules": {
+      "during_lock_in": "Fund moved to Discontinued Life Policy Fund, payable after lock-in ends",
+      "after_lock_in": "Total Fund Value payable immediately"
+    },
+    "revival": {
+      "period": "Within 3 years from first unpaid premium",
+      "restores": ["risk cover", "loyalty benefits", "ROAC/ROMC due"]
+    }
+  },
+
+  "riders": [
+    {
+      "rider_name": "Linked Accident Protection Rider II",
+      "uin": "116A057V01"
+    },
+    {
+      "rider_name": "Care Plus Rider",
+      "uin": "116A059V01"
+    },
+    {
+      "rider_name": "Linked New Critical Illness Benefit Rider",
+      "uin": "116A060V01"
+    }
+  ],
+
+  "sample_illustrations": [
+    {
+      "example_person": "Customer aged 35",
+      "sum_assured": "₹1 Crore",
+      "premium": "₹50,000 p.a.",
+      "policy_term": 40,
+      "fund_assumption": "Pure Stock Fund II",
+      "fund_value_4pct": "₹32,74,004",
+      "fund_value_8pct": "₹82,11,295"
+    },
+    {
+      "ppt_7_years": {
+        "annual_premium": "₹1,33,334",
+        "total_premium": "₹9,33,338",
+        "fv_4pct": "₹18,27,770",
+        "fv_8pct": "₹81,29,858"
+      }
+    }
+  ],
+
+  "compliance_rules": {
+    "ulip_risk_warning": "ULIPs are subject to capital market risks. NAV may go up or down based on market performance.",
+    "lock_in_period": "5 years mandatory lock-in as per IRDAI guidelines.",
+    "free_look_period": "30 days from receipt of policy document.",
+    "grace_period": {
+      "monthly": "15 days",
+      "other_modes": "30 days"
+    },
+    "suicide_exclusion": "Within 12 months, nominee receives Total Fund Value as on death intimation date.",
+    "fraud_warning": "Beware of spurious phone calls and fictitious offers. IRDAI does not sell policies.",
+    "tax_disclaimer": "Tax benefits subject to Income Tax Act provisions and amendments."
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "IPG3_BENEFIT_001",
+      "topic": "Death Benefit",
+      "text": "Death benefit is higher of Sum Assured or Fund Value, with minimum guarantee of 105% of premiums paid including top-ups.",
+      "tags": ["death benefit", "105% guarantee"]
+    },
+    {
+      "chunk_id": "IPG3_LOYALTY_002",
+      "topic": "ROAC + ROMC",
+      "text": "ROAC returns premium allocation charges at year 15, while ROMC returns mortality charges progressively up to maturity.",
+      "tags": ["ROAC", "ROMC", "return of charges"]
+    },
+    {
+      "chunk_id": "IPG3_FMB_003",
+      "topic": "Fund Maintenance Booster",
+      "text": "Fund Maintenance Booster ensures fund value does not fall below one annualized premium by adding required difference.",
+      "tags": ["FMB", "fund protection"]
+    },
+    {
+      "chunk_id": "IPG3_ELIGIBILITY_004",
+      "topic": "Eligibility",
+      "text": "Entry age is 18–60, policy term 20–40 years, minimum yearly premium starts at ₹18,000 for PPT ≥ 8 years.",
+      "tags": ["eligibility", "policy term", "premium"]
+    },
+    {
+      "chunk_id": "IPG3_CHARGES_005",
+      "topic": "ULIP Charges",
+      "text": "Premium allocation charges apply up to 6%, policy administration charges capped at ₹500/month, FMC up to 1.35%.",
+      "tags": ["charges", "PAC", "FMC"]
+    }
+  ]
+}

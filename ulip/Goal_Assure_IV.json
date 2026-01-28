@@ -1,0 +1,269 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life Goal Assure IV",
+    "category": "ULIP (Unit Linked Insurance Plan)",
+    "plan_type": "Unit-linked, Non-Participating, Individual Life Savings Insurance Plan",
+    "uin": "116L204V01",
+    "mode_of_sale": "Online",
+    "source_document": "goal-assure-brochure.pdf",
+    "company": "Bajaj Life Insurance Limited",
+    "risk_disclaimer": "Investment risk in the investment portfolio is borne by the policyholder."
+  },
+
+  "product_summary": {
+    "objective": "Goal Assure IV is a ULIP savings plan designed to help policyholders achieve long-term life goals with market-linked investment options, loyalty additions, fund boosters, and life cover throughout the policy term.",
+    "key_highlights": [
+      "Fund Booster at maturity (for policy term ≥ 10 years)",
+      "Loyalty Additions at year 10, 15 and 20",
+      "Return of Mortality Charges at maturity (ROMC)",
+      "Option to take death or maturity benefits in installments with Return Enhancer",
+      "4 investment portfolio strategies available",
+      "Multiple fund choices including equity, debt and index funds",
+      "Top-up premium option for extra contributions",
+      "Life cover protection from day 1"
+    ],
+    "lock_in_rule": "No surrender or withdrawal allowed during the first 5 policy years."
+  },
+
+  "plan_variants": [
+    {
+      "variant_name": "Regular Premium ULIP",
+      "premium_mode": "Regular Pay",
+      "investment_strategies": 4,
+      "fund_booster": true,
+      "loyalty_additions": true
+    },
+    {
+      "variant_name": "Limited Premium ULIP",
+      "premium_mode": "Limited Pay",
+      "investment_strategies": 4,
+      "fund_booster": true,
+      "loyalty_additions": true
+    }
+  ],
+
+  "core_benefits": [
+    {
+      "benefit_name": "Maturity Benefit",
+      "details": "Fund Value as on maturity date, provided the policy is in-force.",
+      "payout_type": "Lump sum or Installments via Settlement Option"
+    },
+    {
+      "benefit_name": "Death Benefit",
+      "details": "Higher of Prevailing Sum Assured or Regular Premium Fund Value, plus higher of Top-up Sum Assured or Top-up Fund Value.",
+      "guarantee": "Minimum 105% of Total Premiums Paid."
+    },
+    {
+      "benefit_name": "Return of Mortality Charges (ROMC)",
+      "details": "All mortality charges deducted over policy term are added back at maturity, provided policy is in-force and premiums are fully paid.",
+      "not_applicable_if": ["Surrendered", "Discontinued", "Paid-up"]
+    },
+    {
+      "benefit_name": "Fund Booster",
+      "details": "2% of average daily regular premium fund values during last 3 years is added at maturity.",
+      "not_applicable_on": ["Top-up premiums", "Surrendered/discontinued/paid-up policies"]
+    },
+    {
+      "benefit_name": "Loyalty Additions",
+      "schedule": {
+        "year_10": "1.00%",
+        "year_15": "1.50%",
+        "year_20": "2.00%"
+      },
+      "details": "Added as % of average daily fund value over previous 3 years."
+    },
+    {
+      "benefit_name": "Family Benefit",
+      "details": "Extra loyalty benefit at maturity if family member is an existing Bajaj Life policyholder.",
+      "rates": {
+        "policy_term_lt_20": "0.5%",
+        "policy_term_ge_20": "1%"
+      }
+    }
+  ],
+
+  "fund_options": {
+    "portfolio_strategies": [
+      "Investor Selectable Portfolio Strategy",
+      "Wheel of Life Portfolio Strategy",
+      "Trigger Based Portfolio Strategy",
+      "Auto Transfer Portfolio Strategy"
+    ],
+    "available_funds": [
+      {
+        "fund_name": "Equity Growth Fund II",
+        "risk_profile": "Very High",
+        "fmc": "1.35%"
+      },
+      {
+        "fund_name": "Bond Fund",
+        "risk_profile": "Moderate",
+        "fmc": "0.95%"
+      },
+      {
+        "fund_name": "Liquid Fund",
+        "risk_profile": "Low",
+        "fmc": "0.95%"
+      },
+      {
+        "fund_name": "Bluechip Equity Fund",
+        "risk_profile": "High",
+        "fmc": "1.25%"
+      },
+      {
+        "fund_name": "Small Cap Fund",
+        "risk_profile": "Very High",
+        "fmc": "1.35%"
+      },
+      {
+        "fund_name": "Debt Plus Fund",
+        "risk_profile": "Moderate",
+        "fmc": "0.70%"
+      }
+    ],
+    "switching_rules": {
+      "free_switches": "Unlimited free switches allowed (Investor Selectable only)",
+      "minimum_switch_amount": "₹5,000"
+    }
+  },
+
+  "charges_structure": {
+    "premium_allocation_charge": "Nil",
+    "policy_administration_charge": {
+      "year_1": "1.80% p.a.",
+      "year_2_to_10": "3.00% p.a.",
+      "year_11_onwards": "0%",
+      "cap": "Max ₹500/month"
+    },
+    "fund_management_charge_range": "0.50% to 1.35% depending on fund",
+    "miscellaneous_charge": "₹100 per transaction",
+    "discontinuance_charge": {
+      "policy_year_1": "Up to 20% (max ₹3,000/₹6,000 depending on premium)",
+      "policy_year_5_onwards": "Nil"
+    },
+    "mortality_charge": "Deducted monthly via cancellation of units",
+    "gst": "Applicable on all charges"
+  },
+
+  "eligibility_and_parameters": {
+    "entry_age": {
+      "minimum": "0 years",
+      "maximum": "60 years"
+    },
+    "maturity_age": {
+      "minimum": "18 years",
+      "maximum": "75 years"
+    },
+    "policy_term": ["10 years", "15 years", "20 years"],
+    "premium_payment_terms": {
+      "for_10_year_PT": ["5", "7", "10"],
+      "for_15_year_PT": ["5", "7", "10", "15"],
+      "for_20_year_PT": ["5", "7", "10", "15", "20"]
+    },
+    "minimum_premium": {
+      "yearly": "₹36,000",
+      "half_yearly": "₹18,000",
+      "quarterly": "₹9,000",
+      "monthly": "₹3,000"
+    },
+    "top_up_minimum": "₹5,000",
+    "minimum_sum_assured_multiple": {
+      "age_lt_50": "7× Annualized Premium",
+      "age_ge_50": "5× Annualized Premium"
+    }
+  },
+
+  "optional_features": {
+    "top_up_premium": true,
+    "partial_withdrawals": {
+      "allowed_after": "5th policy year",
+      "min_withdrawal": "₹5,000",
+      "max_withdrawal": "50% of Regular Fund Value"
+    },
+    "settlement_option": {
+      "max_period": "5 years",
+      "return_enhancer": "Each installment increased by 0.5%"
+    },
+    "premium_reduction": {
+      "allowed_after": "5 policy years",
+      "max_reduction": "50%"
+    },
+    "sum_assured_decrease": "Allowed (cannot be increased again)"
+  },
+
+  "riders": [
+    {
+      "rider_name": "Linked Accident Protection Rider II",
+      "uin": "116A057V01"
+    },
+    {
+      "rider_name": "Care Plus Rider",
+      "uin": "116A059V01"
+    },
+    {
+      "rider_name": "Linked New Critical Illness Benefit Rider",
+      "uin": "116A060V01"
+    }
+  ],
+
+  "sample_illustrations": [
+    {
+      "example_person": "Alok",
+      "age": 35,
+      "premium": "₹50,000 p.a.",
+      "policy_term": "15 years",
+      "ppt": "10 years",
+      "sum_assured": "₹5 Lakhs",
+      "maturity_benefit_8pct": "₹10,03,748",
+      "maturity_benefit_4pct": "₹6,67,812",
+      "death_benefit_8pct": "₹8,00,753",
+      "death_benefit_4pct": "₹5,94,455"
+    }
+  ],
+
+  "compliance_rules": {
+    "ulip_risk_warning": "ULIPs are subject to capital market risks. Fund performance is not guaranteed.",
+    "lock_in_period": "5 years mandatory lock-in as per IRDAI.",
+    "free_look_period": "30 days from receipt of policy document.",
+    "grace_period": {
+      "monthly": "15 days",
+      "other_modes": "30 days"
+    },
+    "suicide_exclusion": "Within 12 months, nominee receives Fund Value as on date of death intimation.",
+    "fraud_warning": "Beware of spurious calls. IRDAI does not sell policies or announce bonuses.",
+    "tax_disclaimer": "Tax benefits subject to Income Tax Act provisions and amendments."
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "GA4_BENEFITS_001",
+      "topic": "Fund Booster + ROMC",
+      "text": "Goal Assure IV provides Fund Booster (2%) at maturity and returns mortality charges deducted (ROMC), maximizing savings.",
+      "tags": ["fund booster", "ROMC", "maturity"]
+    },
+    {
+      "chunk_id": "GA4_LOYALTY_002",
+      "topic": "Loyalty Additions",
+      "text": "Loyalty additions are added at year 10 (1%), year 15 (1.5%), and year 20 (2%) based on average daily fund value.",
+      "tags": ["loyalty additions", "long term ULIP"]
+    },
+    {
+      "chunk_id": "GA4_STRATEGY_003",
+      "topic": "Portfolio Strategies",
+      "text": "Policyholders can choose from Investor Selectable, Wheel of Life, Trigger Based, or Auto Transfer strategies.",
+      "tags": ["portfolio strategy", "fund allocation"]
+    },
+    {
+      "chunk_id": "GA4_ELIGIBILITY_004",
+      "topic": "Eligibility Rules",
+      "text": "Entry age is 0–60 years, policy term options are 10/15/20 years, minimum premium starts at ₹36,000 yearly.",
+      "tags": ["eligibility", "premium rules"]
+    },
+    {
+      "chunk_id": "GA4_CHARGES_005",
+      "topic": "ULIP Charges",
+      "text": "Premium allocation charge is nil. Policy administration charges apply up to 3% p.a., and FMC ranges up to 1.35%.",
+      "tags": ["charges", "PAC", "FMC"]
+    }
+  ]
+}
