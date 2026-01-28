@@ -1,0 +1,218 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life Guaranteed Pension Goal II",
+    "category": "Guaranteed Pension / Annuity Plan",
+    "plan_type": "Non-linked, Non-participating Immediate & Deferred Annuity Plan",
+    "uin": null,
+    "mode_of_sale": "Online + Other Channels (POS restrictions apply)",
+    "source_document": "gpg-ii-sl.pdf",
+    "company": "Bajaj Life Insurance Limited",
+    "benefit_type": "Guaranteed lifelong annuity payouts",
+    "key_disclaimer": "Guaranteed benefits depend on purchase price and annuity option chosen."
+  },
+
+  "product_summary": {
+    "objective": "Guaranteed Pension Goal II helps individuals retire early with guaranteed lifelong income by allowing them to purchase an annuity (Immediate or Deferred) and receive regular pension payouts throughout life, with multiple joint-life and return-of-purchase-price options.",
+    "key_highlights": [
+      "Guaranteed lifelong annuity income",
+      "Immediate and Deferred annuity choices",
+      "Multiple annuity payout frequencies (Monthly/Quarterly/Half-yearly/Yearly)",
+      "Wide range of annuity options (A–I)",
+      "Return of Purchase Price (50%–100%) options available",
+      "Joint-life pension with 50% or 100% continuation to spouse",
+      "Survival return options after age 70/85 depending on option",
+      "Family Pension option for NPS subscribers",
+      "Health Management Services included at no extra cost"
+    ]
+  },
+
+  "plan_variants": [
+    {
+      "variant_name": "Immediate Annuity",
+      "premium_type": "Single Premium (Purchase Price)",
+      "income_start": "As early as next month depending on frequency chosen",
+      "available_annuity_options": ["A", "B", "C", "D", "E", "F", "G", "H", "I"]
+    },
+    {
+      "variant_name": "Deferred Annuity",
+      "premium_type": "Single Premium OR Regular/Limited Premium",
+      "income_start": "After completion of deferment period chosen at inception",
+      "available_annuity_options": ["A", "B", "E", "F", "G", "H"]
+    }
+  ],
+
+  "core_benefits": [
+    {
+      "benefit_name": "Guaranteed Annuity Income",
+      "details": "Annuity amount is guaranteed at inception and paid throughout life as per chosen payout frequency.",
+      "frequencies": ["Monthly", "Quarterly", "Half-yearly", "Yearly"]
+    },
+
+    {
+      "benefit_name": "Immediate Annuity Options (A–I)",
+      "options": {
+        "A": "Life Annuity – payable throughout life",
+        "B": "Life Annuity with Return of Purchase Price (50%–100%) on death",
+        "C": "Annuity Certain (5/10/15/20 years) and life thereafter",
+        "D": "Joint Life – 50% annuity to spouse after death",
+        "E": "Joint Life – 100% annuity to spouse after death",
+        "F": "Joint Life – 100% spouse annuity + ROP on death of last survivor",
+        "G": "Life Annuity + ROP as survival benefit after 25 years or age 85",
+        "H": "Life Annuity + ROP paid in installments after 15 years or age 70",
+        "I": "Family Pension – Special for NPS subscribers"
+      }
+    },
+
+    {
+      "benefit_name": "Deferred Annuity Benefits",
+      "details": "Annuity begins after deferment period. Death during deferment pays Death Benefit Factor × Total Premiums Paid (minimum 105%).",
+      "rop_rule": "In Deferred Single Premium, ROP is mandatorily 100%."
+    },
+
+    {
+      "benefit_name": "Return of Purchase Price (ROP)",
+      "details": "Under selected annuity options, X% (50%–100%) of purchase price is returned on death or survival event.",
+      "not_changeable": true
+    },
+
+    {
+      "benefit_name": "Death Benefit Guarantee",
+      "floor": "Minimum death benefit = 105% of Total Premiums Paid (during deferment).",
+      "immediate_annuity": "ROP as per chosen option payable on death."
+    }
+  ],
+
+  "eligibility_and_parameters": {
+    "entry_age": {
+      "immediate": {
+        "minimum": 30,
+        "maximum": 85
+      },
+      "deferred": {
+        "minimum": 35,
+        "maximum": 84,
+        "annuity_start_max_age": 85
+      }
+    },
+
+    "premium_minimum": {
+      "yearly": "₹12,000",
+      "half_yearly": "₹6,000",
+      "quarterly": "₹3,000",
+      "monthly": "₹1,000",
+      "single_premium_min": "As per minimum annuity installment"
+    },
+
+    "deferment_period": {
+      "single_premium": {
+        "min": "1 year",
+        "max": "30 years (Options A,B,E,F); 10 years (Options G,H)"
+      },
+      "regular_limited": {
+        "max": "Maximum of (2, PPT chosen)"
+      }
+    },
+
+    "premium_paying_term": {
+      "single_pay": "Single Premium only",
+      "regular_limited": "2 years to 12 years (Deferred annuity only)"
+    },
+
+    "minimum_group_size": "5 members (for group purchase)"
+  },
+
+  "optional_features": {
+    "change_frequency": {
+      "premium_frequency_change": "Allowed at any policy anniversary",
+      "annuity_frequency_change": "Allowed at any policy anniversary",
+      "premium_frequency_factor": {
+        "monthly": 0.0859,
+        "quarterly": 0.2564,
+        "half_yearly": 0.5085,
+        "yearly": 1.0
+      },
+      "annuity_frequency_factor": {
+        "monthly": 0.0805,
+        "quarterly": 0.243,
+        "half_yearly": 0.491,
+        "yearly": 1.0
+      }
+    },
+
+    "health_management_services": {
+      "included": true,
+      "services": [
+        "Medical second opinion",
+        "Medical case management",
+        "Medical consultation"
+      ],
+      "cost": "Free (third-party service provider)"
+    }
+  },
+
+  "surrender_rules": {
+    "surrender_applicable": [
+      "Options B, F, G, H, I during annuity period",
+      "All annuities during deferment period (Deferred)"
+    ],
+    "surrender_value": {
+      "during_deferment": "Higher of Guaranteed Surrender Value (GSV) or Special Surrender Value (SSV)",
+      "after_deferment": "Only Special Surrender Value (SSV)"
+    },
+    "policy_termination": "Policy terminates on surrender payout"
+  },
+
+  "riders": [],
+
+  "sample_illustrations": [
+    {
+      "example_person": "Male age 50",
+      "purchase_price": "₹25 Lakhs",
+      "option_a_immediate": "₹1,75,825 yearly annuity",
+      "option_b_immediate": "₹1,57,950 yearly annuity with 100% ROP",
+      "option_b_deferred_10yrs": "₹3,29,300 yearly annuity"
+    }
+  ],
+
+  "compliance_guardrails": {
+    "guaranteed_income_disclaimer": "Guaranteed pension depends on annuity rates at inception.",
+    "irda_guidelines": "Product governed under IRDAI annuity and pension regulations.",
+    "pos_restriction": "POS channel offers only Option B immediate annuity with ROP.",
+    "tax_disclaimer": "Tax benefits subject to prevailing laws.",
+    "free_look_period": "30 days from receipt of policy document.",
+    "fraud_warning": "IRDAI does not sell policies or announce bonuses."
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "GPG2_OPTIONS_001",
+      "topic": "Immediate vs Deferred Annuity",
+      "text": "Plan offers Immediate Annuity starting next month or Deferred Annuity starting after chosen deferment period.",
+      "tags": ["immediate", "deferred", "retirement"]
+    },
+    {
+      "chunk_id": "GPG2_ANNOPT_002",
+      "topic": "Wide Range of Annuity Options",
+      "text": "Options A–I include life annuity, joint life pension, annuity certain, survival return and family pension for NPS.",
+      "tags": ["annuity options", "joint life"]
+    },
+    {
+      "chunk_id": "GPG2_ROP_003",
+      "topic": "Return of Purchase Price",
+      "text": "ROP options allow returning 50%–100% of purchase price on death or survival event depending on option chosen.",
+      "tags": ["ROP", "purchase price return"]
+    },
+    {
+      "chunk_id": "GPG2_SURRENDER_004",
+      "topic": "Surrender Value Availability",
+      "text": "Surrender is allowed only under options B,F,G,H,I during annuity period and for all deferred annuities during deferment.",
+      "tags": ["surrender", "SSV", "GSV"]
+    },
+    {
+      "chunk_id": "GPG2_HEALTH_005",
+      "topic": "Health Management Services",
+      "text": "Policyholders can access free optional wellness services like second opinion and consultation via third-party providers.",
+      "tags": ["health services", "value added"]
+    }
+  ]
+}
