@@ -1,0 +1,280 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life Magnum Fortune Plus III",
+    "category": "ULIP (Unit Linked Insurance Plan)",
+    "plan_type": "Unit-linked, Non-Participating, Individual Life Savings Insurance Plan",
+    "uin": "116L207V02",
+    "mode_of_sale": "Online",
+    "source_document": "magnum-fortune-plus-sl.pdf",
+    "company": "Bajaj Life Insurance Limited",
+    "risk_disclaimer": "Investment risk in the investment portfolio is borne by the policyholder.",
+    "lock_in_rule": "No surrender or withdrawal allowed during the first 5 policy years."
+  },
+
+  "product_summary": {
+    "objective": "Magnum Fortune Plus III is a ULIP savings plan designed to help policyholders achieve life goals with market-linked investments, life cover throughout the policy term, loyalty additions, maturity boosters and return of mortality charges.",
+    "key_highlights": [
+      "Life cover protection throughout policy term",
+      "Wide range of equity, debt, and index funds",
+      "Loyalty additions from 10th policy year onwards",
+      "Maturity Booster for AutoPay users and existing customers",
+      "Return of Mortality Charges (ROMC) at maturity",
+      "Partial withdrawals allowed after 5 policy years",
+      "Systematic Partial Withdrawal option available",
+      "Settlement option for death and maturity benefit payouts (max 5 years)",
+      "Choice of multiple premium bands (Prime, Prestige, Priority)"
+    ]
+  },
+
+  "plan_variants": [
+    {
+      "variant_name": "Single ULIP Variant with Premium Bands",
+      "premium_bands": [
+        "Prime (Annualized Premium < ₹1 Lakh)",
+        "Prestige (₹1 Lakh ≤ Premium < ₹2.4 Lakh)",
+        "Priority (Premium ≥ ₹2.4 Lakh)"
+      ],
+      "return_of_premium": false,
+      "maturity_benefit": "Fund Value payable"
+    }
+  ],
+
+  "core_benefits": [
+    {
+      "benefit_name": "Maturity Benefit",
+      "details": "On maturity, Fund Value including Top-up Fund Value is payable. Option available for lump sum or structured payout via Settlement Option (max 5 years).",
+      "payout_type": ["Lump sum", "Settlement installments"]
+    },
+    {
+      "benefit_name": "Death Benefit",
+      "details": "Higher of Prevailing Sum Assured or Regular Premium Fund Value, plus higher of Top-up Sum Assured or Top-up Fund Value.",
+      "guarantee": "Minimum Guaranteed Benefit = 105% of total premiums paid including top-ups."
+    },
+    {
+      "benefit_name": "Loyalty Additions",
+      "start": "End of 10th policy year onwards (every year till maturity)",
+      "rate_by_premium_band": {
+        "<₹1 Lakh": "0.50% of average fund value (last 3 years)",
+        "≥₹1 Lakh": "0.70% of average fund value (last 3 years)"
+      },
+      "not_applicable_on": ["Top-up premiums", "Discontinued/Paid-up policies"]
+    },
+    {
+      "benefit_name": "Maturity Booster",
+      "details": "Additional maturity value as % of average Regular Premium Fund Value of last 3 years.",
+      "eligibility": ["Existing customer", "AutoPay renewal premium enabled"],
+      "rates_by_policy_term": {
+        "10 years": "0.25%",
+        "15 years": "0.50%",
+        "20 years": "0.50%",
+        "25 years": "1.00%",
+        "30 years": "1.00%"
+      }
+    },
+    {
+      "benefit_name": "Family Benefit",
+      "details": "Extra benefit at maturity if any family member is an existing Bajaj Life customer.",
+      "rates": {
+        "<20 years PT": "0.50%",
+        "≥20 years PT": "1.00%"
+      }
+    },
+    {
+      "benefit_name": "Return of Mortality Charges (ROMC)",
+      "details": "Total mortality charges deducted throughout policy term are added back at maturity, provided policy is in-force and premiums paid.",
+      "not_applicable_on": ["Surrendered", "Discontinued", "Paid-up policies"]
+    }
+  ],
+
+  "eligibility_and_parameters": {
+    "entry_age": {
+      "minimum": "0 years",
+      "maximum": "65 years"
+    },
+    "maturity_age": {
+      "minimum": "18 years",
+      "maximum": "75 years"
+    },
+    "policy_term_options": [10, 15, 20, 25, 30],
+    "premium_payment_term_options": {
+      "PT_10": "5–7 years",
+      "PT_15": "5–10 years",
+      "PT_20": "5–15 years",
+      "PT_25": "5–20 years",
+      "PT_30": "5–25 years"
+    },
+    "minimum_premium": {
+      "annual": "₹48,000",
+      "half_yearly": "₹24,000",
+      "quarterly": "₹12,000",
+      "monthly": "₹4,000",
+      "top_up_minimum": "₹5,000"
+    },
+    "sum_assured_rules": {
+      "minimum": "7× Annualized Premium",
+      "top_up_sum_assured": "1.25× Top-up Premium",
+      "maximum": "Subject to Board Approved Underwriting Policy"
+    }
+  },
+
+  "optional_features": {
+    "partial_withdrawal": {
+      "allowed_after": "5 policy years",
+      "minimum_withdrawal": "₹5,000",
+      "maximum": "50% of Regular Premium Fund Value",
+      "post_withdrawal_balance": "Fund Value must remain ≥ 2× Annualized Premium"
+    },
+    "systematic_partial_withdrawal": {
+      "allowed_if": "Policy term ≥ 10 years",
+      "frequencies": ["Monthly", "Quarterly", "Half-yearly", "Yearly"]
+    },
+    "top_up_premium": {
+      "allowed_until": "Except last 5 policy years",
+      "lock_in_each_topup": "5 years"
+    },
+    "sum_assured_decrease": {
+      "allowed": true,
+      "irreversible": true
+    },
+    "premium_reduction": {
+      "allowed_after": "5 years",
+      "max_reduction": "50%",
+      "irreversible": true
+    },
+    "settlement_option": {
+      "available_for": ["Maturity Benefit", "Death Benefit"],
+      "max_period": "5 years",
+      "return_enhancer": "Each installment increased by 0.5%"
+    }
+  },
+
+  "fund_options": {
+    "portfolio_strategies": [
+      "Investor Selectable Portfolio Strategy",
+      "Target Asset Allocation Strategy",
+      "Automatic Transfer Portfolio Strategy"
+    ],
+    "available_funds_sample": [
+      {
+        "fund_name": "Equity Growth Fund II",
+        "risk_profile": "Very High",
+        "fmc": "1.35%",
+        "sfin": "ULIF05106/01/10EQTYGROW02116"
+      },
+      {
+        "fund_name": "Pure Stock Fund II",
+        "risk_profile": "Very High",
+        "fmc": "1.30%",
+        "sfin": "ULIF07709/01/17PURSTKFUN2116"
+      },
+      {
+        "fund_name": "Bond Fund",
+        "risk_profile": "Moderate",
+        "fmc": "0.95%",
+        "sfin": "ULIF02610/07/06BONDFUNDLI116"
+      },
+      {
+        "fund_name": "Liquid Fund",
+        "risk_profile": "Low",
+        "fmc": "0.95%",
+        "sfin": "ULIF02510/07/06LIQUIDFUND116"
+      },
+      {
+        "fund_name": "Midcap Index Fund",
+        "risk_profile": "Very High",
+        "fmc": "1.35%",
+        "sfin": "ULIF08919/10/23MIDCPINDFD116"
+      }
+    ]
+  },
+
+  "charges_structure": {
+    "premium_allocation_charge": {
+      "prime_band": "4% (Years 1–5)",
+      "prestige_band": "3% (Years 1–5)",
+      "priority_band": "2% (Years 1–3, Nil after Year 4)",
+      "top_up_charge": "2%"
+    },
+    "policy_administration_charge": "2.1% p.a. of annualized premium OR ₹500/month cap",
+    "fund_management_charge_range": "0.95% to 1.35% depending on fund",
+    "miscellaneous_charge": "₹100 per transaction",
+    "discontinuance_charge": {
+      "year_1": "Max ₹3,000/₹6,000 depending on premium slab",
+      "year_5_onwards": "Nil"
+    },
+    "mortality_charge": "Deducted monthly, guaranteed through policy term"
+  },
+
+  "riders": [
+    {
+      "rider_name": "Linked Accident Protection Rider II",
+      "uin": "116A057V01"
+    },
+    {
+      "rider_name": "Care Plus Rider",
+      "uin": "116A059V01"
+    },
+    {
+      "rider_name": "Linked New Critical Illness Benefit Rider",
+      "uin": "116A060V01"
+    }
+  ],
+
+  "sample_illustrations": [
+    {
+      "example_person": "Mr. Patil",
+      "age": 35,
+      "premium": "₹2.5 Lakhs p.a. for 10 years",
+      "policy_term": 15,
+      "life_cover": "₹25 Lakhs",
+      "maturity_value_8pct": "₹49,73,695",
+      "maturity_value_4pct": "₹33,05,281"
+    }
+  ],
+
+  "compliance_guardrails": {
+    "ulip_risk_warning": "ULIPs are subject to capital market risks. NAV may go up or down.",
+    "lock_in_period": "5 years mandatory lock-in as per IRDAI regulations.",
+    "free_look_period": "30 days from receipt of policy document.",
+    "grace_period": {
+      "monthly": "15 days",
+      "other_modes": "30 days"
+    },
+    "suicide_exclusion": "If suicide within 12 months, nominee receives Fund Value as on death intimation.",
+    "fraud_warning": "BEWARE of spurious calls and fictitious offers. IRDAI does not sell policies or announce bonuses.",
+    "tax_disclaimer": "Tax benefits subject to prevailing Income Tax laws."
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "MFP3_LOYALTY_001",
+      "topic": "Loyalty Additions",
+      "text": "Loyalty additions start from year 10 and add 0.5%–0.7% of average fund value each year till maturity.",
+      "tags": ["loyalty additions", "long term ULIP"]
+    },
+    {
+      "chunk_id": "MFP3_MBOOST_002",
+      "topic": "Maturity Booster",
+      "text": "Maturity Booster rewards AutoPay users and existing customers with up to 1% extra fund value at maturity.",
+      "tags": ["maturity booster", "autopay"]
+    },
+    {
+      "chunk_id": "MFP3_ROMC_003",
+      "topic": "Return of Mortality Charges",
+      "text": "ROMC adds back total mortality charges deducted across policy term at maturity if policy is in-force.",
+      "tags": ["ROMC", "charge return"]
+    },
+    {
+      "chunk_id": "MFP3_WITHDRAWAL_004",
+      "topic": "Partial Withdrawals",
+      "text": "Partial withdrawals are allowed after 5 years, minimum ₹5,000, maximum 50% of fund value.",
+      "tags": ["partial withdrawal", "liquidity"]
+    },
+    {
+      "chunk_id": "MFP3_CHARGES_005",
+      "topic": "Premium Allocation Charges",
+      "text": "Premium allocation charges depend on premium band: Prime 4%, Prestige 3%, Priority 2%. Top-ups charged 2%.",
+      "tags": ["charges", "PAC", "premium band"]
+    }
+  ]
+}

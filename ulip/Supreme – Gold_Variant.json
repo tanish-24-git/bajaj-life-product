@@ -1,0 +1,232 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life Supreme – Gold Variant",
+    "category": "ULIP (Unit Linked Insurance Plan)",
+    "plan_type": "Unit-linked, Non-Participating, Individual Life Savings Insurance Plan",
+    "uin": "116L211V01",
+    "variant": "Gold",
+    "mode_of_sale": "Online",
+    "source_document": "supreme-gold-leaflet.pdf",
+    "company": "Bajaj Life Insurance Limited",
+    "risk_disclaimer": "Investment risk in the investment portfolio is borne by the policyholder.",
+    "lock_in_rule": "No surrender or partial withdrawal is allowed during the first 5 policy years."
+  },
+
+  "product_summary": {
+    "objective": "Bajaj Life Supreme (Gold Variant) is a one-stop ULIP designed to help achieve multiple life goals such as education, home and retirement, by combining market-linked returns with life protection, loyalty additions, and return of mortality charges.",
+    "key_highlights": [
+      "Market-linked potentially high returns",
+      "Return of Mortality Charges (ROMC)",
+      "Loyalty Additions start from 16th policy year onwards",
+      "Systematic Partial Withdrawals after lock-in to create second income",
+      "Tax-free fund switching option",
+      "Settlement Option available for maturity payout (up to 5 years)",
+      "Whole Life policy term option available"
+    ]
+  },
+
+  "plan_variants": [
+    {
+      "variant_name": "Gold Variant (One variant under Bajaj Life Supreme)",
+      "premium_modes": ["Regular Pay", "Limited Pay", "Single Pay"],
+      "top_up_available": true,
+      "whole_life_option": true
+    }
+  ],
+
+  "core_benefits": [
+    {
+      "benefit_name": "Maturity Benefit",
+      "details": "Fund Value payable on maturity date if Life Assured is alive. Policyholder can choose lump sum or installments via Settlement Option.",
+      "payout_type": ["Lump sum", "Settlement Option up to 5 years"]
+    },
+    {
+      "benefit_name": "Death Benefit",
+      "details": "Higher of (a) Prevailing Sum Assured including top-up sum assured, (b) Fund Value, (c) Guaranteed Death Benefit = 105% of Total Premiums Paid including top-ups.",
+      "guarantee": "Minimum 105% of total premiums paid till date of death.",
+      "policy_termination": "Policy terminates on date of intimation of death."
+    },
+    {
+      "benefit_name": "Loyalty Additions",
+      "start": "From end of 16th policy year till policy term end (every year)",
+      "rate": "0.25% of average fund value of last 3 years (including current year)",
+      "not_applicable_on": ["Top-up premiums", "Paid-up or surrendered policies"]
+    },
+    {
+      "benefit_name": "Return of Mortality Charges (ROMC)",
+      "details": "100% of mortality charges deducted are added back to the fund value in milestones.",
+      "schedule": {
+        "end_of_15th_year": "100% of mortality charges deducted till year 15",
+        "every_5_years_after_15": "100% of mortality charges deducted in last 5 years",
+        "at_maturity": "100% of mortality charges deducted minus charges already returned"
+      },
+      "not_applicable_on": ["Surrendered, discontinued or paid-up policies"]
+    },
+    {
+      "benefit_name": "Systematic Partial Withdrawals",
+      "details": "Second income option through systematic withdrawals available only after completion of 5-year lock-in period."
+    }
+  ],
+
+  "eligibility_and_parameters": {
+    "entry_age": {
+      "minimum": 0,
+      "maximum_regular_limited": 60,
+      "maximum_single": 70
+    },
+    "maturity_age": {
+      "minimum": 18,
+      "maximum": "Whole Life"
+    },
+    "policy_term_options": [15, 20, 25, 30, 40, "Whole Life"],
+    "premium_payment_term": {
+      "regular_limited": "5 years up to (75 – Entry Age)",
+      "single_pay": "Single Premium"
+    },
+    "sum_assured_rules": {
+      "age_below_50": {
+        "regular_limited": "7× Annualized Premium",
+        "single_topup": "1.25× Single/Top-up Premium"
+      },
+      "age_50_and_above": {
+        "regular_limited": "5× Annualized Premium",
+        "single_topup": "1.10× Single/Top-up Premium"
+      }
+    },
+    "premium_frequency": ["Annual", "Half-Yearly", "Quarterly", "Monthly (Auto-debit)"],
+    "minimum_premium": {
+      "annual": "₹12,000",
+      "half_yearly": "₹6,000",
+      "quarterly": "₹4,000",
+      "monthly": "₹1,000",
+      "single_pay": "₹20,000",
+      "top_up_minimum": "₹5,000"
+    },
+    "maximum_premium": "No limit (subject to Board Approved Underwriting Policy)"
+  },
+
+  "charges_structure": {
+    "premium_allocation_charge": {
+      "regular_limited_single": "Nil",
+      "top_up": "2% of Top-up Premium"
+    },
+    "policy_administration_charge": {
+      "regular_limited_pay": {
+        "year_1_to_5": "0.09% per month",
+        "year_6_to_20": "0.20% per month",
+        "year_21_onwards": "Nil"
+      },
+      "single_pay": {
+        "year_1_to_5": "0.05% per month",
+        "afterwards": "Nil"
+      },
+      "cap": "Maximum ₹500/month as per IRDAI"
+    },
+    "fund_management_charge": {
+      "range": "0.50% to 1.35% depending on fund selected",
+      "examples": {
+        "Equity Growth Fund II": "1.35%",
+        "Pure Stock Fund II": "1.30%",
+        "Bluechip Equity Fund": "1.25%",
+        "Bond Fund": "0.95%",
+        "Discontinued Life Policy Fund": "0.50%"
+      }
+    },
+    "mortality_charge": "Deducted monthly based on age, gender, sum assured and underwriting policy.",
+    "gst": "Applicable on all charges"
+  },
+
+  "fund_options": {
+    "available_funds_sample": [
+      "Equity Growth Fund II",
+      "Pure Stock Fund II",
+      "Small Cap Fund",
+      "Bluechip Equity Fund",
+      "Bond Fund",
+      "Liquid Fund",
+      "Debt Plus Fund",
+      "Discontinued Life Policy Fund"
+    ],
+    "fund_switching": {
+      "benefit": "Tax-free fund switching allowed",
+      "minimum_switch_amount": "₹5,000"
+    }
+  },
+
+  "optional_features": {
+    "settlement_option": {
+      "available_for": "Maturity Benefit",
+      "max_period": "5 years"
+    },
+    "top_up_premium": {
+      "allowed": true,
+      "minimum": "₹5,000"
+    },
+    "systematic_withdrawals": {
+      "available_after": "5-year lock-in"
+    }
+  },
+
+  "riders": [],
+
+  "sample_illustrations": [
+    {
+      "example_person": "Pawan",
+      "age": 40,
+      "premium": "₹5,00,000 per annum",
+      "ppt": 10,
+      "policy_term": "Whole Life",
+      "sum_assured": "₹50 Lakhs",
+      "total_premiums_paid": "₹50,00,000",
+      "fund_value_at_60th_year_8pct": "₹19,17,27,266",
+      "fund_value_at_60th_year_4pct": "₹2,33,83,968",
+      "death_benefit_at_30th_year_8pct": "₹2,62,91,723",
+      "death_benefit_at_30th_year_4pct": "₹99,11,456",
+      "investment_fund_assumed": "Pure Stock Fund II",
+      "note": "Returns at 4% and 8% are illustrative, not guaranteed."
+    }
+  ],
+
+  "compliance_guardrails": {
+    "ulip_risk_warning": "ULIPs are subject to capital market risks. NAV may go up or down.",
+    "lock_in_period": "5 years mandatory lock-in as per IRDAI regulations.",
+    "tax_disclaimer": "Tax benefits applicable under Section 80C and 10(10D) (old regime). Consult tax advisor.",
+    "fraud_warning": "BEWARE of spurious phone calls and fraudulent offers. IRDAI does not sell policies or announce bonuses.",
+    "rebate_warning": "Prohibition of rebate as per Section 41 of Insurance Act, 1938.",
+    "misstatement_clause": "Fraud and misstatement dealt under Section 45 of Insurance Act.",
+    "gst_note": "GST depends on policyholder communication address."
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "SUPGOLD_BENEFIT_001",
+      "topic": "Death Benefit",
+      "text": "Death benefit is higher of Sum Assured, Fund Value, or guaranteed 105% of premiums paid including top-ups.",
+      "tags": ["death benefit", "105% guarantee"]
+    },
+    {
+      "chunk_id": "SUPGOLD_LOYALTY_002",
+      "topic": "Loyalty Additions",
+      "text": "Loyalty additions start from the 16th policy year and add 0.25% of average fund value every year till maturity.",
+      "tags": ["loyalty additions", "long term ULIP"]
+    },
+    {
+      "chunk_id": "SUPGOLD_ROMC_003",
+      "topic": "Return of Mortality Charges",
+      "text": "100% mortality charges deducted are returned at year 15, every 5 years after, and at maturity if policy is in force.",
+      "tags": ["ROMC", "return of charges"]
+    },
+    {
+      "chunk_id": "SUPGOLD_CHARGES_004",
+      "topic": "ULIP Charges",
+      "text": "Premium allocation charge is nil for base premium, policy administration charge capped at ₹500/month, FMC up to 1.35%.",
+      "tags": ["charges", "PAC", "FMC"]
+    },
+    {
+      "chunk_id": "SUPGOLD_ELIGIBILITY_005",
+      "topic": "Eligibility Rules",
+      "text": "Entry age is 0–60 (regular/limited) and up to 70 (single pay). Policy terms include 15–40 years and Whole Life.",
+      "tags": ["eligibility", "whole life option"]
+    }
+  ]
+}

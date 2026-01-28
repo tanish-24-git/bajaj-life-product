@@ -1,0 +1,256 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life Future Wealth Gain IV",
+    "category": "ULIP (Unit Linked Insurance Plan)",
+    "plan_type": "Unit-linked, Non-Participating, Individual Life Savings Insurance Plan",
+    "uin": null,
+    "mode_of_sale": "Online",
+    "source_document": "future-wealth-gain.pdf",
+    "company": "Bajaj Life Insurance Limited",
+    "risk_disclaimer": "Investment risk in the investment portfolio is borne by the policyholder.",
+    "lock_in_rule": "No surrender or withdrawal allowed during the first 5 policy years."
+  },
+
+  "product_summary": {
+    "objective": "Future Wealth Gain IV is a ULIP savings plan offering the dual advantage of protection and long-term market-linked wealth growth with flexible portfolio strategies, loyalty additions, and return of mortality charges.",
+    "key_highlights": [
+      "Option to select high life cover with Sum Assured multiplier",
+      "Choice of 2 investment portfolio strategies",
+      "Loyalty Additions every 5 years starting from end of 15th policy year",
+      "Return of Mortality Charges (ROMC) at maturity",
+      "Family Benefit for existing Bajaj Life customers",
+      "Settlement option to receive death or maturity benefit in installments",
+      "Top-up premium option for extra contributions",
+      "Premium reduction and premium payment term change allowed after 5 years"
+    ]
+  },
+
+  "plan_variants": [
+    {
+      "variant_name": "Regular Premium ULIP",
+      "premium_mode": "Regular Pay",
+      "portfolio_strategies": 2,
+      "loyalty_additions": true,
+      "romc": true
+    },
+    {
+      "variant_name": "Limited Premium ULIP",
+      "premium_mode": "Limited Pay",
+      "portfolio_strategies": 2,
+      "loyalty_additions": true,
+      "romc": true
+    }
+  ],
+
+  "core_benefits": [
+    {
+      "benefit_name": "Maturity Benefit",
+      "details": "Fund Value payable on survival to maturity date, provided policy is in force.",
+      "payout_type": ["Lump sum", "Settlement installments"]
+    },
+    {
+      "benefit_name": "Death Benefit",
+      "details": "Higher of (Prevailing Sum Assured OR Regular Premium Fund Value) plus higher of (Top-up Sum Assured OR Top-up Fund Value).",
+      "guarantee": "Minimum Guaranteed Death Benefit = 105% of total premiums paid till date of death.",
+      "note": "Sum Assured is reduced by partial withdrawals from Regular Fund during last 2 years before death."
+    },
+    {
+      "benefit_name": "Loyalty Additions",
+      "details": "Added at the end of every 5 policy years starting from the end of 15th policy year onwards, based on average daily fund value of last 3 years.",
+      "frequency": "Every 5 years",
+      "top_up_applicability": false,
+      "not_applicable_on": ["Discontinued", "Paid-up policies"]
+    },
+    {
+      "benefit_name": "Return of Mortality Charges (ROMC)",
+      "details": "Total mortality charges deducted throughout policy term are added back at maturity (or end of 15th year, whichever is later).",
+      "not_applicable_on": ["Surrendered", "Discontinued", "Paid-up policies"],
+      "percentage": "1% across premium slabs"
+    },
+    {
+      "benefit_name": "Family Benefit",
+      "details": "Extra maturity benefit if any family member is an existing Bajaj Life policyholder.",
+      "rates": {
+        "policy_term_lt_20": "0.5%",
+        "policy_term_ge_20": "1%"
+      },
+      "top_up_applicability": false
+    }
+  ],
+
+  "fund_options": {
+    "portfolio_strategies": [
+      "Investor Selectable Portfolio Strategy",
+      "Wheel of Life Portfolio Strategy"
+    ],
+    "available_funds_sample": [
+      {
+        "fund_name": "Equity Growth Fund II",
+        "risk_profile": "Very High",
+        "sfin": "ULIF05106/01/10EQTYGROW02116"
+      },
+      {
+        "fund_name": "Accelerator Mid-Cap Fund II",
+        "risk_profile": "Very High",
+        "sfin": "ULIF05206/01/10ACCMIDCA02116"
+      },
+      {
+        "fund_name": "Pure Stock Fund II",
+        "risk_profile": "Very High",
+        "sfin": "ULIF07709/01/17PURSTKFUN2116"
+      },
+      {
+        "fund_name": "Bond Fund",
+        "risk_profile": "Moderate",
+        "sfin": "ULIF02610/07/06BONDFUNDLI116"
+      },
+      {
+        "fund_name": "Liquid Fund",
+        "risk_profile": "Low",
+        "sfin": "ULIF02510/07/06LIQUIDFUND116"
+      },
+      {
+        "fund_name": "Small Cap Fund",
+        "risk_profile": "Very High",
+        "sfin": "ULIF08717/01/23SMALLCAPFU116"
+      },
+      {
+        "fund_name": "Nifty Alpha 50 Index Fund",
+        "risk_profile": "Very High",
+        "sfin": "ULIF09221/05/24NYAPA50IND116"
+      },
+      {
+        "fund_name": "India Consumption Fund",
+        "risk_profile": "Very High",
+        "sfin": "ULIF010906/11/25INDCONSFND116"
+      }
+    ],
+    "switching_rules": {
+      "free_switches": "Unlimited free switches under Investor Selectable Strategy",
+      "minimum_switch_amount": "₹5,000",
+      "wheel_of_life_restriction": "No switching allowed under Wheel of Life Strategy"
+    }
+  },
+
+  "eligibility_and_parameters": {
+    "entry_age": {
+      "minimum": 0,
+      "maximum": 60
+    },
+    "maturity_age": {
+      "minimum": 18,
+      "maximum": 75
+    },
+    "policy_term_options": ["Multiple terms available (15, 20, 25 etc.)"],
+    "premium_rules": {
+      "minimum_premium": "Depends on chosen term and mode",
+      "top_up_minimum": "₹5,000"
+    },
+    "sum_assured_rules": {
+      "minimum_multiplier": "As per eligibility criteria (typically 7× premium)",
+      "reduction_rule": "Reduced after partial withdrawals in last 2 years"
+    }
+  },
+
+  "optional_features": {
+    "partial_withdrawals": {
+      "allowed_after": "5 policy years",
+      "minimum": "₹5,000",
+      "maximum": "50% of Regular Fund Value",
+      "post_withdrawal_balance": "Fund value must remain ≥ 2× Annualized Premium"
+    },
+    "systematic_partial_withdrawal": {
+      "allowed_if": "Policy term ≥ 10 years",
+      "frequencies": ["Monthly", "Quarterly", "Half-yearly", "Yearly"]
+    },
+    "top_up_premium": {
+      "allowed_until": "Except last 5 policy years",
+      "lock_in_each_topup": "5 years"
+    },
+    "premium_reduction": {
+      "allowed_after": "5 years",
+      "max_reduction": "50%",
+      "irreversible": true
+    },
+    "change_ppt": {
+      "allowed_after": "5 years",
+      "conditions": "Must be exercised before existing PPT expiry"
+    },
+    "settlement_option": {
+      "max_period": "5 years",
+      "available_for": ["Maturity Benefit", "Death Benefit"],
+      "return_enhancer": "Each installment increases by 0.5%"
+    }
+  },
+
+  "riders": [
+    {
+      "rider_name": "Linked Accident Protection Rider II",
+      "uin": "116A057V01"
+    },
+    {
+      "rider_name": "Care Plus Rider",
+      "uin": "116A059V01"
+    },
+    {
+      "rider_name": "Linked New Critical Illness Benefit Rider",
+      "uin": "116A060V01"
+    }
+  ],
+
+  "sample_illustrations": [
+    {
+      "example_person": "Anuj",
+      "age": 30,
+      "premium": "₹1,00,000 p.a.",
+      "policy_term": 15,
+      "sum_assured": "₹10,00,000",
+      "maturity_value_8pct": "₹24,75,036",
+      "maturity_value_4pct": "₹17,80,505",
+      "death_benefit_8pct": "₹17,46,500",
+      "death_benefit_4pct": "₹13,41,184"
+    }
+  ],
+
+  "compliance_guardrails": {
+    "ulip_risk_warning": "ULIPs are subject to capital market risks. NAV may go up or down.",
+    "lock_in_period": "5 years mandatory lock-in as per IRDAI guidelines.",
+    "free_look_period": "30 days from receipt of policy document.",
+    "suicide_exclusion": "Nominee receives Fund Value as on date of death intimation within 12 months.",
+    "tax_disclaimer": "Tax benefits subject to prevailing Income Tax laws.",
+    "fraud_warning": "IRDAI does not sell policies or announce bonuses."
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "FWG4_LOYALTY_001",
+      "topic": "Loyalty Additions",
+      "text": "Future Wealth Gain IV adds Loyalty Additions every 5 years starting from the end of the 15th policy year based on average fund value.",
+      "tags": ["loyalty additions", "long term ULIP"]
+    },
+    {
+      "chunk_id": "FWG4_ROMC_002",
+      "topic": "Return of Mortality Charges",
+      "text": "ROMC adds back total mortality charges deducted throughout the policy term at maturity if premiums are fully paid.",
+      "tags": ["ROMC", "return of charges"]
+    },
+    {
+      "chunk_id": "FWG4_STRATEGY_003",
+      "topic": "Portfolio Strategies",
+      "text": "Policyholder can choose Investor Selectable Strategy with free switching or Wheel of Life Strategy with maturity-based allocation.",
+      "tags": ["portfolio strategy", "wheel of life"]
+    },
+    {
+      "chunk_id": "FWG4_WITHDRAWAL_004",
+      "topic": "Partial Withdrawals",
+      "text": "Partial withdrawals are allowed after 5 years with minimum ₹5,000 and maximum 50% of Regular Fund Value.",
+      "tags": ["partial withdrawal", "liquidity"]
+    },
+    {
+      "chunk_id": "FWG4_SETTLEMENT_005",
+      "topic": "Settlement Option",
+      "text": "Death and maturity benefits can be taken in installments over 5 years with each installment increased by 0.5%.",
+      "tags": ["settlement option", "installments"]
+    }
+  ]
+}

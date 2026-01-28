@@ -1,0 +1,287 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life GAIN",
+    "category": "ULIP (Unit Linked Insurance Plan)",
+    "plan_type": "Unit-linked, Non-Participating, Individual Life Savings Insurance Plan",
+    "uin": "116L213V01",
+    "mode_of_sale": "Online",
+    "source_document": "gain-brochure.pdf",
+    "company": "Bajaj Life Insurance Limited",
+    "risk_disclaimer": "Investment risk in the investment portfolio is borne by the policyholder.",
+    "lock_in_rule": "No surrender or withdrawal is allowed during the first 5 policy years."
+  },
+
+  "product_summary": {
+    "objective": "Bajaj Life GAIN is a ULIP savings plan designed to provide protection plus market-linked wealth growth with flexible investment funds, withdrawals, switching, and rider options.",
+    "key_highlights": [
+      "Two variants available: Growth and Secure",
+      "Wide range of equity, debt and index funds",
+      "Systematic Partial Withdrawals after 5 years for monthly income",
+      "Unlimited free fund switches (Investor Selectable Strategy)",
+      "Top-up premium option to enhance savings",
+      "Family Benefit at maturity for existing Bajaj Life customers",
+      "Settlement option for maturity and death benefit payouts",
+      "3 optional riders for enhanced protection"
+    ]
+  },
+
+  "plan_variants": [
+    {
+      "variant_name": "Growth Variant",
+      "max_entry_age": 55,
+      "max_maturity_age": "Whole Life",
+      "policy_term_options": ["15", "20", "25", "30", "35", "40", "Whole Life"],
+      "death_benefit_type": "Higher of Sum Assured OR Fund Value OR 105% Premiums Paid"
+    },
+    {
+      "variant_name": "Secure Variant",
+      "max_entry_age": 50,
+      "max_maturity_age": 70,
+      "policy_term_options": ["15", "20", "25", "30", "35", "40"],
+      "death_benefit_type": "Higher of (Sum Assured + Fund Value) OR 105% Premiums Paid"
+    }
+  ],
+
+  "core_benefits": [
+    {
+      "benefit_name": "Maturity Benefit",
+      "details": "On survival till maturity, total Fund Value is payable provided policy is in force.",
+      "payout_type": "Lump sum OR Installments via Settlement Option (max 5 years)"
+    },
+    {
+      "benefit_name": "Death Benefit - Growth Variant",
+      "details": "Higher of (Prevailing Sum Assured including Top-up SA) OR Fund Value OR Guaranteed Death Benefit (105% premiums paid)."
+    },
+    {
+      "benefit_name": "Death Benefit - Secure Variant",
+      "details": "Higher of (Prevailing Sum Assured + Fund Value) OR Guaranteed Death Benefit (105% premiums paid)."
+    },
+    {
+      "benefit_name": "Family Benefit",
+      "details": "Additional benefit at maturity if any family member is an existing Bajaj Life policyholder.",
+      "rates": {
+        "policy_term_lt_20": "0.5%",
+        "policy_term_ge_20": "1%"
+      },
+      "not_applicable_on": ["Top-up premiums", "Discontinued or paid-up policies"]
+    }
+  ],
+
+  "eligibility_and_parameters": {
+    "entry_age": {
+      "minimum": 0,
+      "maximum_growth": 55,
+      "maximum_secure": 50
+    },
+    "maturity_age": {
+      "minimum": 18,
+      "maximum_growth": "Whole Life",
+      "maximum_secure": 70
+    },
+    "policy_term": {
+      "growth": ["15–40 years", "Whole Life"],
+      "secure": ["15–40 years"]
+    },
+    "premium_payment_term": {
+      "regular_or_limited": "10 years up to (75 – entry age)",
+      "single_pay": "Available"
+    },
+    "minimum_premium": {
+      "annual": "₹48,000",
+      "half_yearly": "₹24,000",
+      "quarterly": "₹12,000",
+      "monthly": "₹4,000",
+      "single_pay": "₹2,50,000",
+      "top_up_minimum": "₹5,000"
+    },
+    "sum_assured_rules": {
+      "age_lt_50": "7× Annualized Premium",
+      "age_ge_50": "5× Annualized Premium",
+      "single_pay_multiple": "1.25× Single Premium (<50), 1.10× (≥50)",
+      "top_up_multiple": "1.25× Top-up (<50), 1.10× (≥50)"
+    }
+  },
+
+  "optional_features": {
+    "partial_withdrawal": {
+      "allowed_after": "5 policy years",
+      "min_withdrawal": "₹5,000",
+      "regular_pay_limit": "Up to 50% of Regular Fund Value",
+      "single_pay_limit": "Up to 25% of Single Fund Value",
+      "post_withdrawal_min_balance": {
+        "regular": "≥2× Annualized Premium",
+        "single": "≥1/5th of Single Premium"
+      }
+    },
+    "systematic_partial_withdrawal": {
+      "allowed_after": "5 policy years",
+      "frequencies": ["Monthly", "Quarterly", "Half-yearly", "Yearly"],
+      "purpose": "Provides regular income payouts"
+    },
+    "top_up_premium": {
+      "allowed_until": "Except last 5 policy years",
+      "lock_in_each_topup": "5 years"
+    },
+    "fund_switching": {
+      "strategy_applicable": "Investor Selectable Portfolio Strategy",
+      "switches": "Unlimited free switches",
+      "min_switch_amount": "₹5,000"
+    },
+    "premium_reduction": {
+      "allowed_after": "5 years",
+      "max_reduction": "50%",
+      "irreversible": true
+    },
+    "sum_assured_decrease": {
+      "allowed": true,
+      "irreversible": true
+    },
+    "settlement_option": {
+      "max_period": "5 years",
+      "return_enhancer": "Each installment increased by 0.5%",
+      "available_for": ["Maturity Benefit", "Death Benefit"]
+    }
+  },
+
+  "fund_options": {
+    "portfolio_strategies": [
+      "Investor Selectable Portfolio Strategy",
+      "Target Asset Allocation Strategy",
+      "Automatic Transfer Portfolio Strategy"
+    ],
+    "available_funds_sample": [
+      {
+        "fund_name": "Pure Stock Fund II",
+        "risk_profile": "Very High",
+        "fmc": "1.30%"
+      },
+      {
+        "fund_name": "Equity Growth Fund II",
+        "risk_profile": "Very High",
+        "fmc": "1.35%"
+      },
+      {
+        "fund_name": "Bluechip Equity Fund",
+        "risk_profile": "High",
+        "fmc": "1.25%"
+      },
+      {
+        "fund_name": "Bond Fund",
+        "risk_profile": "Moderate",
+        "fmc": "0.95%"
+      },
+      {
+        "fund_name": "Debt Plus Fund",
+        "risk_profile": "Moderate",
+        "fmc": "0.70%"
+      },
+      {
+        "fund_name": "Liquid Fund",
+        "risk_profile": "Low",
+        "fmc": "0.95%"
+      }
+    ]
+  },
+
+  "charges_structure": {
+    "premium_allocation_charge": {
+      "regular_pay_year_1_to_5": "2%",
+      "year_6_onwards": "Nil",
+      "single_pay_year_1": "2%",
+      "top_up": "2%"
+    },
+    "policy_administration_charge": {
+      "regular_limited_pay": "0.25% of Annualized Premium",
+      "single_pay": "0.033% of Single Premium",
+      "cap": "Max ₹500/month"
+    },
+    "fund_management_charge": "Up to 1.35% p.a. depending on fund",
+    "mortality_charge": "Deducted monthly, guaranteed throughout policy term",
+    "miscellaneous_charge": "₹100 per transaction",
+    "female_advantage": "Female lives get age-setback of 3 years"
+  },
+
+  "riders": [
+    {
+      "rider_name": "Linked Accident Protection Rider II",
+      "uin": "116A057V01"
+    },
+    {
+      "rider_name": "Care Plus Rider",
+      "uin": "116A059V01"
+    },
+    {
+      "rider_name": "Linked New Critical Illness Benefit Rider",
+      "uin": "116A060V01"
+    }
+  ],
+
+  "sample_illustrations": [
+    {
+      "example_person": "Pawan (Growth Variant)",
+      "age": 40,
+      "premium": "₹5,00,000 p.a.",
+      "ppt": 10,
+      "policy_term": "Whole Life",
+      "sum_assured": "₹50 Lakhs",
+      "fund_value_60th_year_8pct": "₹16,90,87,175",
+      "fund_value_60th_year_4pct": "₹2,01,76,346"
+    },
+    {
+      "example_person": "Sumit (Secure Variant)",
+      "age": 40,
+      "premium": "₹5,00,000 p.a.",
+      "ppt": 10,
+      "policy_term": 30,
+      "sum_assured": "₹50 Lakhs",
+      "maturity_fv_8pct": "₹2,25,15,968",
+      "maturity_fv_4pct": "₹77,38,435"
+    }
+  ],
+
+  "compliance_guardrails": {
+    "ulip_risk_warning": "ULIPs are subject to capital market risks. NAV may go up or down.",
+    "lock_in_period": "5 years mandatory lock-in as per IRDAI regulations.",
+    "free_look_period": "30 days from receipt of policy document.",
+    "grace_period": {
+      "monthly": "15 days",
+      "other_modes": "30 days"
+    },
+    "suicide_exclusion": "If death due to suicide within 12 months, nominee receives Fund Value as on death intimation date.",
+    "tax_disclaimer": "Tax benefits subject to prevailing Income Tax laws.",
+    "fraud_warning": "IRDAI does not sell policies or announce bonuses."
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "GAIN_VARIANTS_001",
+      "topic": "Growth vs Secure Variant",
+      "text": "Bajaj Life GAIN offers two variants: Growth (whole life maturity option) and Secure (enhanced death benefit with Sum Assured + Fund Value).",
+      "tags": ["variant", "growth", "secure"]
+    },
+    {
+      "chunk_id": "GAIN_WITHDRAWAL_002",
+      "topic": "Partial & Systematic Withdrawals",
+      "text": "Partial and systematic withdrawals are allowed only after completion of 5 policy years, enabling monthly income payouts.",
+      "tags": ["withdrawal", "income option"]
+    },
+    {
+      "chunk_id": "GAIN_CHARGES_003",
+      "topic": "Charges Summary",
+      "text": "Premium allocation charge is 2% in years 1–5, policy admin charge capped at ₹500/month, FMC up to 1.35% depending on fund.",
+      "tags": ["charges", "PAC", "FMC"]
+    },
+    {
+      "chunk_id": "GAIN_FAMILY_004",
+      "topic": "Family Benefit",
+      "text": "Family benefit adds 0.5% or 1% at maturity if the policyholder has an existing Bajaj Life family customer relationship.",
+      "tags": ["family benefit", "loyalty"]
+    },
+    {
+      "chunk_id": "GAIN_SETTLEMENT_005",
+      "topic": "Settlement Option",
+      "text": "Maturity or death benefit can be received in installments over 5 years with each payout increased by 0.5% return enhancer.",
+      "tags": ["settlement", "installments"]
+    }
+  ]
+}
