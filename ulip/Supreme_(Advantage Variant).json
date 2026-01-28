@@ -1,0 +1,270 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life Supreme – Advantage Variant",
+    "category": "ULIP (Unit Linked Insurance Plan)",
+    "plan_type": "Unit-linked, Non-Participating, Individual Life Savings Insurance Plan",
+    "uin": "116L211V01",
+    "variant": "Advantage",
+    "mode_of_sale": "Online",
+    "source_document": "supreme-advantage-leaflet.pdf",
+    "company": "Bajaj Life Insurance Limited",
+    "risk_disclaimer": "Investment risk in the investment portfolio is borne by the policyholder.",
+    "lock_in_rule": "No surrender or withdrawal is allowed during the first 5 policy years."
+  },
+
+  "product_summary": {
+    "objective": "Supreme Advantage is positioned as the one-stop ULIP that helps achieve multiple life goals (education, home, retirement) through market-linked growth, guaranteed boosters, loyalty rewards and return of mortality charges.",
+    "key_highlights": [
+      "Potentially high market-linked returns",
+      "Guaranteed Wealth Booster: Return of Premium Allocation Charges with 7% p.a. compounding growth",
+      "Return of Mortality Charges (ROMC) added back at milestones",
+      "Loyalty Additions starting from 16th policy year onwards",
+      "Systematic Partial Withdrawals after lock-in to create second income",
+      "Tax-free fund switching",
+      "Settlement Option available for maturity payout up to 5 years",
+      "Whole Life policy term available"
+    ]
+  },
+
+  "plan_variants": [
+    {
+      "variant_name": "Advantage Variant (Under Bajaj Life Supreme)",
+      "premium_modes": ["Regular Pay", "Limited Pay", "Single Pay"],
+      "top_up_available": true,
+      "whole_life_option": true
+    }
+  ],
+
+  "core_benefits": [
+    {
+      "benefit_name": "Maturity Benefit",
+      "details": "Fund Value payable on maturity date if the Life Assured is alive. Option to receive lump sum or systematic payout for a maximum of 5 years under Settlement Option.",
+      "payout_type": ["Lump sum", "Settlement installments"]
+    },
+    {
+      "benefit_name": "Death Benefit",
+      "details": "Higher of: (a) Prevailing Sum Assured (including top-ups), (b) Fund Value on date of intimation of death, (c) Guaranteed Death Benefit = 105% of total premiums paid including top-up premiums.",
+      "guarantee": "Minimum 105% of Total Premiums Paid till date of death.",
+      "termination": "Policy terminates on date of intimation of death."
+    },
+    {
+      "benefit_name": "Guaranteed Wealth Booster",
+      "details": "Premium Allocation Charges deducted are accumulated at a guaranteed rate of 7% per annum (compounded annually) and added back as additional units at the end of the 15th policy year.",
+      "special_note": "Supreme Advantage is marketed as 'effectively zero premium allocation charge' since deducted PAC is returned with guaranteed growth.",
+      "not_applicable_on": [
+        "Top-up Premium Allocation Charges",
+        "Surrendered/discontinued/paid-up policies"
+      ]
+    },
+    {
+      "benefit_name": "Loyalty Additions",
+      "start": "End of every year from 16th policy year until maturity",
+      "rate": "0.25% of average fund value of last 3 years (including current year)",
+      "not_applicable_on": [
+        "Top-up premiums",
+        "Discontinued/paid-up policies"
+      ]
+    },
+    {
+      "benefit_name": "Return of Mortality Charges (ROMC)",
+      "details": "100% of mortality charges deducted are added back to fund value as additional units at milestones.",
+      "schedule": {
+        "end_of_15th_year": "100% mortality charges deducted till year 15",
+        "every_5_years_after_15": "100% mortality charges deducted in the last 5 years",
+        "at_maturity": "100% mortality charges deducted minus charges already returned"
+      },
+      "not_applicable_on": [
+        "Surrendered/discontinued/paid-up policies"
+      ]
+    },
+    {
+      "benefit_name": "Systematic Partial Withdrawals",
+      "details": "Second income option through systematic withdrawals available only after completion of 5-year lock-in period."
+    }
+  ],
+
+  "eligibility_and_parameters": {
+    "entry_age": {
+      "minimum": 0,
+      "maximum_regular_limited": 60,
+      "maximum_single": 70
+    },
+    "maturity_age": {
+      "minimum": 18,
+      "maximum": "Whole Life"
+    },
+    "policy_term_options": [15, 20, 25, 30, 40, "Whole Life"],
+    "premium_payment_term": {
+      "regular_limited": "5 years up to (75 – Entry Age)",
+      "single_pay": "Single Premium"
+    },
+    "sum_assured_rules": {
+      "age_below_50": {
+        "regular_limited": "7× Annualized Premium",
+        "single_topup": "1.25× Single/Top-up Premium"
+      },
+      "age_50_and_above": {
+        "regular_limited": "5× Annualized Premium",
+        "single_topup": "1.10× Single/Top-up Premium"
+      }
+    },
+    "maximum_sum_assured": {
+      "age_0_to_30": "30× Annualized Premium",
+      "age_31_to_40": "25× Annualized Premium",
+      "age_41_to_45": "15× Annualized Premium",
+      "age_46_to_60": "10× Annualized Premium",
+      "age_above_60": "Not applicable"
+    },
+    "premium_frequency": ["Annual", "Half-Yearly", "Quarterly", "Monthly (Auto-debit)"],
+    "minimum_premium": {
+      "annual": "₹12,000",
+      "half_yearly": "₹6,000",
+      "quarterly": "₹4,000",
+      "monthly": "₹1,000",
+      "single_pay": "₹20,000",
+      "top_up_minimum": "₹5,000"
+    },
+    "maximum_premium": "No limit, subject to Board Approved Underwriting Policy (BAUP)."
+  },
+
+  "charges_structure": {
+    "premium_allocation_charge": {
+      "regular_limited_pay": {
+        "annual_mode_year_1_to_5": "6%",
+        "non_annual_mode_year_1_to_5": "5%",
+        "year_6_onwards": "0%"
+      },
+      "single_pay": {
+        "year_1": "3%"
+      },
+      "top_up": "2% of Top-up Premium",
+      "wealth_booster_return": "PAC deducted is returned with 7% p.a. compounding at end of year 15"
+    },
+    "policy_administration_charge": {
+      "regular_limited": {
+        "year_1_to_5": "0.09% per month",
+        "year_6_to_20": "0.20% per month",
+        "year_21_onwards": "Nil"
+      },
+      "single_pay": {
+        "year_1_to_5": "0.05% per month",
+        "afterwards": "Nil"
+      },
+      "cap": "Maximum ₹500/month allowed by IRDAI"
+    },
+    "fund_management_charge": {
+      "range": "0.50% to 1.35% depending on fund selected",
+      "examples": {
+        "Equity Growth Fund II": "1.35%",
+        "Pure Stock Fund II": "1.30%",
+        "Bluechip Equity Fund": "1.25%",
+        "Bond Fund": "0.95%",
+        "Debt Plus Fund": "0.70%",
+        "Discontinued Life Policy Fund": "0.50%"
+      }
+    },
+    "mortality_charge": "Deducted monthly based on age, gender, chosen sum assured, and underwriting policy.",
+    "gst": "Applicable on all charges"
+  },
+
+  "fund_options": {
+    "available_funds_sample": [
+      "Equity Growth Fund II",
+      "Accelerator Mid Cap Fund II",
+      "Pure Stock Fund II",
+      "Flexi Cap Fund",
+      "Small Cap Fund",
+      "Midcap Index Fund",
+      "Nifty Alpha 50 Index Fund",
+      "India Consumption Fund",
+      "Bond Fund",
+      "Liquid Fund",
+      "Debt Plus Fund",
+      "Discontinued Life Policy Fund"
+    ],
+    "fund_switching": {
+      "benefit": "Tax-free fund switching allowed",
+      "minimum_switch_amount": "₹5,000"
+    }
+  },
+
+  "optional_features": {
+    "settlement_option": {
+      "available_for": "Maturity Benefit",
+      "max_period": "5 years"
+    },
+    "top_up_premium": {
+      "allowed": true,
+      "minimum": "₹5,000",
+      "lock_in_each_topup": "5 years"
+    },
+    "systematic_partial_withdrawals": {
+      "available_after": "5-year lock-in period"
+    }
+  },
+
+  "riders": [],
+
+  "sample_illustrations": [
+    {
+      "example_person": "Pawan",
+      "age": 40,
+      "premium": "₹5,00,000 p.a.",
+      "ppt": 10,
+      "policy_term": "Whole Life",
+      "sum_assured": "₹50 Lakhs",
+      "total_premiums_paid": "₹50,00,000",
+      "guaranteed_wealth_booster_year15": "₹3,63,134",
+      "loyalty_additions_8pct": "₹64,57,620",
+      "romc_8pct": "₹40,476",
+      "fund_value_60th_year_8pct": "₹19,20,06,784",
+      "fund_value_60th_year_4pct": "₹2,39,28,296",
+      "death_benefit_30th_year_8pct": "₹2,63,30,054",
+      "death_benefit_30th_year_4pct": "₹1,01,42,440",
+      "investment_fund_assumed": "Pure Stock Fund II"
+    }
+  ],
+
+  "compliance_guardrails": {
+    "ulip_risk_warning": "ULIPs are subject to capital market risks. NAV may go up or down.",
+    "lock_in_period": "5 years mandatory lock-in as per IRDAI regulations.",
+    "tax_disclaimer": "Tax benefits applicable under Section 80C and Section 10(10D) (old regime). Consult tax advisor.",
+    "fraud_warning": "BEWARE of spurious phone calls and fraudulent offers. IRDAI does not sell policies or announce bonuses.",
+    "rebate_warning": "Prohibition of rebate as per Section 41 of Insurance Act, 1938.",
+    "misstatement_clause": "Fraud and misstatement handled under Section 45 of Insurance Act.",
+    "gst_note": "GST depends on policyholder communication address."
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "SUPADV_DEATH_001",
+      "topic": "Death Benefit",
+      "text": "Death benefit is higher of Sum Assured, Fund Value, or guaranteed 105% of premiums paid including top-ups.",
+      "tags": ["death benefit", "105% guarantee"]
+    },
+    {
+      "chunk_id": "SUPADV_WEALTHBOOST_002",
+      "topic": "Guaranteed Wealth Booster",
+      "text": "Premium allocation charges deducted are returned at year 15 with guaranteed 7% p.a. compounding growth, making charges effectively zero.",
+      "tags": ["wealth booster", "7% guarantee", "PAC return"]
+    },
+    {
+      "chunk_id": "SUPADV_LOYALTY_003",
+      "topic": "Loyalty Additions",
+      "text": "Loyalty additions start from 16th policy year and add 0.25% of average fund value every year till maturity.",
+      "tags": ["loyalty additions", "long term ULIP"]
+    },
+    {
+      "chunk_id": "SUPADV_ROMC_004",
+      "topic": "Return of Mortality Charges",
+      "text": "100% mortality charges deducted are returned at year 15, every 5 years thereafter, and at maturity if policy stays active.",
+      "tags": ["ROMC", "return of charges"]
+    },
+    {
+      "chunk_id": "SUPADV_CHARGES_005",
+      "topic": "Charges Summary",
+      "text": "PAC is 6% annual (years 1–5), 5% non-annual, 3% single pay year 1. Policy admin charges capped at ₹500/month. FMC up to 1.35%.",
+      "tags": ["charges", "PAC", "FMC"]
+    }
+  ]
+}
