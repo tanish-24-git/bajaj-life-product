@@ -1,0 +1,228 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life LongLife Goal III",
+    "category": "Whole Life ULIP",
+    "plan_type": "Unit-linked, Non-Participating, Individual Whole Life Insurance Plan",
+    "premium_payment_type": "Limited Premium Payment",
+    "uin": null,
+    "mode_of_sale": "Online",
+    "source_document": "longlife-goal-brochure.pdf",
+    "company": "Bajaj Life Insurance Limited",
+    "risk_disclaimer": "Investment risk in investment portfolio is borne by the policyholder.",
+    "lock_in_rule": "No surrender or withdrawal allowed completely or partially during the first 5 policy years."
+  },
+
+  "product_summary": {
+    "objective": "LongLife Goal III is a Whole Life ULIP designed to provide lifelong market-linked wealth creation along with insurance cover, plus the option of generating a retirement income stream through the Retired Life Income feature.",
+    "key_highlights": [
+      "Whole life insurance cover till age 99",
+      "Two variants: With Waiver of Premium or Without Waiver of Premium",
+      "Option to receive Retired Life Income (RLI) for retirement goals",
+      "Loyalty Additions every year from 10th to 25th policy year (if premium < ₹10 Lakhs)",
+      "Periodical Return of Mortality Charges (PROMC)",
+      "Periodical Return of Waiver of Premium Charges (PROWC)",
+      "Choice of 4 portfolio investment strategies",
+      "Multiple equity, debt and index fund options",
+      "Unlimited free fund switching",
+      "Option to reduce premium during term"
+    ]
+  },
+
+  "plan_variants": [
+    {
+      "variant_name": "LongLife Goal III Without Waiver of Premium",
+      "waiver_of_premium": false,
+      "suitable_for": "Customers seeking pure wealth + life cover without disability waiver benefit"
+    },
+    {
+      "variant_name": "LongLife Goal III With Waiver of Premium",
+      "waiver_of_premium": true,
+      "trigger_conditions": [
+        "Accidental Permanent Total Disability of Life Assured (if LA = Policyholder)",
+        "Death or accidental disability of Policyholder (if LA ≠ Policyholder)"
+      ],
+      "benefit": "Future premiums waived, policy continues with all benefits"
+    }
+  ],
+
+  "core_benefits": [
+    {
+      "benefit_name": "Maturity Benefit",
+      "details": "At maturity (age 99), Fund Value as on maturity date is payable provided policy is in force.",
+      "payout_type": ["Lump sum"]
+    },
+    {
+      "benefit_name": "Death Benefit",
+      "details": "On death during policy term, nominee receives higher of: Prevailing Sum Assured, Fund Value, or Guaranteed Death Benefit.",
+      "guaranteed_floor": "105% of Total Premiums Paid",
+      "special_rule": "Sum Assured reduced by withdrawals in last 2 years.",
+      "wop_variant_extra": "If WOP already triggered, death benefit increases by PV of future waived premiums discounted at 4%."
+    },
+    {
+      "benefit_name": "Loyalty Additions",
+      "eligibility": "Applicable only if Annualized Premium < ₹10 Lakhs",
+      "addition_schedule": {
+        "Year 10–14": "4% of one annualized premium each year",
+        "Year 15–19": "6% each year",
+        "Year 20–25": "7% each year"
+      },
+      "note": "Not payable for surrendered/discontinued/paid-up policies."
+    },
+    {
+      "benefit_name": "Periodical Return of Mortality Charges (PROMC)",
+      "details": "All mortality charges deducted are returned back into fund value at intervals.",
+      "first_addition": "Later of age 60 or end of 15th policy year",
+      "next_additions": "Every 10th year thereafter",
+      "last_addition": "At maturity date",
+      "excludes": "GST, cess, extra mortality charges"
+    },
+    {
+      "benefit_name": "Periodical Return of Waiver of Premium Charges (PROWC)",
+      "variant": "Only for WOP variant",
+      "details": "All WOP charges deducted are returned back into fund value at intervals.",
+      "schedule": "Same as PROMC",
+      "continues_even_after_trigger": true
+    },
+    {
+      "benefit_name": "Retired Life Income (RLI)",
+      "details": "Policyholder can opt to receive periodic income withdrawals from fund value during retirement years while staying invested.",
+      "income_basis": "Chosen percentage of fund value (example shown at 8%)",
+      "suitable_for": "Retirement goal fulfillment"
+    }
+  ],
+
+  "eligibility_and_parameters": {
+    "entry_age_minimum": 0,
+    "entry_age_maximum": null,
+    "maturity_age": 99,
+    "premium_payment_term": "Limited Pay options available",
+    "allocation_charge": "Nil for online sales",
+    "premium_reduction": {
+      "allowed": true,
+      "details": "Regular/Limited premiums can be reduced during policy term"
+    }
+  },
+
+  "investment_options": {
+    "portfolio_strategies": [
+      "Investor Selectable Portfolio Strategy",
+      "Wheel of Life Portfolio Strategy II",
+      "Trigger Based Portfolio Strategy",
+      "Auto Transfer Portfolio Strategy"
+    ],
+    "fund_options_sample": [
+      {
+        "fund_name": "Equity Growth Fund II",
+        "risk_profile": "Very High",
+        "sfin": "ULIF05106/01/10EQTYGROW02116"
+      },
+      {
+        "fund_name": "Accelerator Mid-Cap Fund II",
+        "risk_profile": "Very High",
+        "sfin": "ULIF05206/01/10ACCMICA02116"
+      },
+      {
+        "fund_name": "Pure Stock Fund II",
+        "risk_profile": "Very High",
+        "sfin": "ULIF07709/01/17PURSTKFUN2116"
+      },
+      {
+        "fund_name": "Bond Fund",
+        "risk_profile": "Moderate",
+        "sfin": "ULIF02610/07/06BONDFUNDLI116"
+      },
+      {
+        "fund_name": "Liquid Fund",
+        "risk_profile": "Low",
+        "sfin": "ULIF02510/07/06LIQUIDFUND116"
+      },
+      {
+        "fund_name": "Nifty Alpha 50 Index Fund",
+        "risk_profile": "Very High",
+        "sfin": "ULIF09221/05/24NYAPA50IND116"
+      }
+    ],
+    "switching_rules": {
+      "free_switches": "Unlimited free switching between funds",
+      "minimum_switch_amount": "₹5,000"
+    }
+  },
+
+  "riders": [
+    {
+      "rider_name": "Bajaj Life Linked Accident Protection Rider II",
+      "uin": "116A057V01"
+    },
+    {
+      "rider_name": "Bajaj Life Care Plus Rider",
+      "uin": "116A059V01"
+    },
+    {
+      "rider_name": "Bajaj Life Linked New Critical Illness Benefit Rider",
+      "uin": "116A060V01"
+    }
+  ],
+
+  "optional_features": {
+    "surrender_benefit": {
+      "during_lock_in": "Fund value transferred to Discontinued Policy Fund after discontinuance charge",
+      "after_lock_in": "Full fund value payable immediately",
+      "wop_triggered_special": "PV of future waived premiums payable at surrender (discounted at 4%)"
+    }
+  },
+
+  "sample_illustrations": [
+    {
+      "example_person": "Rahul",
+      "age": 35,
+      "premium": "₹1,00,000 p.a. for 20 years",
+      "sum_assured": "₹10 Lakhs",
+      "retired_life_income": "Opted at 8% fund value",
+      "total_premium_paid": "₹20,00,000",
+      "income_period": "Age 45 to 99",
+      "maturity_fv_8pct": "₹22,38,706",
+      "maturity_fv_4pct": "₹21,55,791"
+    }
+  ],
+
+  "compliance_guardrails": {
+    "ulip_lock_in_rule": "No liquidity allowed in first 5 years as per IRDAI ULIP guidelines.",
+    "investment_disclaimer": "NAV based returns not guaranteed.",
+    "death_floor_rule": "Guaranteed death benefit = 105% of premiums paid.",
+    "variant_lock": "Variant must be chosen at inception and cannot be changed later.",
+    "tax_disclaimer": "Tax benefits subject to prevailing laws."
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "LLG3_VARIANTS_001",
+      "topic": "Two Variant Structure",
+      "text": "LongLife Goal III offers two variants: with Waiver of Premium and without Waiver of Premium, selectable only at inception.",
+      "tags": ["variants", "WOP"]
+    },
+    {
+      "chunk_id": "LLG3_LOYALTY_002",
+      "topic": "Loyalty Additions",
+      "text": "Loyalty Additions apply yearly from policy year 10 to 25 for premiums below ₹10 Lakhs, ranging from 4% to 7%.",
+      "tags": ["loyalty additions", "whole life ULIP"]
+    },
+    {
+      "chunk_id": "LLG3_PROMC_003",
+      "topic": "Return of Mortality Charges",
+      "text": "PROMC returns mortality charges back to fund value starting from age 60 or year 15, then every 10 years, last at maturity.",
+      "tags": ["PROMC", "charges return"]
+    },
+    {
+      "chunk_id": "LLG3_RLI_004",
+      "topic": "Retired Life Income",
+      "text": "Retired Life Income option allows periodic income withdrawals while fund remains invested till age 99 maturity.",
+      "tags": ["retirement income", "RLI"]
+    },
+    {
+      "chunk_id": "LLG3_DEATH_005",
+      "topic": "Guaranteed Death Benefit",
+      "text": "Death benefit is higher of sum assured, fund value, or guaranteed minimum of 105% total premiums paid.",
+      "tags": ["death benefit", "105% floor"]
+    }
+  ]
+}

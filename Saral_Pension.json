@@ -1,0 +1,179 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life Saral Pension",
+    "category": "Immediate Annuity Pension Plan",
+    "plan_type": "Non-linked, Non-participating, Individual Immediate Annuity Plan",
+    "uin": null,
+    "mode_of_sale": "All Channels (POS restrictions apply)",
+    "source_document": "saral-pension-sl.pdf",
+    "company": "Bajaj Life Insurance Limited",
+    "benefit_type": "Guaranteed Lifelong Pension",
+    "key_positioning": "Simple retirement income plan with guaranteed annuity + ROP on death"
+  },
+
+  "product_summary": {
+    "objective": "Saral Pension provides guaranteed lifelong annuity income immediately after purchase. It ensures pension payments throughout life and returns the full purchase price to nominee on death, offering both retirement security and legacy protection.",
+    "key_highlights": [
+      "Guaranteed lifelong regular pension income",
+      "Annuity starts from next month (monthly mode)",
+      "Return of Purchase Price paid to nominee on death",
+      "Joint life option available with spouse continuation",
+      "Loan facility available",
+      "Liquidity allowed on diagnosis of critical illness",
+      "Simple IRDAI standardized annuity structure"
+    ]
+  },
+
+  "plan_variants": [
+    {
+      "variant_name": "Option A: Life Annuity with Return of Purchase Price (ROP) on death",
+      "payout_rule": "Annuity payable throughout annuitant's life",
+      "death_rule": "Purchase price returned to nominee on death"
+    },
+    {
+      "variant_name": "Option B: Joint Life Last Survivor with 100% spouse annuity + ROP on death of last survivor",
+      "payout_rule": "Annuity payable to annuitant for life, then continues 100% to spouse",
+      "death_rule": "Purchase price returned to nominee after death of last survivor"
+    }
+  ],
+
+  "core_benefits": [
+    {
+      "benefit_name": "Guaranteed Annuity Income",
+      "details": "Regular annuity instalments are payable throughout life as per chosen frequency.",
+      "frequencies": ["Monthly", "Quarterly", "Half-yearly", "Yearly"],
+      "income_start": "Next month onwards for monthly mode"
+    },
+
+    {
+      "benefit_name": "Return of Purchase Price (ROP)",
+      "details": "On death, the purchase price is returned to nominee (Option A) or on death of last survivor (Option B).",
+      "legacy_feature": true
+    },
+
+    {
+      "benefit_name": "Joint Life Pension Continuation",
+      "option": "Option B only",
+      "details": "Spouse receives 100% of annuity amount after annuitant’s death."
+    }
+  ],
+
+  "eligibility_and_parameters": {
+    "entry_age": {
+      "minimum": 40,
+      "maximum": 80,
+      "pos_channel_max_age": 70
+    },
+
+    "premium_type": "Single Premium only (Purchase Price)",
+
+    "minimum_annuity_installments": {
+      "yearly": "₹12,000",
+      "half_yearly": "₹6,000",
+      "quarterly": "₹3,000",
+      "monthly": "₹1,000"
+    },
+
+    "purchase_price": {
+      "minimum": "Depends on annuity amount chosen",
+      "maximum": "No limit"
+    },
+
+    "medical_exam": {
+      "pos_channel": "No medical examination required"
+    }
+  },
+
+  "optional_features": {
+    "change_annuity_frequency": {
+      "allowed": true,
+      "timing": "At any policy anniversary",
+      "frequency_factors": {
+        "yearly": 1.0,
+        "half_yearly": 0.4910,
+        "quarterly": 0.2430,
+        "monthly": 0.0805
+      }
+    },
+
+    "loan_facility": {
+      "available": true,
+      "details": "Policy provides liquidity through loan facility (refer Loan & Surrender section)."
+    },
+
+    "critical_illness_liquidity": {
+      "available": true,
+      "details": "Policy can be surrendered if annuitant/spouse/children diagnosed with listed critical illnesses."
+    }
+  },
+
+  "surrender_rules": {
+    "surrender_allowed": "After 6 months from policy commencement",
+    "condition": "Only allowed on diagnosis of listed critical illness",
+    "surrender_value": "95% of Purchase Price minus outstanding loan and interest",
+    "policy_termination": "Policy terminates after surrender payout"
+  },
+
+  "riders": [],
+
+  "sample_illustrations": [
+    {
+      "example_age": "50 years Male",
+      "purchase_price": "₹25,00,000",
+      "option_a_annuity": "₹1,72,748 yearly",
+      "option_b_annuity": "₹1,74,649 yearly",
+      "note": "Option B assumes spouse female of same entry age"
+    },
+    {
+      "example_age": "60 years Male",
+      "purchase_price": "₹25,00,000",
+      "option_a_annuity": "₹1,73,674 yearly",
+      "option_b_annuity": "₹1,76,101 yearly"
+    }
+  ],
+
+  "compliance_guardrails": {
+    "guaranteed_income_disclaimer": "Annuity payouts are guaranteed for life based on purchase price and annuity option chosen.",
+    "option_lock": "Annuity option once chosen cannot be changed during policy term.",
+    "tax_disclaimer": "Tax benefits are subject to prevailing laws.",
+    "free_look_period": "As per policy terms and IRDAI regulations.",
+    "termination_clause": [
+      "Policy terminates on death of annuitant (Option A) or last survivor (Option B)",
+      "Policy terminates on surrender payout",
+      "Policy terminates on free-look cancellation"
+    ]
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "SARALPENSION_OPT_001",
+      "topic": "Two Annuity Options",
+      "text": "Saral Pension offers only Option A (Single Life with ROP) and Option B (Joint Life 100% spouse annuity + ROP).",
+      "tags": ["option A", "option B", "simple pension"]
+    },
+    {
+      "chunk_id": "SARALPENSION_ROP_002",
+      "topic": "Return of Purchase Price",
+      "text": "Purchase Price is returned to nominee on death (Option A) or death of last survivor (Option B).",
+      "tags": ["ROP", "legacy"]
+    },
+    {
+      "chunk_id": "SARALPENSION_SURRENDER_003",
+      "topic": "Critical Illness Surrender Rule",
+      "text": "Policy can be surrendered after 6 months only if annuitant/spouse/children diagnosed with listed critical illnesses. Surrender value = 95% of purchase price.",
+      "tags": ["critical illness liquidity", "95% SV"]
+    },
+    {
+      "chunk_id": "SARALPENSION_FREQ_004",
+      "topic": "Annuity Frequency Change",
+      "text": "Annuity frequency can be changed at any anniversary with conversion factors: monthly 0.0805, quarterly 0.243, half-yearly 0.491.",
+      "tags": ["frequency change", "annuity payout"]
+    },
+    {
+      "chunk_id": "SARALPENSION_ELIG_005",
+      "topic": "Eligibility",
+      "text": "Entry age allowed from 40 to 80 years. Minimum annuity installment is ₹1,000 monthly or ₹12,000 yearly.",
+      "tags": ["eligibility", "entry age"]
+    }
+  ]
+}
