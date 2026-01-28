@@ -1,0 +1,282 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life Goal Based Saving III",
+    "category": "ULIP (Unit Linked Insurance Plan)",
+    "plan_type": "Unit-linked, Non-Participating, Individual Life Savings Insurance Plan",
+    "uin": "116L206V01",
+    "mode_of_sale": "Online",
+    "source_document": "goal-based-saving-brochure.pdf",
+    "company": "Bajaj Life Insurance Limited",
+    "risk_disclaimer": "Investment risk in the investment portfolio is borne by the policyholder.",
+    "lock_in_rule": "No surrender or withdrawal allowed during the first 5 policy years."
+  },
+
+  "product_summary": {
+    "objective": "Goal Based Saving III is a market-linked ULIP designed to provide wealth accumulation and life protection. It offers additional allocation in the first year, return of life cover charges (ROMC) up to 125%, settlement payouts, liquidity through withdrawals, and zero premium allocation/admin charges.",
+    "key_highlights": [
+      "Additional Allocation up to 3% in the first policy year",
+      "Return of Mortality Charges (ROMC) up to 125% at maturity",
+      "Wide range of funds with unlimited free switching",
+      "Partial withdrawals available after 5 policy years",
+      "Settlement Option for maturity or death benefit in installments",
+      "Return Enhancer increases installments by 0.5%",
+      "Plan flexibility: option to reduce premium or change premium paying term",
+      "No Premium Allocation Charge and No Policy Administration Charge"
+    ]
+  },
+
+  "plan_variants": [
+    {
+      "variant_name": "Regular/Limited Premium Payment ULIP",
+      "additional_allocation": "3% of each modal premium in year 1",
+      "romc_multiplier": "100%–125% depending on premium band"
+    },
+    {
+      "variant_name": "Single Premium ULIP",
+      "additional_allocation": "1% of single premium in year 1",
+      "romc_available": false
+    }
+  ],
+
+  "core_benefits": [
+    {
+      "benefit_name": "Maturity Benefit",
+      "details": "Fund Value payable on maturity if all premiums are paid. Option available for lump sum or installment payout under Settlement Option.",
+      "payout_type": ["Lump sum", "Settlement installments (max 5 years)"]
+    },
+    {
+      "benefit_name": "Death Benefit",
+      "details": "Higher of Prevailing Sum Assured or Fund Value, plus higher of Top-up Sum Assured or Top-up Fund Value.",
+      "guarantee": "Minimum Guaranteed Death Benefit = 105% of Total Premiums Paid including Top-ups.",
+      "note": "Sum Assured reduced to extent of partial withdrawals made in last 2 years before death."
+    },
+    {
+      "benefit_name": "Additional Allocation (Year 1 only)",
+      "details": "Extra allocation added at premium allocation in first policy year.",
+      "rates": {
+        "regular_limited": "3% of each modal premium paid",
+        "single_premium": "1% of single premium"
+      },
+      "not_applicable_on": ["Top-up premiums", "Year 2 onwards"]
+    },
+    {
+      "benefit_name": "Return of Mortality Charges (ROMC)",
+      "details": "At maturity, all mortality charges deducted are returned with a multiplier based on premium slab.",
+      "premium_band_factors": {
+        "annualized_premium_lt_120000": "100%",
+        "120000_to_lt_240000": "110%",
+        ">=240000": "125%"
+      },
+      "not_applicable_on": [
+        "Single Premium policies",
+        "Surrendered, discontinued, or paid-up policies"
+      ]
+    }
+  ],
+
+  "fund_options": {
+    "portfolio_strategy": "Investor Selectable Portfolio Strategy",
+    "available_funds_sample": [
+      {
+        "fund_name": "Equity Growth Fund II",
+        "risk_profile": "Very High",
+        "sfin": "ULIF05106/01/10EQTYGROW02116",
+        "fmc": "1.35%"
+      },
+      {
+        "fund_name": "Pure Stock Fund II",
+        "risk_profile": "Very High",
+        "sfin": "ULIF07709/01/17PURSTKFUN2116",
+        "fmc": "1.30%"
+      },
+      {
+        "fund_name": "Bond Fund",
+        "risk_profile": "Moderate",
+        "sfin": "ULIF02610/07/06BONDFUNDLI116",
+        "fmc": "0.95%"
+      },
+      {
+        "fund_name": "Liquid Fund",
+        "risk_profile": "Low",
+        "sfin": "ULIF02510/07/06LIQUIDFUND116",
+        "fmc": "0.95%"
+      },
+      {
+        "fund_name": "Discontinued Life Policy Fund",
+        "risk_profile": "Low",
+        "sfin": "ULIF07026/03/13DISCONLIFE116",
+        "fmc": "0.50%"
+      }
+    ],
+    "switching_rules": {
+      "free_switches": "Unlimited free switches",
+      "minimum_switch_amount": "₹5,000"
+    }
+  },
+
+  "charges_structure": {
+    "premium_allocation_charge": "Nil",
+    "policy_administration_charge": "Nil",
+    "fund_management_charge": "Up to 1.35% depending on fund",
+    "miscellaneous_charge": "₹100 per transaction",
+    "mortality_charge": "Deducted monthly by cancellation of units",
+    "female_advantage": "Female lives get age setback of 3 years",
+    "discontinuance_charge": {
+      "regular_limited": "Up to max ₹6,000 depending on premium slab (Nil after year 5)",
+      "single_premium": "Up to max ₹6,000 depending on premium slab (Nil after year 5)",
+      "top_up": "Nil"
+    },
+    "gst": "Applicable on all charges"
+  },
+
+  "eligibility_and_parameters": {
+    "entry_age": {
+      "regular_limited": "0–60 years",
+      "single_premium": "3–60 years"
+    },
+    "maturity_age": {
+      "minimum": 18,
+      "maximum": 75
+    },
+    "policy_term_options": [10, 15, 20],
+    "premium_payment_term_options": {
+      "PT_10": [5, 7, 10],
+      "PT_15": [5, 7, 10, 15],
+      "PT_20": [5, 7, 10, 15, 20],
+      "single_premium": ["Single Pay"]
+    },
+    "minimum_premium": {
+      "annual": "₹12,000",
+      "half_yearly": "₹6,000",
+      "quarterly": "₹3,000",
+      "monthly": "₹1,000",
+      "single_pay": "₹1,20,000",
+      "top_up_minimum": "₹5,000"
+    },
+    "sum_assured_rules": {
+      "regular_limited": {
+        "age_lt_50": "7× Annualized Premium",
+        "age_ge_50": "5× Annualized Premium",
+        "maximum": "10× Annualized Premium"
+      },
+      "single_pay": {
+        "age_lt_50": "1.25× Single Premium",
+        "age_ge_50": "1.10× Single Premium",
+        "maximum": "1.25× Single Premium"
+      }
+    }
+  },
+
+  "optional_features": {
+    "top_up_premium": {
+      "allowed": true,
+      "minimum": "₹5,000",
+      "lock_in_each_topup": "5 years",
+      "not_allowed_last": "5 policy years"
+    },
+    "partial_withdrawal": {
+      "allowed_after": "5 policy years",
+      "minimum": "₹5,000",
+      "maximum": "50% of Regular Fund Value (25% for Single Premium)",
+      "post_withdrawal_balance": {
+        "regular": "≥2× Annualized Premium",
+        "single": "≥1/5th of Single Premium"
+      }
+    },
+    "systematic_partial_withdrawal": {
+      "allowed_if": "Policy term ≥ 10 years",
+      "frequencies": ["Monthly", "Quarterly", "Half-yearly", "Yearly"]
+    },
+    "premium_reduction": {
+      "allowed_after": "Lock-in completion",
+      "max_reduction": "50%",
+      "irreversible": true
+    },
+    "change_ppt": {
+      "allowed_after": "First 5 policy years premium paid",
+      "condition": "Must be exercised before existing PPT expiry"
+    },
+    "settlement_option": {
+      "available_for": ["Maturity Benefit", "Death Benefit"],
+      "max_period": "5 years",
+      "return_enhancer": "+0.5% hike in each installment"
+    }
+  },
+
+  "riders": [
+    {
+      "rider_name": "Linked Accident Protection Rider II",
+      "uin": "116A057V01"
+    },
+    {
+      "rider_name": "Care Plus Rider",
+      "uin": "116A059V01"
+    },
+    {
+      "rider_name": "Linked New Critical Illness Benefit Rider",
+      "uin": "116A060V01"
+    }
+  ],
+
+  "sample_illustrations": [
+    {
+      "example_person": "Aman",
+      "age": 35,
+      "premium": "₹6,00,000 p.a.",
+      "ppt": 10,
+      "policy_term": 15,
+      "sum_assured": "₹60 Lakhs",
+      "maturity_value_8pct": "₹1,19,60,771",
+      "maturity_value_4pct": "₹79,46,632",
+      "romc_value": "₹38,248–₹43,770",
+      "death_benefit_12th_year_8pct": "₹98,40,897",
+      "death_benefit_12th_year_4pct": "₹73,05,033"
+    }
+  ],
+
+  "compliance_guardrails": {
+    "ulip_risk_warning": "ULIPs are subject to capital market risks. NAV may go up or down.",
+    "lock_in_period": "5 years mandatory lock-in as per IRDAI guidelines.",
+    "free_look_period": "30 days from receipt of policy document.",
+    "grace_period": {
+      "monthly": "15 days",
+      "other_modes": "30 days"
+    },
+    "suicide_exclusion": "Within 12 months, nominee receives Fund Value as on death intimation date.",
+    "fraud_warning": "Beware of spurious phone calls. IRDAI does not sell policies or announce bonuses.",
+    "tax_disclaimer": "Tax benefits are subject to prevailing Income Tax laws."
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "GBS3_ADVANTAGE_001",
+      "topic": "Zero Charges Advantage",
+      "text": "Goal Based Saving III has Nil Premium Allocation Charge and Nil Policy Administration Charge, making it a low-cost ULIP.",
+      "tags": ["zero charges", "PAC nil", "admin charge nil"]
+    },
+    {
+      "chunk_id": "GBS3_ALLOCATION_002",
+      "topic": "Additional Allocation",
+      "text": "In the first policy year, 3% of each modal premium (or 1% single premium) is added back into fund value as Additional Allocation.",
+      "tags": ["additional allocation", "year 1 bonus"]
+    },
+    {
+      "chunk_id": "GBS3_ROMC_003",
+      "topic": "Return of Mortality Charges",
+      "text": "ROMC returns mortality charges at maturity with multiplier up to 125% depending on annualized premium band.",
+      "tags": ["ROMC", "125% return"]
+    },
+    {
+      "chunk_id": "GBS3_WITHDRAWAL_004",
+      "topic": "Withdrawals & Liquidity",
+      "text": "Partial and systematic withdrawals are allowed after 5 years lock-in, minimum ₹5,000, supporting liquidity needs.",
+      "tags": ["partial withdrawal", "systematic payout"]
+    },
+    {
+      "chunk_id": "GBS3_SETTLEMENT_005",
+      "topic": "Settlement Option",
+      "text": "Maturity or death benefits can be taken in installments up to 5 years with Return Enhancer of +0.5% per payout.",
+      "tags": ["settlement option", "installments", "enhancer"]
+    }
+  ]
+}

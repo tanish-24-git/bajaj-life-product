@@ -1,0 +1,235 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life Fortune Gain II",
+    "category": "ULIP (Unit Linked Insurance Plan)",
+    "plan_type": "Unit-linked, Non-Participating, Individual Life Savings Insurance Plan",
+    "premium_type": "Single Premium ULIP",
+    "uin": null,
+    "mode_of_sale": "Individual Savings Plan",
+    "source_document": "Fortune-Gain-Brochure.pdf",
+    "company": "Bajaj Life Insurance Limited",
+    "risk_disclaimer": "Investment risk in the investment portfolio is borne by the policyholder.",
+    "lock_in_rule": "No surrender or withdrawal allowed during the first 5 policy years."
+  },
+
+  "product_summary": {
+    "objective": "Fortune Gain II is a Single Premium ULIP designed to maximize wealth creation by offering very high premium allocation, loyalty additions at maturity, flexible fund options, liquidity through withdrawals, and installment payout through settlement option.",
+    "key_highlights": [
+      "Single Premium savings ULIP with life cover",
+      "Up to 99.5% premium allocation for single premium ≥ ₹10 Lakhs",
+      "Loyalty Additions of 5.6% of Single Premium (for ≥₹10 Lakhs, PT 10–30)",
+      "Multiple fund investment choices including index funds",
+      "Partial and Systematic Partial Withdrawals allowed after 5 years",
+      "Top-up premium option available",
+      "Unlimited free fund switches",
+      "Settlement Option for maturity and death benefit payouts (up to 5 years)",
+      "Systematic Switching Option (SSO) available at inception",
+      "Rider enhancements available"
+    ]
+  },
+
+  "plan_variants": [
+    {
+      "variant_name": "Single Premium ULIP (Only Variant)",
+      "premium_mode": "Single Pay",
+      "top_up_available": true,
+      "loyalty_addition": true,
+      "settlement_option": true
+    }
+  ],
+
+  "core_benefits": [
+    {
+      "benefit_name": "Maturity Benefit",
+      "details": "At maturity, the benefit payable is Single Premium Fund Value plus Top-up Fund Value as on maturity date, provided policy is in force.",
+      "payout_type": ["Lump sum", "Settlement installments up to 5 years"]
+    },
+    {
+      "benefit_name": "Death Benefit",
+      "details": "Higher of (Prevailing Sum Assured or Single Premium Fund Value) plus higher of (Top-up Sum Assured or Top-up Fund Value).",
+      "guarantee": "Guaranteed Death Benefit = 105% of Total Premiums paid till date of death.",
+      "note": "Sum Assured reduced to extent of partial withdrawals from Single Premium Fund in last 2 years."
+    },
+    {
+      "benefit_name": "Premium Allocation Advantage",
+      "details": "Up to 99.5% premium allocation for Single Premium ₹10 Lakhs and above."
+    },
+    {
+      "benefit_name": "Loyalty Additions",
+      "details": "Loyalty addition expressed as % of Single Premium is added to fund value at maturity based on premium slab and policy term.",
+      "schedule": {
+        "single_premium_50k_to_9.99L": "Nil",
+        "single_premium_10L_and_above_PT_10_to_30": "5.6% of Single Premium"
+      },
+      "top_up_applicability": false
+    }
+  ],
+
+  "eligibility_and_parameters": {
+    "entry_age": {
+      "minimum": 1,
+      "maximum": 63
+    },
+    "maturity_age": {
+      "minimum": 18,
+      "maximum": 70
+    },
+    "policy_term": {
+      "minimum": 7,
+      "maximum": 30
+    },
+    "premium_rules": {
+      "minimum_single_premium": "₹50,000",
+      "maximum_single_premium": "No limit",
+      "top_up_minimum": "₹5,000"
+    },
+    "sum_assured_rules": {
+      "minimum": {
+        "age_lt_50": "1.25× Single Premium",
+        "age_ge_50": "1.10× Single Premium"
+      },
+      "maximum": "X × Single Premium based on entry age and policy term slab"
+    }
+  },
+
+  "optional_features": {
+    "partial_withdrawal": {
+      "allowed_after": "5-year lock-in period",
+      "min_withdrawal": "₹5,000",
+      "max_withdrawal": "25% of Single Premium Fund Value",
+      "post_balance_requirement": "Single Premium Fund Value must remain ≥ 1/5th of Single Premium",
+      "charges": "No charges levied"
+    },
+    "systematic_partial_withdrawal": {
+      "allowed_if": "Policy term ≥ 15 years",
+      "frequencies": ["Monthly", "Quarterly", "Half-yearly", "Yearly"]
+    },
+    "top_up_premium": {
+      "allowed": true,
+      "lock_in_each_topup": "5 years",
+      "not_allowed_last": "5 policy years"
+    },
+    "sum_assured_decrease": {
+      "allowed_after": "1st policy year",
+      "misc_charge_applicable": true
+    },
+    "settlement_option": {
+      "available_for": ["Maturity Benefit", "Death Benefit"],
+      "max_period": "5 years",
+      "investment_risk": "Borne by policyholder/nominee",
+      "no_withdrawal_rule": "No withdrawals allowed during settlement period"
+    },
+    "systematic_switching_option": {
+      "name": "SSO",
+      "available": "Only at inception for first 12 months",
+      "default_allocation": "Liquid Fund",
+      "monthly_transfer": "1/x of fund value transferred monthly into chosen funds",
+      "auto_cancel": "Cancelled if any switch is made later"
+    }
+  },
+
+  "fund_options": {
+    "portfolio_strategy": "Investor Selectable Portfolio Strategy",
+    "available_funds_sample": [
+      {
+        "fund_name": "Equity Growth Fund II",
+        "risk_profile": "Very High",
+        "sfin": "ULIF05106/01/10EQTYGROW02116"
+      },
+      {
+        "fund_name": "Accelerator Mid-Cap Fund II",
+        "risk_profile": "Very High",
+        "sfin": "ULIF05206/01/10ACCMIDCA02116"
+      },
+      {
+        "fund_name": "Bond Fund",
+        "risk_profile": "Moderate",
+        "sfin": "ULIF02610/07/06BONDFUNDLI116"
+      },
+      {
+        "fund_name": "Liquid Fund",
+        "risk_profile": "Low",
+        "sfin": "ULIF02510/07/06LIQUIDFUND116"
+      },
+      {
+        "fund_name": "Nifty Alpha 50 Index Fund",
+        "risk_profile": "Very High",
+        "sfin": "ULIF09221/05/24NYAPA50IND116"
+      },
+      {
+        "fund_name": "Focused 25 Fund",
+        "risk_profile": "Very High",
+        "sfin": "ULIF09606/02/25FOCUSED25F116"
+      }
+    ],
+    "switching_rules": {
+      "free_switches": "Unlimited free switches",
+      "minimum_switch_amount": "₹5,000"
+    }
+  },
+
+  "riders": [
+    {
+      "rider_name": "Bajaj Life Care Plus Rider",
+      "uin": "116A059V01"
+    },
+    {
+      "rider_name": "Linked New Critical Illness Benefit Rider",
+      "uin": "116A060V01"
+    }
+  ],
+
+  "sample_illustrations": [
+    {
+      "example_person": "Yuvraj",
+      "age": 35,
+      "single_premium": "₹2,00,000",
+      "policy_term": 24,
+      "sum_assured": "₹8,00,000",
+      "maturity_fv_8pct": "₹8,02,396",
+      "maturity_fv_4pct": "₹2,62,827",
+      "death_benefit_16th_year": "₹8,00,000"
+    }
+  ],
+
+  "compliance_guardrails": {
+    "ulip_risk_warning": "ULIPs are subject to capital market risks. NAV may go up or down.",
+    "lock_in_period": "5 years mandatory lock-in as per IRDAI.",
+    "tax_disclaimer": "Tax benefits subject to prevailing Income Tax laws.",
+    "force_majeure_clause": "NAV valuation may be deferred in extreme force majeure events (up to 30 days).",
+    "fraud_warning": "IRDAI does not sell policies or announce bonuses."
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "FG2_SINGLEPREMIUM_001",
+      "topic": "Single Premium ULIP Structure",
+      "text": "Fortune Gain II is a single premium ULIP with up to 99.5% allocation and life cover throughout policy term.",
+      "tags": ["single premium", "high allocation"]
+    },
+    {
+      "chunk_id": "FG2_LOYALTY_002",
+      "topic": "Loyalty Addition",
+      "text": "If single premium is ₹10 Lakhs or above and policy term is 10–30 years, loyalty addition of 5.6% of premium is added at maturity.",
+      "tags": ["loyalty", "5.6% bonus"]
+    },
+    {
+      "chunk_id": "FG2_WITHDRAWAL_003",
+      "topic": "Partial Withdrawals",
+      "text": "Withdrawals allowed after lock-in, minimum ₹5,000, maximum 25% of fund value, with fund balance ≥1/5th of premium.",
+      "tags": ["withdrawal", "liquidity"]
+    },
+    {
+      "chunk_id": "FG2_SETTLEMENT_004",
+      "topic": "Settlement Option",
+      "text": "Maturity and death benefit can be received in installments for up to 5 years with investment risk borne by policyholder.",
+      "tags": ["settlement option", "installments"]
+    },
+    {
+      "chunk_id": "FG2_FUNDS_005",
+      "topic": "Fund Options",
+      "text": "Multiple equity, debt and index funds available with unlimited free switching under investor selectable strategy.",
+      "tags": ["funds", "switching"]
+    }
+  ]
+}
