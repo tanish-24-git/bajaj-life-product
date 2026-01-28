@@ -1,0 +1,215 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life Saral Jeevan Bima",
+    "category": "Term Insurance",
+    "plan_type": "Non-Linked, Non-Participating, Individual Life Insurance Term Plan",
+    "uin": "116N165V01",
+    "mode_of_sale": "Online",
+    "source_document": "saral-jeevan-brochure.pdf",
+    "company": "Bajaj Life Insurance Limited"
+  },
+
+  "product_summary": {
+    "objective": "Bajaj Life Saral Jeevan Bima is a simple and standard term insurance plan that provides life cover to protect your family financially in case of the policyholder’s unfortunate death.",
+    "key_highlights": [
+      "Life cover up to 40 years policy term",
+      "Flexibility to choose Single, Limited or Regular premium payment",
+      "Death benefit payable as lump sum",
+      "Waiting period of 45 days from risk commencement",
+      "No maturity benefit",
+      "No optional riders available"
+    ]
+  },
+
+  "plan_variants": [
+    {
+      "variant_name": "Single Plan Variant",
+      "features": [
+        "Standardized Saral Jeevan Bima term plan",
+        "No maturity benefit",
+        "No riders available"
+      ],
+      "return_of_premium": false,
+      "maturity_benefit": false
+    }
+  ],
+
+  "core_benefits": [
+    {
+      "benefit_name": "Death Benefit (Post Waiting Period)",
+      "details": "After completion of 45-day waiting period, Sum Assured on Death is payable to nominee as lump sum.",
+      "payout_type": "Lump sum"
+    },
+    {
+      "benefit_name": "Death During Waiting Period (First 45 Days)",
+      "details": "If death occurs during waiting period, accidental death pays full Sum Assured. Non-accidental death pays only 100% of premiums received (excluding taxes).",
+      "waiting_period": "45 days"
+    },
+    {
+      "benefit_name": "Sum Assured on Death Definition",
+      "premium_types": {
+        "regular_or_limited": "Highest of (a) 10× Annualized Premium, (b) 105% of Total Premiums Paid, (c) Absolute Sum Assured",
+        "single_premium": "Higher of (a) 125% of Single Premium, (b) Absolute Sum Assured"
+      }
+    },
+    {
+      "benefit_name": "Maturity Benefit",
+      "details": "No maturity benefit is payable under this policy.",
+      "maturity_payout": "None"
+    }
+  ],
+
+  "eligibility_and_parameters": {
+    "entry_age": {
+      "minimum": 18,
+      "maximum": 65
+    },
+    "maturity_age": {
+      "minimum": 23,
+      "maximum": 70
+    },
+    "sum_assured_limits": {
+      "minimum": "₹5 Lakhs",
+      "maximum": "₹25 Lakhs",
+      "multiples_allowed": "₹50,000"
+    },
+    "policy_term": {
+      "minimum": "5 years",
+      "maximum": "40 years"
+    },
+    "premium_payment_options": [
+      "Single Premium",
+      "Limited Premium (5 years or 10 years)",
+      "Regular Premium"
+    ],
+    "premium_payment_modes": [
+      "Yearly",
+      "Half-Yearly",
+      "Monthly (only ECS/NACH)"
+    ]
+  },
+
+  "optional_features": {
+    "policy_cancellation_value": {
+      "availability": "Applicable only for Single Premium and Limited Premium policies",
+      "not_applicable_for": "Regular Premium",
+      "formula": {
+        "single_premium": "70% × Single Premium × (Unexpired Policy Term / Original Policy Term)",
+        "limited_premium": "70% × Total Premiums Paid × (Unexpired Policy Term / Original Policy Term)"
+      },
+      "eligibility": "Limited Pay cancellation value only after 2 consecutive full years premiums paid"
+    },
+
+    "premium_frequency_change": {
+      "availability": "Allowed at any policy anniversary (limited/regular policies)",
+      "factors": {
+        "monthly": 0.09,
+        "half_yearly": 0.51,
+        "yearly": 1.0
+      }
+    },
+
+    "rebates_and_discounts": {
+      "high_sum_assured_rebate": "Applied for every additional ₹1 lakh increase above ₹5 lakhs",
+      "female_life_rebate": "Female premium rate based on male aged 3 years younger",
+      "staff_rebate": {
+        "regular_or_limited": "5% rebate",
+        "single_premium": "10% rebate"
+      },
+      "online_discount": "2% rebate for online/direct/web aggregator sales"
+    },
+
+    "surrender_value": {
+      "availability": false,
+      "details": "Surrender value is not available under this policy."
+    },
+
+    "loan": {
+      "availability": false
+    }
+  },
+
+  "riders": [],
+
+  "sample_illustrations": [
+    {
+      "life_assured_age": 30,
+      "policy_term": "30 years",
+      "premium_paying_term": "30 years",
+      "sum_assured": "₹25 Lakhs",
+      "annual_premium": "₹8,321",
+      "notes": "Premium exclusive of GST"
+    },
+    {
+      "life_assured_age": 35,
+      "policy_term": "30 years",
+      "premium_paying_term": "30 years",
+      "sum_assured": "₹25 Lakhs",
+      "annual_premium": "₹11,848"
+    },
+    {
+      "life_assured_age": 40,
+      "policy_term": "30 years",
+      "premium_paying_term": "30 years",
+      "sum_assured": "₹25 Lakhs",
+      "annual_premium": "₹17,525"
+    }
+  ],
+
+  "compliance_rules": {
+    "must_disclose": [
+      "Insurance is subject to terms and conditions.",
+      "This sales literature gives only salient features. Policy document is the final contract."
+    ],
+    "waiting_period_rule": "45-day waiting period applies from commencement of risk (not applicable on revival).",
+    "suicide_exclusion": {
+      "regular_or_limited": "If suicide within 12 months → 80% of premiums paid refunded.",
+      "single_premium": "If suicide within 12 months → 90% of single premium refunded."
+    },
+    "grace_period": {
+      "monthly": "15 days",
+      "yearly_or_half_yearly": "30 days"
+    },
+    "fraud_warning": "BEWARE of spurious phone calls and fraudulent offers. IRDAI does not sell policies or announce bonuses.",
+    "tax_disclaimer": "Tax benefits are subject to provisions of Income Tax Act amendments. Consult your tax advisor.",
+    "free_look_period": "30 days free look from date of policy receipt."
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "SJB_BENEFIT_001",
+      "topic": "Death Benefit",
+      "text": "After the 45-day waiting period, Sum Assured on Death is payable to nominee as lump sum.",
+      "page": 2,
+      "tags": ["death benefit", "sum assured"]
+    },
+    {
+      "chunk_id": "SJB_WAITING_002",
+      "topic": "Waiting Period Rule",
+      "text": "During first 45 days, accidental death pays full Sum Assured, non-accidental death pays only premiums received.",
+      "page": 2,
+      "tags": ["waiting period", "accidental death"]
+    },
+    {
+      "chunk_id": "SJB_ELIGIBILITY_003",
+      "topic": "Eligibility Criteria",
+      "text": "Entry age is 18–65 years, maturity age up to 70 years, sum assured range ₹5–₹25 Lakhs, policy term up to 40 years.",
+      "page": 3,
+      "tags": ["eligibility", "age limit", "sum assured"]
+    },
+    {
+      "chunk_id": "SJB_CANCEL_004",
+      "topic": "Policy Cancellation Value",
+      "text": "Cancellation value is available only for single and limited pay policies based on 70% of premiums and unexpired term proportion.",
+      "page": 4,
+      "tags": ["cancellation value", "limited pay"]
+    },
+    {
+      "chunk_id": "SJB_EXCLUSION_005",
+      "topic": "Suicide Exclusion",
+      "text": "If suicide occurs within 12 months, refund is 80% premiums paid (regular/limited) or 90% single premium.",
+      "page": 5,
+      "tags": ["suicide exclusion", "refund"]
+    }
+  ]
+}

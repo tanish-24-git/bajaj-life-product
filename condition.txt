@@ -1,0 +1,9 @@
+✅ Metadata
+✅ Variants
+✅ Benefits
+✅ Riders
+✅ Eligibility table
+✅ Optional features
+✅ Examples
+✅ Compliance guardrails
+✅ Retrieval chunks

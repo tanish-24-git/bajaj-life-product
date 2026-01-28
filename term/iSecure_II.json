@@ -1,0 +1,272 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life iSecure II",
+    "category": "Term Insurance",
+    "plan_type": "Non-Linked, Non-Participating, Individual Life Insurance Term Plan",
+    "uin": "116N208V03",
+    "premium_type": "Regular / Limited Pay",
+    "mode_of_sale": "Online",
+    "source_document": "isecure-insurance-plan.pdf",
+    "company": "Bajaj Life Insurance Limited"
+  },
+
+  "product_summary": {
+    "objective": "Bajaj Life iSecure II is a term insurance plan designed to secure your family's financial future through life protection, flexible death benefit payouts, optional return of premium variant, and additional wellness benefits.",
+    "key_highlights": [
+      "Choice of 3 plan variants: Life, ROP, Easy",
+      "Flexible death benefit payout: lump sum, instalments, or combination",
+      "Option to get back Total Premiums Paid under ROP variant",
+      "Early Exit Value option under Life variant",
+      "Auto Cover Continuance Benefit allows premium deferral up to 12 months",
+      "Optional riders for enhanced protection",
+      "Health Management Services wellness benefit included"
+    ]
+  },
+
+  "plan_variants": [
+    {
+      "variant_name": "Variant 1 - Life",
+      "features": [
+        "Pure protection term plan",
+        "Death Benefit payable",
+        "No maturity benefit",
+        "Early Exit Value available"
+      ],
+      "return_of_premium": false,
+      "maturity_benefit": false
+    },
+    {
+      "variant_name": "Variant 2 - ROP (Return of Premium)",
+      "features": [
+        "Death Benefit payable",
+        "Maturity Benefit = Total Premiums Paid returned",
+        "Option for maturity payout in yearly instalments over 5 years",
+        "Surrender Value and Policy Loan available"
+      ],
+      "return_of_premium": true,
+      "maturity_benefit": true
+    },
+    {
+      "variant_name": "Variant 3 - Easy",
+      "features": [
+        "Simplified lower cover variant",
+        "Death Benefit payable",
+        "No maturity benefit",
+        "Limited Sum Assured max ₹30 Lakhs"
+      ],
+      "return_of_premium": false,
+      "maturity_benefit": false
+    }
+  ],
+
+  "core_benefits": [
+    {
+      "benefit_name": "Death Benefit",
+      "details": "Sum Assured on Death is payable as lump sum. Death benefit will not be less than Guaranteed Death Benefit = 105% of Total Premiums Paid till death.",
+      "payout_options": [
+        "100% Lump Sum",
+        "100% Monthly Income (5/10/20/30/40 years)",
+        "Combination (10%–90% lump sum + balance monthly income)"
+      ]
+    },
+    {
+      "benefit_name": "Maturity Benefit (Only in ROP Variant)",
+      "details": "Total Premiums Paid is returned on maturity. Option to take maturity benefit in yearly instalments over 5 years.",
+      "instalment_formula": "Each instalment = [120% × Maturity Benefit / 5]"
+    },
+    {
+      "benefit_name": "Guaranteed Death Benefit",
+      "details": "Minimum payout is always 105% of premiums paid till date."
+    }
+  ],
+
+  "eligibility_and_parameters": {
+    "entry_age": {
+      "minimum": 18,
+      "maximum": 65
+    },
+    "maturity_age": {
+      "minimum": 28,
+      "maximum": 85
+    },
+    "sum_assured_limits": {
+      "life_and_rop_minimum": "₹25 Lakhs",
+      "easy_minimum": "₹10 Lakhs",
+      "life_and_rop_maximum": "No Limit (subject to underwriting)",
+      "easy_maximum": "₹30 Lakhs"
+    },
+
+    "policy_term_and_ppt": {
+      "life_variant": {
+        "limited_pay_options": [5, 10, 15, 20, 25],
+        "policy_term_range": "10 to (85 - Entry Age)",
+        "regular_pay": "PPT same as PT"
+      },
+      "rop_variant": {
+        "limited_pay_options": [5, 10, 15, 20, 25],
+        "policy_term_range": "10 to 50",
+        "regular_pay": "PPT same as PT"
+      },
+      "easy_variant": {
+        "limited_pay_options": [5, 10, 15, 20, 25],
+        "policy_term_range": "10 to 30",
+        "regular_pay": "PPT same as PT"
+      }
+    },
+
+    "premium_frequency": ["Yearly", "Half-Yearly", "Quarterly", "Monthly"]
+  },
+
+  "optional_features": {
+    "early_exit_value": {
+      "availability": "Only under Life variant",
+      "value": "100% of Total Premiums Paid",
+      "exercise_conditions": [
+        "Age at entry ≤ 50",
+        "Policy Term ≥ 35 years",
+        "Maturity age ≥ 70",
+        "Can be exercised after attaining age 60 within first 5 policy years"
+      ]
+    },
+
+    "auto_cover_continuance_benefit": {
+      "availability": "Life & ROP variants",
+      "benefit": "Premiums can be deferred up to 12 months while maintaining full cover",
+      "conditions": [
+        "At least 3 policy years completed",
+        "Gap of 5 years required between uses",
+        "Not available in last premium payment year"
+      ]
+    },
+
+    "instalment_death_benefit_discount": {
+      "discount_table": {
+        "5_years": "5%",
+        "10_years": "10%",
+        "20_years": "20%",
+        "30_years": "30%",
+        "40_years": "40%"
+      },
+      "interest_rate_basis": "5% per annum discounting"
+    }
+  },
+
+  "riders": [
+    {
+      "rider_name": "Bajaj Life Accidental Death Benefit Rider",
+      "uin": "116B034V02"
+    },
+    {
+      "rider_name": "Bajaj Life Accidental Permanent Total/Partial Disability Benefit Rider",
+      "uin": "116B036V02"
+    },
+    {
+      "rider_name": "Bajaj Life Family Protect Rider",
+      "uin": "116B056V01"
+    },
+    {
+      "rider_name": "Bajaj Life New Critical Illness Benefit Rider",
+      "uin": "116B058V01"
+    }
+  ],
+
+  "value_added_services": {
+    "health_management_services": {
+      "availability": "Life & ROP variants",
+      "includes": [
+        "Medical second opinion",
+        "Medical case management",
+        "Doctor consultations through registered providers"
+      ],
+      "note": "Wellness services available subject to paying premiums on time."
+    }
+  },
+
+  "sample_illustrations": [
+    {
+      "variant": "Life",
+      "name": "Ravi",
+      "age": 35,
+      "sum_assured": "₹25 Lakhs",
+      "premium": "₹13,451/year",
+      "scenario": "Dies at age 50 → nominee gets ₹25 Lakhs lump sum"
+    },
+    {
+      "variant": "ROP",
+      "name": "Ravi",
+      "age": 35,
+      "sum_assured": "₹1 Crore",
+      "premium": "₹48,154/year",
+      "scenario_1": "Dies at age 50 → nominee gets ₹1 Crore lump sum",
+      "scenario_2": "Survives till age 85 → receives ₹24,07,712 maturity benefit"
+    },
+    {
+      "variant": "Easy",
+      "name": "Ravi",
+      "age": 30,
+      "sum_assured": "₹15 Lakhs",
+      "premium": "₹6,227/year",
+      "scenario": "Dies at age 40 → nominee gets ₹15 Lakhs lump sum"
+    }
+  ],
+
+  "compliance_rules": {
+    "must_disclose": [
+      "Insurance is subject to terms and conditions.",
+      "Please read the sales brochure and policy document carefully before purchase."
+    ],
+    "fraud_warning": "BEWARE of spurious phone calls and fictitious/fraudulent offers. IRDAI does not sell policies or announce bonuses.",
+    "never_say": [
+      "Guaranteed returns",
+      "Best investment",
+      "No risk product"
+    ],
+    "tax_disclaimer": "Tax benefits are subject to provisions of Income Tax Act and amendments. Consult your tax advisor.",
+    "free_look_period": "30 days free look available from date of policy receipt."
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "ISECURE_VARIANT_001",
+      "topic": "Plan Variants",
+      "text": "iSecure II offers three variants: Life, Return of Premium (ROP), and Easy variant.",
+      "page": 2,
+      "tags": ["variants", "life", "rop", "easy"]
+    },
+    {
+      "chunk_id": "ISECURE_BENEFIT_002",
+      "topic": "Death Benefit",
+      "text": "Death benefit is paid as lump sum or monthly income. Minimum guaranteed payout is 105% of premiums paid.",
+      "page": 3,
+      "tags": ["death benefit", "105%", "guaranteed payout"]
+    },
+    {
+      "chunk_id": "ISECURE_MATURITY_003",
+      "topic": "ROP Maturity Benefit",
+      "text": "Under ROP variant, Total Premiums Paid is returned at maturity, with option of instalments over 5 years.",
+      "page": 4,
+      "tags": ["maturity benefit", "return of premium"]
+    },
+    {
+      "chunk_id": "ISECURE_FEATURE_004",
+      "topic": "Early Exit Value",
+      "text": "Life variant provides Early Exit Value equal to 100% of Total Premiums Paid after age 60, subject to conditions.",
+      "page": 7,
+      "tags": ["early exit", "premium refund"]
+    },
+    {
+      "chunk_id": "ISECURE_FEATURE_005",
+      "topic": "Auto Cover Continuance",
+      "text": "Premiums can be deferred up to 12 months while keeping full cover active, available in Life and ROP variants.",
+      "page": 8,
+      "tags": ["premium deferral", "auto cover continuance"]
+    },
+    {
+      "chunk_id": "ISECURE_RIDER_006",
+      "topic": "Available Riders",
+      "text": "Optional riders include Accidental Death Benefit, Disability Rider, Family Protect Rider, and Critical Illness Rider.",
+      "page": 9,
+      "tags": ["riders", "accident cover", "critical illness"]
+    }
+  ]
+}

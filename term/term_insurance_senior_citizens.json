@@ -1,0 +1,136 @@
+{
+  "product_metadata": {
+    "title": "Term Insurance for Senior Citizens",
+    "category": "Term Insurance",
+    "target_audience": "Individuals aged 60 to 70 (eligible up to 75 in some cases)",
+    "coverage_amount_focus": "Customizable (e.g., ₹5 Lakhs to ₹1 Crore+)",
+    "uin": "116N172V04"
+  },
+  "product_summary": {
+    "objective": "To provide financial security, debt repayment support, and post-retirement safety for senior citizens.",
+    "highlights": [
+      "Entry age 60 years and above",
+      "Life cover options up to whole life (99 years)",
+      "Medical check-up often required",
+      "Tax benefits under 80C and 10(10D)",
+      "Return of Premium option available"
+    ]
+  },
+  "plan_variants": [
+    {
+      "variant_name": "Fixed Term Cover",
+      "description": "Coverage for a defined period (e.g., 10, 15, 20 years)."
+    },
+    {
+      "variant_name": "Whole Life Cover",
+      "description": "Coverage typically up to age 99."
+    },
+    {
+      "variant_name": "Return of Premium",
+      "description": "Premiums refunded if the insured survives the policy term."
+    }
+  ],
+  "core_benefits": [
+    {
+      "benefit_type": "Death Benefit",
+      "description": "Sum assured paid to the nominee on death. Can be lump sum, monthly income, or combination."
+    },
+    {
+      "benefit_type": "Health Coverage",
+      "description": "Optional riders for critical illness or medical costs."
+    },
+    {
+      "benefit_type": "Tax Benefits",
+      "description": "Premiums deductible under 80C (up to ₹1.5L). Death benefit tax-free under 10(10D)."
+    }
+  ],
+  "eligibility_and_parameters": {
+    "entry_age": "60 to 70 years (typically)",
+    "maturity_age": "Up to 99 years (Whole Life)",
+    "sum_assured_limits": {
+      "min": "₹5 Lakhs",
+      "max": "No limit (subject to underwriting)"
+    },
+    "policy_term_options": [
+      "10, 15, 20 years",
+      "Whole life (to 99 years)"
+    ]
+  },
+  "optional_features": {
+    "premium_payment_choices": [
+      "Regular Pay",
+      "Limited Pay",
+      "Single Pay"
+    ],
+    "premium_payment_frequency": [
+      "Yearly",
+      "Half-Yearly",
+      "Quarterly",
+      "Monthly"
+    ],
+    "payout_modes": [
+      "Lump Sum",
+      "Monthly Income",
+      "Combination Payout"
+    ],
+    "special_options": [
+      "Return of Premium"
+    ],
+    "discounts": [
+      "16% Discount on 1st year premium (implied from cross-sells)"
+    ]
+  },
+  "riders": [
+    "Critical Illness Benefit Rider",
+    "Accidental Death Benefit Rider",
+    "Waiver of Premium Benefit",
+    "Income Benefit Rider"
+  ],
+  "value_added_services": {
+    "services": []
+  },
+  "sample_illustrations": [],
+  "compliance_rules": {
+    "disclaimer": "Insurance is subject to terms and conditions. Please read the sales brochure and policy document carefully before purchase.",
+    "fraud_warning": "BEWARE of spurious phone calls and fraudulent offers. IRDAI does not sell policies or announce bonuses.",
+    "tax_disclaimer": "Tax benefits are subject to provisions of Section 80C and Section 10(10D) of the Income Tax Act, 1961. Consult your tax advisor."
+  },
+  "retrieval_chunks": [
+    {
+      "chunk_id": "AUTO_SNR_001",
+      "topic": "Main Benefit",
+      "text": "Term insurance for senior citizens provides financial safety for families, covering debts and daily needs upon the insured's demise.",
+      "tags": ["senior citizen", "financial safety", "debt coverage"]
+    },
+    {
+      "chunk_id": "AUTO_SNR_002",
+      "topic": "Eligibility",
+      "text": "Available for individuals aged 60 and above, with options for whole life coverage up to age 99.",
+      "tags": ["eligibility", "age 60+", "whole life"]
+    },
+    {
+      "chunk_id": "AUTO_SNR_003",
+      "topic": "Return of Premium",
+      "text": "The Return of Premium (ROP) option refunds total premiums paid if the policyholder survives the term.",
+      "tags": ["return of premium", "ROP", "refund"]
+    },
+    {
+      "chunk_id": "AUTO_SNR_004",
+      "topic": "Riders",
+      "text": "Optional riders like Critical Illness and Accidental Death Benefit allow enhanced protection for medical and accident risks.",
+      "tags": ["riders", "critical illness", "accidental death"]
+    },
+    {
+      "chunk_id": "AUTO_SNR_005",
+      "topic": "Tax Benefits",
+      "text": "Premiums are tax-deductible up to ₹1.5 lakh under Section 80C. Death benefits are typically tax-free under Section 10(10D).",
+      "tags": ["tax benefit", "80C", "10(10D)"]
+    },
+    {
+      "chunk_id": "AUTO_SNR_006",
+      "topic": "Target Audience",
+      "text": "Designed for seniors who want to leave a legacy, cover outstanding loans, or ensure spouse's financial independence.",
+      "tags": ["audience", "seniors", "legacy"]
+    }
+  ]
+}

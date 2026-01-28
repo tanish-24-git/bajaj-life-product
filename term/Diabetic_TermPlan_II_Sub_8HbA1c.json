@@ -1,0 +1,210 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life Diabetic Term Plan II Sub 8 HbA1c",
+    "category": "Term Insurance",
+    "plan_type": "Non-Linked, Non-Participating, Individual Pure Risk Premium Term Plan",
+    "target_segment": "Type 2 Diabetics (HbA1c ≤ 8) and Pre-Diabetics",
+    "mode_of_sale": "Online",
+    "source_document": "diabetic-term-plan-sl.pdf",
+    "company": "Bajaj Life Insurance Limited"
+  },
+
+  "product_summary": {
+    "objective": "A term insurance plan designed specifically for Type 2 diabetics and pre-diabetics, offering life cover by factoring in the nuances of diabetic health conditions.",
+    "key_highlights": [
+      "Exclusive protection plan for diabetics (HbA1c ≤ 8)",
+      "Provides comprehensive financial security to family",
+      "Includes Health Management Services through consultations and webinars",
+      "Flexible premium payment frequencies",
+      "Tax benefits as per prevailing laws"
+    ],
+    "medical_definition_note": {
+      "HbA1c": "A blood test showing average blood sugar levels over past 2–3 months",
+      "pre_diabetic_range": "5.7% to 6.4%",
+      "diabetic_threshold": "6.5% or above"
+    }
+  },
+
+  "plan_variants": [
+    {
+      "variant_name": "Single Variant Plan",
+      "features": [
+        "Pure term insurance cover",
+        "No maturity benefit",
+        "Coverage exclusively for diabetics/pre-diabetics"
+      ],
+      "return_of_premium": false,
+      "maturity_benefit": false
+    }
+  ],
+
+  "core_benefits": [
+    {
+      "benefit_name": "Death Benefit",
+      "details": "On death during the policy term, nominee receives Sum Assured on Death (policy terminates).",
+      "sum_assured_on_death_definition": "Higher of: (a) 10× Annualised Premium, (b) 105% of Total Premiums Paid, (c) Sum Assured"
+    },
+    {
+      "benefit_name": "Maturity Benefit",
+      "details": "No benefit is payable on survival till maturity since this is a pure term insurance product.",
+      "maturity_payout": "None"
+    }
+  ],
+
+  "eligibility_and_parameters": {
+    "entry_age": {
+      "minimum": 30,
+      "maximum": 60
+    },
+    "maturity_age": {
+      "minimum": 35,
+      "maximum": 75
+    },
+    "policy_term": {
+      "minimum": "5 years",
+      "maximum": "25 years"
+    },
+    "premium_payment_term": "Regular Pay (Premium Payment Term = Policy Term)",
+    "sum_assured_limits": {
+      "minimum": "₹25,00,000",
+      "maximum": "No Limit (subject to Board Approved Underwriting Policy)"
+    },
+    "premium_payment_frequency": [
+      "Yearly",
+      "Half-Yearly",
+      "Quarterly",
+      "Monthly (auto-debit only)"
+    ],
+    "availability": "Online only",
+    "sum_assured_multiple_rule": "Sum Assured selectable in multiples of ₹1,00,000"
+  },
+
+  "optional_features": {
+    "premium_frequency_change": {
+      "availability": "Allowed at any policy anniversary",
+      "modal_factors": {
+        "monthly": 0.0875,
+        "quarterly": 0.26,
+        "half_yearly": 0.51,
+        "yearly": 1.0
+      }
+    },
+
+    "rebates_and_discounts": {
+      "high_sum_assured_rebate": "Applicable if Sum Assured > ₹1 Crore",
+      "salary_rebate": "5% discount on first-year premium for salaried employees",
+      "online_web_aggregator_discount": "5% rebate on first-year premium",
+      "staff_rebate": "4% rebate throughout premium payment term",
+      "preferential_rates": "Available for non-tobacco users"
+    },
+
+    "surrender_value": {
+      "availability": "Not applicable",
+      "details": "No surrender value is available under this plan"
+    },
+
+    "loan": {
+      "availability": false
+    }
+  },
+
+  "value_added_services": {
+    "health_management_services": {
+      "availability": "Provided if premiums are paid on time",
+      "includes": [
+        "Medical second opinion",
+        "Medical case management",
+        "Medical consultation from registered service providers",
+        "Diabetes and general health webinars"
+      ],
+      "objective": "Helps life assured manage diabetes and improve overall health"
+    }
+  },
+
+  "sample_illustrations": [
+    {
+      "sum_assured": "₹50 Lakhs",
+      "example_premiums": [
+        {
+          "age": 35,
+          "policy_term_10": "₹6,986/year",
+          "policy_term_15": "₹7,622/year",
+          "policy_term_20": "₹8,799/year"
+        },
+        {
+          "age": 40,
+          "policy_term_10": "₹9,547/year",
+          "policy_term_15": "₹11,114/year",
+          "policy_term_20": "₹13,090/year"
+        },
+        {
+          "age": 45,
+          "policy_term_10": "₹14,643/year",
+          "policy_term_15": "₹17,217/year",
+          "policy_term_20": "₹19,859/year"
+        }
+      ],
+      "notes": "Premiums include GST, for male non-smoker, annual frequency, excluding underwriting loadings"
+    }
+  ],
+
+  "compliance_rules": {
+    "must_disclose": [
+      "Insurance is subject to terms and conditions.",
+      "Please read the sales brochure, policy document and benefit illustration carefully."
+    ],
+    "fraud_warning": "BEWARE of spurious phone calls and fictitious/fraudulent offers. IRDAI does not sell policies or announce bonuses.",
+    "tax_disclaimer": "Tax benefits are subject to provisions of Income Tax Act and amendments. Consult your tax advisor.",
+    "free_look_period": "30 days free look available from date of policy receipt.",
+    "grace_period": {
+      "monthly": "15 days",
+      "other_modes": "30 days"
+    },
+    "suicide_exclusion": "If death due to suicide within 12 months, nominee receives 80% of Total Premiums Paid."
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "DTPLAN_SEGMENT_001",
+      "topic": "Who is this plan for?",
+      "text": "Bajaj Life Diabetic Term Plan II is designed exclusively for Type 2 diabetics (HbA1c ≤ 8) and pre-diabetics.",
+      "page": 2,
+      "tags": ["diabetic term plan", "HbA1c", "type 2 diabetes"]
+    },
+    {
+      "chunk_id": "DTPLAN_BENEFIT_002",
+      "topic": "Death Benefit",
+      "text": "On death during policy term, nominee receives Sum Assured on Death which is higher of 10× annual premium, 105% of premiums paid, or sum assured.",
+      "page": 3,
+      "tags": ["death benefit", "sum assured definition"]
+    },
+    {
+      "chunk_id": "DTPLAN_MATURITY_003",
+      "topic": "Maturity Benefit",
+      "text": "This is a pure term plan, so no maturity benefit is payable on survival till maturity.",
+      "page": 3,
+      "tags": ["no maturity benefit", "pure protection"]
+    },
+    {
+      "chunk_id": "DTPLAN_ELIGIBILITY_004",
+      "topic": "Eligibility Criteria",
+      "text": "Entry age is 30–60 years, maturity age is 35–75 years, policy term is 5–25 years, minimum sum assured is ₹25 Lakhs.",
+      "page": 3,
+      "tags": ["eligibility", "age limits", "sum assured"]
+    },
+    {
+      "chunk_id": "DTPLAN_SERVICE_005",
+      "topic": "Health Management Services",
+      "text": "Includes medical consultation, second opinion, webinars and diabetes health support, provided premiums are paid on time.",
+      "page": 4,
+      "tags": ["health management", "diabetes support"]
+    },
+    {
+      "chunk_id": "DTPLAN_DISCOUNT_006",
+      "topic": "Premium Discounts",
+      "text": "Discounts include salary rebate (5%), online rebate (5%), staff rebate (4%), and high sum assured rebate above ₹1 Crore.",
+      "page": 4,
+      "tags": ["discounts", "rebates", "premium savings"]
+    }
+  ]
+}

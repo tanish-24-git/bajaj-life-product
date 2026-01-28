@@ -1,0 +1,233 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life Smart Protection Goal",
+    "category": "Term Insurance",
+    "plan_type": "Non-Linked, Non-Participating, Individual Life Insurance Term Plan",
+    "mode_of_sale": "Online",
+    "source_document": "spg-sl.pdf",
+    "company": "Bajaj Life Insurance Limited"
+  },
+
+  "product_summary": {
+    "objective": "Bajaj Life Smart Protection Goal is a flexible term protection plan designed to secure life goals with optional Critical Illness Benefit, Return of Premium feature, and Whole Life cover up to age 99.",
+    "key_highlights": [
+      "Death Benefit lump sum protection",
+      "Option to choose Return of Premium (ROP) as maturity benefit",
+      "Option to opt for Whole Life cover up to age 99",
+      "Optional Critical Illness Benefit (CIB) with separate CI sum assured",
+      "Limited Pay or Regular Pay premium options",
+      "Premium rebates like salary discount, first-time buyer discount, online discount",
+      "Health Management Services (medical consultation, second opinion, case management)"
+    ],
+    "important_notes": [
+      "If Whole Life option is chosen, ROP is not available.",
+      "Optional benefits can be chosen only at inception and cannot be changed later."
+    ]
+  },
+
+  "plan_variants": [
+    {
+      "variant_name": "Base Life Cover Only",
+      "includes": ["Death Benefit"],
+      "rop_available": false,
+      "critical_illness_available": true,
+      "whole_life_available": true
+    },
+    {
+      "variant_name": "Life Cover + Return of Premium (ROP)",
+      "includes": ["Death Benefit", "Maturity Benefit (ROP)"],
+      "rop_available": true,
+      "whole_life_available": false
+    },
+    {
+      "variant_name": "Life Cover + Critical Illness Benefit (CIB)",
+      "includes": ["Death Benefit", "Critical Illness Benefit"],
+      "cib_available": true
+    },
+    {
+      "variant_name": "Life Cover + CIB + ROP",
+      "includes": [
+        "Death Benefit",
+        "Critical Illness Benefit",
+        "Maturity Benefit (ROP)"
+      ],
+      "rop_available": true,
+      "cib_available": true
+    },
+    {
+      "variant_name": "Whole Life Cover (Up to age 99)",
+      "includes": ["Death Benefit", "Optional CIB"],
+      "whole_life": true,
+      "rop_available": false
+    }
+  ],
+
+  "core_benefits": [
+    {
+      "benefit_name": "Death Benefit",
+      "details": "Nominee receives Sum Assured chosen at inception. Policy terminates after payout.",
+      "minimum_guarantee": "Death Benefit will not be less than 105% of Total Premiums Paid."
+    },
+    {
+      "benefit_name": "Maturity Benefit (Only if ROP Opted)",
+      "details": "If Life Assured survives till maturity and no death claim has occurred, Total Premiums Paid is returned as lump sum.",
+      "rop_condition": "ROP applicable for both Life Cover premium and CI premium (if CI opted)."
+    },
+    {
+      "benefit_name": "Critical Illness Benefit (Optional)",
+      "details": "Pays CI Sum Assured on diagnosis of listed Critical Illness, subject to waiting period, cooling period, and survival period.",
+      "minor_ci_rules": {
+        "minor_ci_payout": "25% of CI Sum Assured",
+        "angioplasty_cap": "Lower of ₹5 Lakhs or 25% of CI Sum Assured",
+        "max_minor_claims": 4,
+        "major_ci_payout": "100% of CI Sum Assured",
+        "total_ci_claims_cap": "Maximum 100% of CI Sum Assured"
+      },
+      "waiting_period": "180 days",
+      "survival_period": "14 days"
+    },
+    {
+      "benefit_name": "Whole Life Option",
+      "details": "Provides life cover up to age 99 years (only with limited premium payment option)."
+    }
+  ],
+
+  "eligibility_and_parameters": {
+    "entry_age": {
+      "minimum": 18,
+      "maximum": 65,
+      "rop_pay_till_60_min": 25,
+      "rop_pay_till_60_max": 55
+    },
+    "maturity_age": {
+      "life_cover": 85,
+      "whole_life": 99,
+      "critical_illness_cover": 80
+    },
+    "sum_assured_limits": {
+      "life_cover_minimum": "₹50 Lakhs",
+      "life_cover_maximum": "No Limit (as per underwriting)",
+      "ci_sum_assured_minimum": "₹5 Lakhs",
+      "ci_sum_assured_maximum": "₹1 Crore"
+    },
+    "premium_payment_options": [
+      "Regular Premium (RP)",
+      "Limited Premium (LP: 5,10,15,20, Pay-till-60)"
+    ],
+    "policy_term_rules": {
+      "without_rop_max": "85 - Entry Age",
+      "with_rop_max": "50 years",
+      "whole_life_term": "99 - Entry Age"
+    }
+  },
+
+  "optional_features": {
+    "termination_value": {
+      "availability": "If ROP not opted and PPT < PT",
+      "payable_after": "After premium payment term completion"
+    },
+    "surrender_value": {
+      "availability": "Only if ROP opted",
+      "condition": "After completion of 1 policy year with at least 1 full premium paid",
+      "payable": "Higher of Guaranteed Surrender Value (GSV) or Special Surrender Value (SSV)",
+      "cap": "Not more than 100% of total premiums paid"
+    },
+    "policy_loan": {
+      "availability": "Only if ROP opted",
+      "limit": "Up to 50% of surrender value",
+      "interest_rate": "Currently 10% p.a. compounded half-yearly"
+    }
+  },
+
+  "premium_discounts": {
+    "salary_rebate": "5% discount on first-year premium for salaried employees",
+    "insurance_for_all_discount": "5% discount for first-time life insurance buyers",
+    "high_sum_assured_rebate": "Applicable for Sum Assured ≥ ₹1 Crore",
+    "female_life_rebate": "Premium based on 3 years younger male rate",
+    "online_discount": "6% rebate on first-year premium for online policies",
+    "preferential_rates": "For women and non-tobacco users"
+  },
+
+  "sample_illustrations": [
+    {
+      "illustration": 1,
+      "name": "Rishabh",
+      "age": 35,
+      "sum_assured": "₹1 Crore",
+      "policy_term": 50,
+      "premium": "₹21,998 per annum",
+      "rop_opted": false,
+      "ci_opted": false,
+      "scenario": "Death at age 50 → nominee gets ₹1 Crore lump sum"
+    },
+    {
+      "illustration": 2,
+      "name": "Romi",
+      "age": 35,
+      "sum_assured": "₹1 Crore",
+      "policy_term": 30,
+      "premium": "₹38,215 per annum",
+      "rop_opted": true,
+      "ci_opted": true,
+      "ci_sum_assured": "₹10 Lakhs",
+      "scenario_1": "Death at age 55 → nominee gets ₹1 Crore",
+      "scenario_2": "Major CI at age 55 → ₹10 Lakhs paid, life cover continues",
+      "scenario_3": "Survival till maturity → ₹11,46,450 returned as ROP"
+    }
+  ],
+
+  "compliance_rules": {
+    "must_disclose": [
+      "Insurance is subject to terms and conditions.",
+      "Please read the sales brochure and policy document carefully before purchase."
+    ],
+    "waiting_period_ci": "180 days waiting period applies for Critical Illness Benefit.",
+    "cooling_off_minor_ci": "180 days cooling-off applies between minor CI claims.",
+    "suicide_exclusion": "If suicide within 12 months, payout is higher of 80% premiums paid or termination/surrender value.",
+    "grace_period": {
+      "monthly": "15 days",
+      "other_modes": "30 days"
+    },
+    "fraud_warning": "BEWARE of spurious phone calls and fraudulent offers. IRDAI does not sell policies or announce bonuses.",
+    "tax_disclaimer": "Tax benefits are subject to provisions of Income Tax Act amendments. Consult your tax advisor.",
+    "free_look_period": "30 days free look available from receipt of policy document."
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "SPG_VARIANT_001",
+      "topic": "Plan Options",
+      "text": "Smart Protection Goal offers optional Return of Premium, optional Critical Illness Benefit, and Whole Life cover up to age 99.",
+      "page": 2,
+      "tags": ["variants", "rop", "whole life", "critical illness"]
+    },
+    {
+      "chunk_id": "SPG_BENEFIT_002",
+      "topic": "Death Benefit",
+      "text": "Nominee receives the chosen Sum Assured as death benefit. Minimum payout will not be less than 105% of premiums paid.",
+      "page": 3,
+      "tags": ["death benefit", "105% guarantee"]
+    },
+    {
+      "chunk_id": "SPG_CI_003",
+      "topic": "Critical Illness Benefit",
+      "text": "Critical Illness Benefit pays lump sum on diagnosis. Minor CI pays 25%, angioplasty capped at ₹5 Lakhs, max four minor CI claims allowed.",
+      "page": 3,
+      "tags": ["critical illness", "minor CI", "major CI"]
+    },
+    {
+      "chunk_id": "SPG_ROP_004",
+      "topic": "Return of Premium",
+      "text": "If ROP is opted and no claims occur, total premiums paid are returned as maturity benefit at the end of policy term.",
+      "page": 3,
+      "tags": ["maturity benefit", "return of premium"]
+    },
+    {
+      "chunk_id": "SPG_DISCOUNT_005",
+      "topic": "Premium Discounts",
+      "text": "Discounts include salary rebate (5%), first-time buyer discount (5%), online discount (6%), and high sum assured rebate above ₹1 Crore.",
+      "page": 8,
+      "tags": ["discounts", "rebates", "online"]
+    }
+  ]
+}

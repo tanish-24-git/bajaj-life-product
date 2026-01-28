@@ -1,0 +1,173 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life Superwoman Term",
+    "category": "Term Insurance Plan",
+    "target_segment": "Women",
+    "plan_type": "Non-linked, Non-participating Individual Term Plan",
+    "base_plan": "Bajaj Life eTouch II – Life Shield Variant",
+    "uin": "116N198V05",
+    "source_document": "SWT-one-pager.pdf"
+  },
+
+  "product_summary": {
+    "objective": "Provides comprehensive protection to women against uncertainties like death and critical illness, with an optional child care income benefit.",
+    "key_highlights": [
+      "Death benefit lump sum payout",
+      "Terminal illness benefit up to ₹2 Crores",
+      "Coverage against 60 critical illnesses including women-specific cancers",
+      "Optional child care rider with monthly income till child turns 25",
+      "Free health management services worth ₹36,500/year"
+    ]
+  },
+
+  "core_benefits": [
+    {
+      "benefit_name": "Death Benefit",
+      "payout_type": "Lump sum",
+      "details": "Paid to the nominee in case of unfortunate death of the Life Assured."
+    },
+    {
+      "benefit_name": "Terminal Illness Benefit",
+      "payout_type": "Lump sum",
+      "coverage_limit": "Up to ₹2 Crores",
+      "trigger": "Diagnosis of terminal illness",
+      "notes": "For more details, please refer to the sales brochure."
+    }
+  ],
+
+  "riders": [
+    {
+      "rider_name": "Bajaj Life New Critical Illness Benefit Rider – Comprehensive Variant",
+      "uin": "116B058V01",
+      "coverage": "60 major critical illnesses",
+      "women_specific_conditions": [
+        "Breast cancer",
+        "Corpus uteri cancer",
+        "Cervix uteri cancer",
+        "Ovary cancer",
+        "Vulva cancer",
+        "Vagina cancer"
+      ],
+      "payout_type": "Lump sum payout on diagnosis"
+    },
+    {
+      "rider_name": "Bajaj Life Family Protect Rider – Child Care Variant",
+      "uin": "116B056V01",
+      "optional": true,
+      "payout_rules": {
+        "lump_sum": "105% of total rider premiums paid (excluding taxes)",
+        "monthly_income_until_child_age": 25,
+        "income_calculation": "0.5% of Rider Sum Assured per month"
+      }
+    }
+  ],
+
+  "value_added_services": {
+    "health_management_services": {
+      "free_value": "₹36,500 per year",
+      "includes": [
+        "Comprehensive Health Check-Up",
+        "OPD in-clinic consultation",
+        "Pregnancy OPD wallet",
+        "Emotional wellness support",
+        "Nutritionist consultation"
+      ],
+      "notes": "Service value based on estimated average market price."
+    }
+  },
+
+  "sample_illustrations": [
+    {
+      "case": "Example 1",
+      "name": "Pallavi",
+      "age": 25,
+      "goal": "Secure parents' financial future",
+      "sum_assured": "₹1 Crore",
+      "critical_illness_cover": "₹10 Lakhs",
+      "child_care_opted": false,
+      "premium": "₹1,956/month",
+      "scenario": "Diagnosed with cancer, CI benefit paid"
+    },
+    {
+      "case": "Example 2",
+      "name": "Meera",
+      "age": 35,
+      "goal": "Secure child’s future income support",
+      "sum_assured": "₹1 Crore",
+      "child_care_opted": true,
+      "child_income": "₹10,000/month from child age 18 till 25",
+      "premium": "₹3,491/month",
+      "scenario": "Death due to accident, nominee gets lump sum + child income"
+    }
+  ],
+
+  "plan_parameters_table": {
+    "base_plan": {
+      "sum_assured": "₹1 Crore",
+      "policy_term": "40 years",
+      "premium_payment_term": "20 years"
+    },
+    "critical_illness_rider": {
+      "sum_assured": "₹10 Lakhs",
+      "policy_term": "10 years",
+      "premium_payment_term": "10 years"
+    },
+    "child_care_rider": {
+      "sum_assured": "₹20 Lakhs",
+      "policy_term": "23 years",
+      "premium_payment_term": "10 years"
+    }
+  },
+
+  "compliance_rules": {
+    "must_disclose": [
+      "Insurance is subject to terms and conditions.",
+      "Please read the sales brochure and policy document carefully before purchase."
+    ],
+    "tax_disclaimer": "Tax benefits are applicable as per prevailing Section 80C and Section 10(10D) under the Income Tax Act (old regime). Consult your tax advisor.",
+    "fraud_warning": "BEWARE of spurious phone calls and fictitious/fraudulent offers. IRDAI does not sell policies or announce bonuses.",
+    "never_say": [
+      "Guaranteed returns",
+      "No risk plan",
+      "Best investment product"
+    ]
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "SWT_BENEFIT_001",
+      "topic": "Death Benefit",
+      "text": "Death Benefit provides a lump sum payout to the nominee in case of death of the life assured.",
+      "page": 1,
+      "tags": ["death benefit", "nominee payout"]
+    },
+    {
+      "chunk_id": "SWT_BENEFIT_002",
+      "topic": "Terminal Illness Benefit",
+      "text": "Terminal illness benefit offers lump sum payout up to ₹2 Crores upon diagnosis of terminal illness.",
+      "page": 1,
+      "tags": ["terminal illness", "lump sum"]
+    },
+    {
+      "chunk_id": "SWT_RIDER_003",
+      "topic": "Critical Illness Rider",
+      "text": "Critical Illness Rider covers 60 illnesses including women-specific cancers like breast and ovarian cancer.",
+      "page": 1,
+      "tags": ["critical illness", "women cancer cover"]
+    },
+    {
+      "chunk_id": "SWT_RIDER_004",
+      "topic": "Child Care Rider",
+      "text": "Child Care Rider pays 105% of premiums plus monthly income until the child turns 25 years old.",
+      "page": 1,
+      "tags": ["child care", "monthly income", "education support"]
+    },
+    {
+      "chunk_id": "SWT_SERVICE_005",
+      "topic": "Health Management Services",
+      "text": "Provides free health services worth ₹36,500/year including checkups, OPD consultation, emotional wellness, and nutritionist support.",
+      "page": 1,
+      "tags": ["health management", "wellness benefits"]
+    }
+  ]
+}

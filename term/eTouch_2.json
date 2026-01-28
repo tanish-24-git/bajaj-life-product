@@ -1,0 +1,236 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life eTouch II",
+    "category": "Term Insurance",
+    "plan_type": "Non-Linked, Non-Participating, Individual Life Insurance Term Plan",
+    "uin": "116N198V06",
+    "source_document": "etouch-plan-sl.pdf",
+    "mode_of_sale": "Online",
+    "company": "Bajaj Life Insurance Limited"
+  },
+
+  "product_summary": {
+    "objective": "Bajaj Life eTouch II is a protection-focused term plan designed to safeguard the policyholder and family against uncertainties like death, terminal illness, and accidents with flexible payout options.",
+    "key_advantages": [
+      "Death & Terminal Illness coverage",
+      "Choice of variants (Life Shield, Life Shield Plus, Life Shield ROP)",
+      "Option for Return of Premiums (ROP variant)",
+      "Extra payout in accidental death (Plus variant)",
+      "Flexible death benefit payout: lump sum or monthly income",
+      "Premium Holiday option (skip premiums temporarily)",
+      "Auto Cover Continuance Benefit (premium deferral up to 12 months)",
+      "Early Exit Value option after long-term continuation",
+      "Health Management Services included",
+      "Optional riders for enhanced protection",
+      "Tax benefits as per prevailing laws"
+    ]
+  },
+
+  "plan_variants": [
+    {
+      "variant_name": "Life Shield",
+      "includes": ["Death Benefit", "Terminal Illness Benefit", "Waiver of Premium on ATPD/TI"],
+      "return_of_premium": false,
+      "accidental_death_benefit": false
+    },
+    {
+      "variant_name": "Life Shield Plus",
+      "includes": [
+        "Death Benefit",
+        "Terminal Illness Benefit",
+        "Accidental Death Benefit (ADB)",
+        "Waiver of Premium on ATPD/TI"
+      ],
+      "return_of_premium": false,
+      "accidental_death_benefit": true
+    },
+    {
+      "variant_name": "Life Shield ROP",
+      "includes": [
+        "Death Benefit",
+        "Terminal Illness Benefit",
+        "Waiver of Premium on ATPD/TI",
+        "Maturity Benefit (Return of Premiums Paid)"
+      ],
+      "return_of_premium": true,
+      "accidental_death_benefit": false
+    }
+  ],
+
+  "core_benefits": [
+    {
+      "benefit_name": "Death Benefit",
+      "details": "Nominee receives Sum Assured on Death. Option available for lump sum, monthly income (5–40 years), or combination.",
+      "payout_modes": ["Lump Sum", "Monthly Instalments", "Combination"]
+    },
+    {
+      "benefit_name": "Terminal Illness Benefit",
+      "coverage_limit": "Maximum ₹2 Crores",
+      "details": "Accelerated death benefit. If Sum Assured > ₹2 Cr, ₹2 Cr is paid and remaining cover continues with premium waiver."
+    },
+    {
+      "benefit_name": "Accidental Death Benefit (Life Shield Plus only)",
+      "details": "Additional payout equal to ADB Sum Assured if death occurs due to accident.",
+      "adb_limit": "Up to ₹2 Crores"
+    },
+    {
+      "benefit_name": "Maturity Benefit (ROP variant only)",
+      "details": "If Life Assured survives till maturity with no prior claims, Total Premiums Paid is returned as lump sum or instalments."
+    },
+    {
+      "benefit_name": "Waiver of Premium (WOP) Benefit",
+      "trigger": ["Accidental Total Permanent Disability", "Terminal Illness (if SA > ₹2 Cr)"],
+      "details": "Future premiums are waived and coverage continues."
+    }
+  ],
+
+  "eligibility_and_parameters": {
+    "entry_age": {
+      "min": 18,
+      "max": 65,
+      "pay_till_60_max_age": 55
+    },
+    "maturity_age": {
+      "life_shield": 99,
+      "life_shield_plus_adb": 85,
+      "rop_variant_max": 85
+    },
+    "sum_assured": {
+      "minimum": "₹50 Lakhs",
+      "maximum": "No limit (subject to underwriting)"
+    },
+    "premium_payment_terms": [
+      "5 Pay",
+      "6 Pay",
+      "10 Pay",
+      "12 Pay",
+      "15 Pay",
+      "20 Pay",
+      "Pay till Age 60",
+      "Regular Pay"
+    ],
+    "premium_frequency": ["Yearly", "Half-Yearly", "Quarterly", "Monthly"]
+  },
+
+  "optional_features": {
+    "early_exit_value": {
+      "availability": "Life Shield & Life Shield Plus only",
+      "condition": "Can be exercised after 25 policy years and minimum age 60",
+      "benefit": "Return of Total Premiums Paid (subject to rules)"
+    },
+    "life_stage_upgrade": {
+      "availability": "Life Shield & Plus",
+      "events": ["Marriage", "1st Child", "2nd Child", "Home Loan", "Education Loan"],
+      "max_increase_cap": "100% of original Sum Assured"
+    },
+    "premium_holiday": {
+      "availability": "All variants",
+      "skip_years": [1, 2, 3],
+      "conditions": "First holiday allowed after 5 policy years"
+    },
+    "auto_cover_continuance": {
+      "benefit": "Premium deferral up to 12 months with full cover continuation",
+      "gap_required": "Minimum 5 policy years between uses"
+    }
+  },
+
+  "riders": [
+    {
+      "rider_name": "Bajaj Life Family Protect Rider",
+      "uin": "116B056V01"
+    },
+    {
+      "rider_name": "Bajaj Life New Critical Illness Benefit Rider",
+      "uin": "116B058V01"
+    },
+    {
+      "rider_name": "Bajaj Accidental Death Benefit Rider",
+      "uin": "116B034V02"
+    },
+    {
+      "rider_name": "Bajaj Accidental Permanent Total/Partial Disability Rider",
+      "uin": "115B036V02"
+    }
+  ],
+
+  "sample_illustrations": [
+    {
+      "case": "Life Shield Example",
+      "name": "Ravi",
+      "age": 35,
+      "sum_assured": "₹1 Crore",
+      "premium": "₹23,797/year",
+      "scenario": "Death at age 50 → nominee receives ₹1 Crore lump sum"
+    },
+    {
+      "case": "Life Shield Plus Example",
+      "name": "Rajesh",
+      "age": 35,
+      "sum_assured": "₹1 Crore",
+      "adb_cover": "₹1 Crore",
+      "premium": "₹30,019/year",
+      "scenario": "Accidental death → nominee receives total ₹2 Crores"
+    },
+    {
+      "case": "Life Shield ROP Example",
+      "name": "Rahul",
+      "age": 45,
+      "sum_assured": "₹1 Crore",
+      "premium": "₹77,082/year",
+      "maturity_value": "₹30,83,260",
+      "scenario": "Survives till age 85 → premiums returned"
+    }
+  ],
+
+  "compliance_rules": {
+    "must_disclose": [
+      "Insurance is subject to terms and conditions.",
+      "Please read the sales brochure and policy document carefully before purchase."
+    ],
+    "fraud_warning": "BEWARE of spurious phone calls and fraudulent offers. IRDAI does not sell policies or announce bonuses.",
+    "never_say": [
+      "Guaranteed returns",
+      "Best plan",
+      "No risk product"
+    ],
+    "tax_disclaimer": "Tax benefits are subject to provisions of Income Tax Act and amendments. Consult your tax advisor."
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "ETOUCH_BENEFIT_001",
+      "topic": "Death Benefit",
+      "text": "Nominee receives Sum Assured on Death, payable as lump sum or monthly instalments for 5–40 years.",
+      "page": 3,
+      "tags": ["death benefit", "income option"]
+    },
+    {
+      "chunk_id": "ETOUCH_BENEFIT_002",
+      "topic": "Terminal Illness Benefit",
+      "text": "Terminal Illness Benefit pays up to ₹2 Crores. If Sum Assured exceeds ₹2 Cr, remaining cover continues with premium waiver.",
+      "page": 3,
+      "tags": ["terminal illness", "accelerated benefit"]
+    },
+    {
+      "chunk_id": "ETOUCH_VARIANT_003",
+      "topic": "Variants Available",
+      "text": "eTouch II offers Life Shield, Life Shield Plus (with Accidental Death Benefit), and Life Shield ROP (Return of Premium).",
+      "page": 2,
+      "tags": ["variants", "ROP", "ADB"]
+    },
+    {
+      "chunk_id": "ETOUCH_FEATURE_004",
+      "topic": "Premium Holiday",
+      "text": "Premium Holiday allows skipping premiums for 1–3 years while keeping policy benefits active.",
+      "page": 11,
+      "tags": ["premium holiday", "flexibility"]
+    },
+    {
+      "chunk_id": "ETOUCH_FEATURE_005",
+      "topic": "Early Exit Value",
+      "text": "Early Exit Value allows policyholder to exit after 25 policy years and get Total Premiums Paid back, subject to conditions.",
+      "page": 9,
+      "tags": ["early exit", "return premiums"]
+    }
+  ]
+}

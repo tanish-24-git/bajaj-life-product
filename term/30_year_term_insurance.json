@@ -1,0 +1,129 @@
+{
+  "product_metadata": {
+    "title": "30 Year Term Insurance Policy",
+    "category": "Term Insurance",
+    "target_audience": "Ideally for those starting new families, planning retirement in 30 years, or with long-term loans",
+    "coverage_amount_focus": "Flexible Sum Assured (Coverage Duration Focus: 30 Years)",
+    "uin": "116N172V04"
+  },
+  "product_summary": {
+    "objective": "To provide financial protection and income replacement for a fixed tenure of 30 years.",
+    "highlights": [
+      "Coverage lasts for 30 years",
+      "Fixed premium throughout the tenure",
+      "Income replacement option",
+      "Tax benefits under Section 80C and 10(10D)",
+      "Debt protection for long-term loans"
+    ]
+  },
+  "plan_variants": [
+    {
+      "variant_name": "Standard 30-Year Term Plan",
+      "description": "Pure term insurance with death benefit valid for 30 years."
+    },
+    {
+      "variant_name": "Return of Premium",
+      "description": "Premiums paid are refunded on maturity if the insured survives the 30-year policy tenure."
+    }
+  ],
+  "core_benefits": [
+    {
+      "benefit_type": "Death Benefit",
+      "description": "Sum assured paid to the nominee if the insured passes away during the 30-year policy tenure."
+    },
+    {
+      "benefit_type": "Maturity Benefit",
+      "description": "No benefit under normal term plans. Return of Total Premiums Paid available under Return of Premium variant."
+    },
+    {
+      "benefit_type": "Tax Benefits",
+      "description": "Premiums eligible for deduction under Section 80C. Death benefit tax-free under Section 10(10D)."
+    }
+  ],
+  "eligibility_and_parameters": {
+    "entry_age": null,
+    "maturity_age": null,
+    "sum_assured_limits": {
+      "min": "Flexible",
+      "max": "No limit (subject to underwriting)"
+    },
+    "policy_term_options": [
+      "Fixed 30 years"
+    ]
+  },
+  "optional_features": {
+    "premium_payment_choices": [
+      "Regular Pay",
+      "Limited Pay",
+      "Single Pay"
+    ],
+    "premium_payment_frequency": [
+      "Yearly",
+      "Half-Yearly",
+      "Quarterly",
+      "Monthly"
+    ],
+    "payout_modes": [
+      "Lump Sum",
+      "Monthly Income"
+    ],
+    "special_options": [
+      "Life Stage Benefit (increase sum assured at milestones)",
+      "Convertible to Whole Life (if applicable)"
+    ],
+    "discounts": []
+  },
+  "riders": [
+    "Critical Illness Benefit Rider",
+    "Accidental Death Benefit Rider",
+    "Waiver of Premium Benefit",
+    "Accidental Permanent Disability Rider"
+  ],
+  "value_added_services": {
+    "services": []
+  },
+  "sample_illustrations": [],
+  "compliance_rules": {
+    "disclaimer": "Insurance is subject to terms and conditions. Please read the sales brochure and policy document carefully before purchase.",
+    "fraud_warning": "BEWARE of spurious phone calls and fraudulent offers. IRDAI does not sell policies or announce bonuses.",
+    "tax_disclaimer": "Tax benefits are subject to provisions of Section 80C and Section 10(10D) of the Income Tax Act, 1961. Consult your tax advisor."
+  },
+  "retrieval_chunks": [
+    {
+      "chunk_id": "AUTO_30Y_001",
+      "topic": "Main Benefit",
+      "text": "A 30-year term insurance policy offers life cover for a fixed tenure of 30 years. It ensures financial protection during critical years.",
+      "tags": ["30 year term", "long term coverage", "financial protection"]
+    },
+    {
+      "chunk_id": "AUTO_30Y_002",
+      "topic": "Fixed Premium",
+      "text": "The premium amount is fixed throughout the 30-year policy tenure, shielding you from inflation and age-based hikes.",
+      "tags": ["fixed premium", "cost stability", "inflation protection"]
+    },
+    {
+      "chunk_id": "AUTO_30Y_003",
+      "topic": "Debt Protection",
+      "text": "Ideal for covering long-term liabilities like home loans, ensuring your family isn't burdened with debt.",
+      "tags": ["debt protection", "home loan cover", "liability cover"]
+    },
+    {
+      "chunk_id": "AUTO_30Y_004",
+      "topic": "Return of Premium",
+      "text": "Option to get a refund of total premiums paid if you survive the 30-year policy term.",
+      "tags": ["return of premium", "maturity benefit", "refund"]
+    },
+    {
+      "chunk_id": "AUTO_30Y_005",
+      "topic": "Tax Benefits",
+      "text": "Premiums are tax-deductible up to ₹1.5 lakh under Section 80C. Death benefits are tax-free under Section 10(10D).",
+      "tags": ["tax benefit", "80C", "10(10D)"]
+    },
+    {
+      "chunk_id": "AUTO_30Y_006",
+      "topic": "Target Audience",
+      "text": "Suitable for new families, those planning retirement in 30 years, and home loan borrowers.",
+      "tags": ["audience", "new families", "retirement planning"]
+    }
+  ]
+}

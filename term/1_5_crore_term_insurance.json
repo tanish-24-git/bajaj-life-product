@@ -1,0 +1,142 @@
+{
+  "product_metadata": {
+    "title": "₹1.5 Crore Term Insurance Plan",
+    "category": "Term Insurance",
+    "target_audience": "Young individuals, breadwinners, high net worth individuals",
+    "coverage_amount_focus": "₹1.5 Crore",
+    "uin": "116N198V05"
+  },
+  "product_summary": {
+    "objective": "To provide high-value life coverage of ₹1.5 Crore to secure the family's financial future against unforeseen risks.",
+    "highlights": [
+      "Life cover of ₹1.5 Cr @ ₹18/day",
+      "16% Discount on 1st year Premium",
+      "Return of Premium Option available",
+      "Tax Benefits up to ₹46,800 under Section 80C",
+      "Premium Holiday option",
+      "Online discount of 6% for regular premium payment"
+    ]
+  },
+  "plan_variants": [
+    {
+      "variant_name": "Standard Term Plan",
+      "description": "Pure term insurance with death benefit."
+    },
+    {
+      "variant_name": "Return of Premium",
+      "description": "Premiums paid are refunded on maturity if the insured survives the policy tenure."
+    }
+  ],
+  "core_benefits": [
+    {
+      "benefit_type": "Death Benefit",
+      "description": "Sum assured of ₹1.5 Crore paid to the nominee if the insured passes away during the policy tenure."
+    },
+    {
+      "benefit_type": "Maturity Benefit",
+      "description": "No benefit under normal term plans. Return of Total Premiums Paid available under Return of Premium variant."
+    },
+    {
+      "benefit_type": "Tax Benefits",
+      "description": "Premiums eligible for deduction under Section 80C. Death benefit tax-free under Section 10(10D)."
+    }
+  ],
+  "eligibility_and_parameters": {
+    "entry_age": null,
+    "maturity_age": null,
+    "sum_assured_limits": {
+      "min": "₹1.5 Crore",
+      "max": "No limit (subject to underwriting)"
+    },
+    "policy_term_options": [
+      "Flexible tenure available"
+    ]
+  },
+  "optional_features": {
+    "premium_payment_choices": [
+      "Regular Pay",
+      "Limited Pay",
+      "Single Pay"
+    ],
+    "premium_payment_frequency": [
+      "Yearly",
+      "Half-Yearly",
+      "Quarterly",
+      "Monthly"
+    ],
+    "payout_modes": [
+      "Lump Sum",
+      "Monthly Income",
+      "Combination"
+    ],
+    "special_options": [
+      "Premium Holiday (skip premiums)",
+      "Life Stage Upgrade"
+    ],
+    "discounts": [
+      "16% Discount on 1st year Premium",
+      "6% Online Discount",
+      "5% Discount for salaried customers",
+      "5% Discount for first individual life insurance policy"
+    ]
+  },
+  "riders": [
+    "Critical Illness Benefit Rider",
+    "Accidental Death Benefit Rider",
+    "Waiver of Premium Rider"
+  ],
+  "value_added_services": {
+    "services": []
+  },
+  "sample_illustrations": [
+    {
+      "description": "Male, 23 years, Non-Smoker, Policy Term 30 years, Premium Payment Term 30 years, Sum Assured ₹1.5 Cr",
+      "premium_1st_year": "₹6,042",
+      "premium_2nd_year_onwards": "₹6,549",
+      "total_premium": "₹1,95,963"
+    }
+  ],
+  "compliance_rules": {
+    "disclaimer": "Insurance is subject to terms and conditions. Please read the sales brochure and policy document carefully before purchase.",
+    "fraud_warning": "BEWARE of spurious phone calls and fraudulent offers. IRDAI does not sell policies or announce bonuses.",
+    "tax_disclaimer": "Tax benefits are subject to provisions of Section 80C and Section 10(10D) of the Income Tax Act, 1961. Consult your tax advisor."
+  },
+  "retrieval_chunks": [
+    {
+      "chunk_id": "AUTO_1.5CR_001",
+      "topic": "Main Benefit",
+      "text": "A ₹1.5 crore term insurance plan offers a sum assured of ₹1.5 crores paid as death benefit if the insured passes away. It secures the family's financial future.",
+      "tags": ["1.5 crore cover", "death benefit", "financial security"]
+    },
+    {
+      "chunk_id": "AUTO_1.5CR_002",
+      "topic": "Affordability",
+      "text": "Get life cover of ₹1.5 Crore starting at ₹18/day. Includes options for regular, limited, or single premium payment frequencies.",
+      "tags": ["affordability", "premium", "low cost"]
+    },
+    {
+      "chunk_id": "AUTO_1.5CR_003",
+      "topic": "Return of Premium",
+      "text": "The plan offers a Return of Premium option where total premiums paid are refunded if the life assured survives the policy tenure.",
+      "tags": ["return of premium", "maturity benefit", "refund"]
+    },
+    {
+      "chunk_id": "AUTO_1.5CR_004",
+      "topic": "Riders & Add-ons",
+      "text": "Enhance coverage with riders like Critical Illness, Accidental Death Benefit, and Waiver of Premium for nominal extra cost.",
+      "tags": ["riders", "critical illness", "accidental death"]
+    },
+    {
+      "chunk_id": "AUTO_1.5CR_005",
+      "topic": "Tax Benefits",
+      "text": "Premiums are tax-deductible up to ₹1.5 lakh under Section 80C. Death benefits are tax-free under Section 10(10D).",
+      "tags": ["tax benefit", "80C", "10(10D)"]
+    },
+    {
+      "chunk_id": "AUTO_1.5CR_006",
+      "topic": "Target Audience",
+      "text": "Ideal for young individuals starting financial planning, primary breadwinners, and high net worth individuals.",
+      "tags": ["audience", "planning", "breadwinner"]
+    }
+  ]
+}

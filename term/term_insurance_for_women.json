@@ -1,0 +1,149 @@
+{
+  "product_metadata": {
+    "title": "Term Insurance for Women",
+    "category": "Term Insurance",
+    "target_audience": "Women (working professionals, homemakers, entrepreneurs)",
+    "coverage_amount_focus": "High coverage (e.g., ₹1 Crore+)",
+    "uin": "116N172V04"
+  },
+  "product_summary": {
+    "objective": "To provide financial security and independence to women's families in case of premature demise.",
+    "highlights": [
+      "Life cover of ₹1 Crore @ ₹13/day (approx)",
+      "Special premium rates for women (lower than men)",
+      "Coverage for homemakers and working women",
+      "Critical Illness cover for female-specific illnesses",
+      "Tax benefits under 80C and 10(10D)"
+    ]
+  },
+  "plan_variants": [
+    {
+      "variant_name": "Level Term Plan",
+      "description": "Sum assured remains constant throughout the tenure."
+    },
+    {
+      "variant_name": "Increasing Term Plan",
+      "description": "Sum assured increases by a specified rate annually."
+    },
+    {
+      "variant_name": "Decreasing Term Plan",
+      "description": "Sum assured decreases over time (often used for loan cover)."
+    },
+    {
+      "variant_name": "Return of Premium",
+      "description": "Premiums refunded if the insured survives the policy term."
+    }
+  ],
+  "core_benefits": [
+    {
+      "benefit_type": "Death Benefit",
+      "description": "Sum assured paid to the nominee on death. Can be lump sum, monthly income, or combination."
+    },
+    {
+      "benefit_type": "Health Coverage",
+      "description": "Optional riders for critical illness (e.g., breast/cervical cancer)."
+    },
+    {
+      "benefit_type": "Tax Benefits",
+      "description": "Premiums deductible under 80C (up to ₹1.5L). Death benefit tax-free under 10(10D)."
+    }
+  ],
+  "eligibility_and_parameters": {
+    "entry_age": "Typically 18 to 65 years",
+    "maturity_age": "Up to 99 years (Whole Life)",
+    "sum_assured_limits": {
+      "min": "Flexible",
+      "max": "No limit (subject to underwriting)"
+    },
+    "policy_term_options": [
+      "5 to 40 years",
+      "Whole life (to 99 years)"
+    ]
+  },
+  "optional_features": {
+    "premium_payment_choices": [
+      "Regular Pay",
+      "Limited Pay",
+      "Single Pay"
+    ],
+    "premium_payment_frequency": [
+      "Yearly",
+      "Half-Yearly",
+      "Quarterly",
+      "Monthly"
+    ],
+    "payout_modes": [
+      "Lump Sum",
+      "Monthly Income",
+      "Combination Payout"
+    ],
+    "special_options": [
+      "Return of Premium"
+    ],
+    "discounts": [
+      "16% Discount on 1st year premium (mentioned in summary)",
+      "Lower premium rates for women generally"
+    ]
+  },
+  "riders": [
+    "Critical Illness Benefit Rider (covers female-specific cancers)",
+    "Accidental Death Benefit Rider",
+    "Waiver of Premium Benefit"
+  ],
+  "value_added_services": {
+    "services": [
+      "Doctor Teleconsultations",
+      "Discounts on Medicines and Lab Bookings"
+    ]
+  },
+  "sample_illustrations": [
+    {
+      "description": "₹1 Crore cover for 22 year old female, non-smoker, 30 year term",
+      "premium_1st_year": "₹18,038 (approx, indicative from text)",
+      "premium_2nd_year_onwards": "₹19,257 (approx, indicative from text)"
+    }
+  ],
+  "compliance_rules": {
+    "disclaimer": "Insurance is subject to terms and conditions. Please read the sales brochure and policy document carefully before purchase.",
+    "fraud_warning": "BEWARE of spurious phone calls and fraudulent offers. IRDAI does not sell policies or announce bonuses.",
+    "tax_disclaimer": "Tax benefits are subject to provisions of Section 80C and Section 10(10D) of the Income Tax Act, 1961. Consult your tax advisor."
+  },
+  "retrieval_chunks": [
+    {
+      "chunk_id": "AUTO_WOM_001",
+      "topic": "Main Benefit",
+      "text": "Term insurance for women offers financial protection for families, covering independent women and homemakers against premature demise.",
+      "tags": ["women", "financial protection", "homemaker coverage"]
+    },
+    {
+      "chunk_id": "AUTO_WOM_002",
+      "topic": "Affordability",
+      "text": "Women enjoy lower premium rates due to higher life expectancy. Plans start around ₹13/day for ₹1 Crore cover.",
+      "tags": ["affordability", "lower premium", "women discount"]
+    },
+    {
+      "chunk_id": "AUTO_WOM_003",
+      "topic": "Critical Illness",
+      "text": "Riders available for female-specific critical illnesses like breast and cervical cancer.",
+      "tags": ["critical illness", "cancer cover", "female health"]
+    },
+    {
+      "chunk_id": "AUTO_WOM_004",
+      "topic": "Tax Benefits",
+      "text": "Premiums are tax-deductible up to ₹1.5 lakh under Section 80C. Death benefits are tax-free under Section 10(10D).",
+      "tags": ["tax benefit", "80C", "10(10D)"]
+    },
+    {
+      "chunk_id": "AUTO_WOM_005",
+      "topic": "Return of Premium",
+      "text": "Option to receive all premiums back if the policyholder survives the policy tenure.",
+      "tags": ["return of premium", "refund", "maturity benefit"]
+    },
+    {
+      "chunk_id": "AUTO_WOM_006",
+      "topic": "Target Audience",
+      "text": "Working women, entrepreneurs, and homemakers seeking to secure their family's financial future.",
+      "tags": ["audience", "working women", "homemakers"]
+    }
+  ]
+}
