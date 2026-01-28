@@ -1,0 +1,211 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life Goal Suraksha",
+    "category": "Guaranteed Savings Plan",
+    "plan_type": "Non-linked, Non-participating, Individual Life Insurance Savings Plan",
+    "premium_payment_type": "Limited Premium Payment",
+    "medical_requirement": "Non-medical",
+    "uin": null,
+    "mode_of_sale": "Online",
+    "source_document": "goal-suraksha-brochure.pdf",
+    "company": "Bajaj Life Insurance Limited",
+    "risk_type": "Guaranteed Benefits",
+    "key_positioning": "Life cover + guaranteed maturity sum for family security goals"
+  },
+
+  "product_summary": {
+    "objective": "Goal Suraksha is an easy-to-buy guaranteed savings plan that provides life cover during the policy term and pays a Guaranteed Sum Assured on Maturity along with Guaranteed Additions if all premiums are paid.",
+    "key_highlights": [
+      "Guaranteed maturity benefit",
+      "Guaranteed Additions payable at maturity",
+      "Limited Premium Payment Term options",
+      "Option to take Policy Loan",
+      "Option to alter Premium Payment Frequency",
+      "Settlement option available for maturity payouts",
+      "Waiting period applicable for non-accidental death"
+    ]
+  },
+
+  "plan_variants": [
+    {
+      "variant_name": "Limited Pay Guaranteed Savings Plan",
+      "customization_steps": [
+        "Choose Premium Amount",
+        "Choose Sum Assured",
+        "Choose Policy Term (PT)",
+        "Choose Premium Payment Term (PPT)"
+      ]
+    }
+  ],
+
+  "core_benefits": [
+    {
+      "benefit_name": "Maturity Benefit",
+      "details": "On survival till maturity, Guaranteed Sum Assured on Maturity plus Guaranteed Additions is payable, provided all premiums are paid.",
+      "payout_type": ["Lump sum", "Settlement installments"],
+      "policy_termination": "Policy terminates on maturity payout"
+    },
+    {
+      "benefit_name": "Guaranteed Additions",
+      "details": "On maturity, Guaranteed Additions are paid as a multiple of one Annualized Premium.",
+      "condition": "Only payable if all due premiums are paid and policy is not lapsed/paid-up.",
+      "note": "Guaranteed Addition factors published on company website"
+    },
+    {
+      "benefit_name": "Death Benefit",
+      "details": "Sum Assured on Death payable after waiting period or due to accident during waiting period.",
+      "sum_assured_on_death": "Higher of (SA Multiple × Annual Premium) OR (Sum Assured).",
+      "waiting_period_non_accidental": "If death occurs during waiting period (non-accident), only 100% of premiums paid is returned.",
+      "guaranteed_floor": "Death Benefit will not be less than 105% of Total Premiums Paid."
+    },
+    {
+      "benefit_name": "Low Cover Mark-up",
+      "details": "If Sum Assured multiple of 7×/5× is chosen, policy gets additional Guaranteed Additions (higher maturity benefit).",
+      "note": "Mark-up factors available on company website"
+    }
+  ],
+
+  "eligibility_and_parameters": {
+    "entry_age": {
+      "minimum": 0,
+      "maximum": 55
+    },
+    "maturity_age": {
+      "minimum": 18,
+      "maximum": 65
+    },
+    "policy_term_and_ppt_options": {
+      "PT_10": [5, 7],
+      "PT_12": [6, 7, 8],
+      "PT_14": [7],
+      "PT_15": [5, 6, 7, 8, 10, 12],
+      "PT_16": [8],
+      "PT_20": [5, 6, 7, 8, 10, 12]
+    },
+    "minimum_premium": {
+      "yearly": "₹3,000",
+      "half_yearly": "₹2,100",
+      "quarterly": "₹1,250",
+      "monthly": "₹450"
+    },
+    "maximum_sum_assured": "₹25 Lakhs (as per prevailing POS guidelines)",
+    "minimum_sum_assured": {
+      "age_0_to_49": "₹21,000",
+      "age_50_to_55": "₹15,000"
+    },
+    "premium_payment_frequency": [
+      "Yearly",
+      "Half-yearly (Auto-debit only)",
+      "Quarterly (Auto-debit only)",
+      "Monthly (Auto-debit only)"
+    ],
+    "sa_multiple_allowed": {
+      "age_0_to_49": [7, 10],
+      "age_50_to_55": [5, 10]
+    }
+  },
+
+  "optional_features": {
+    "policy_loan": {
+      "available_after": "Policy acquires surrender value",
+      "maximum_loan": "Up to 80% of surrender value",
+      "interest_rate": "9% p.a. compounded half-yearly",
+      "loan_deduction": "Outstanding loan + interest deducted from maturity/death/surrender benefit"
+    },
+    "settlement_option": {
+      "available_for": "Maturity Benefit",
+      "installment_period": "5 to 15 years",
+      "frequency": ["Monthly", "Yearly"],
+      "interest_rate": {
+        "5_to_10_years": "6.5%",
+        "above_10_years": "7%"
+      },
+      "risk_cover_rule": "No risk cover during installment period",
+      "pv_withdrawal_option": "Policyholder can withdraw remaining installments as Present Value lump sum"
+    },
+    "premium_frequency_change": {
+      "allowed": true,
+      "frequency_factors": {
+        "monthly": 0.0859,
+        "quarterly": 0.2564,
+        "half_yearly": 0.5084,
+        "yearly": 1.0
+      }
+    }
+  },
+
+  "surrender_and_lapse_rules": {
+    "surrender_allowed": "Anytime after completion of 1st policy year with one full premium paid",
+    "surrender_value": "Higher of Guaranteed Surrender Value (GSV) or Special Surrender Value (SSV)",
+    "gsv_start": "After 2 full years premiums paid",
+    "ssv_start": "After 1 full year premium paid",
+    "policy_termination": "Risk cover terminates on surrender"
+  },
+
+  "paid_up_and_revival_rules": {
+    "lapse_rule": "If 1 full year premium not paid → policy lapses after grace period",
+    "paid_up_rule": "If surrender value acquired → policy converts to paid-up instead of lapsing",
+    "paid_up_death_floor": "105% of premiums paid till paid-up date",
+    "revival_period": "Within 5 years from first unpaid premium due date",
+    "revival_interest": "9% p.a. compounded half-yearly"
+  },
+
+  "sample_illustrations": [
+    {
+      "example_person": "Subhash",
+      "age": 35,
+      "policy_term": 15,
+      "ppt": 12,
+      "premium": "₹1,00,000 per annum",
+      "total_premiums_paid": "₹12,00,000",
+      "maturity_payout": "₹19,57,000 at end of 15th year",
+      "death_payout_14th_year": "₹18,16,462 lump sum"
+    }
+  ],
+
+  "compliance_guardrails": {
+    "waiting_period": "First 90 days from risk commencement (except accident death).",
+    "suicide_exclusion": "Suicide within 12 months → nominee gets higher of 80% premiums paid or surrender value.",
+    "free_look_period": "30 days from receipt of policy document.",
+    "grace_period": {
+      "monthly": "15 days",
+      "other_modes": "30 days"
+    },
+    "tax_disclaimer": "Tax benefits subject to prevailing tax laws.",
+    "fraud_warning": "IRDAI does not sell policies or announce bonuses.",
+    "rebate_prohibition": "Rebate is prohibited under Section 41 of Insurance Act."
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "GSUR_MATURITY_001",
+      "topic": "Maturity Benefit",
+      "text": "At maturity, Guaranteed Sum Assured on Maturity plus Guaranteed Additions is paid if all premiums are paid.",
+      "tags": ["guaranteed maturity", "additions"]
+    },
+    {
+      "chunk_id": "GSUR_DEATH_002",
+      "topic": "Death Benefit",
+      "text": "Death Benefit is higher of SA multiple × annual premium or sum assured, with minimum 105% premium floor.",
+      "tags": ["death cover", "105% guarantee"]
+    },
+    {
+      "chunk_id": "GSUR_WAITING_003",
+      "topic": "Waiting Period Rule",
+      "text": "A 90-day waiting period applies. Non-accidental death during waiting period returns only premiums paid.",
+      "tags": ["waiting period", "90 days"]
+    },
+    {
+      "chunk_id": "GSUR_LOAN_004",
+      "topic": "Policy Loan",
+      "text": "Loans up to 80% of surrender value available, interest 9% p.a., deducted from benefits at payout.",
+      "tags": ["loan", "liquidity"]
+    },
+    {
+      "chunk_id": "GSUR_SETTLE_005",
+      "topic": "Settlement Option",
+      "text": "Maturity benefit can be received in installments over 5–15 years at 6.5%–7% interest; no risk cover during installments.",
+      "tags": ["settlement", "installments"]
+    }
+  ]
+}

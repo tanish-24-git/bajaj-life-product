@@ -1,0 +1,288 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life Smart Pension",
+    "category": "Pension ULIP (Retirement Plan)",
+    "plan_type": "Unit-linked, Non-Participating, Individual Pension Plan",
+    "uin": null,
+    "mode_of_sale": "Online",
+    "source_document": "smart-pension-sl.pdf",
+    "company": "Bajaj Life Insurance Limited",
+    "risk_disclaimer": "Investment risk in the investment portfolio is borne by the policyholder.",
+    "lock_in_rule": "No surrender or withdrawal allowed completely or partially during first 5 policy years."
+  },
+
+  "product_summary": {
+    "objective": "Smart Pension is a retirement-focused ULIP designed to help systematically build a pension corpus with market-linked growth. At vesting, the accumulated fund can be commuted partially and used to purchase an annuity for retirement income.",
+    "key_highlights": [
+      "Market-linked retirement corpus growth",
+      "Two variants: Classic and Assure",
+      "Variant 2 provides Waiver of Premium (WOP) on death during PPT",
+      "Unlimited free fund switching",
+      "Wide fund options including index pension funds",
+      "Partial withdrawal allowed only for major life events after lock-in",
+      "Fund Additions: Return of Allocation Charges + Loyalty + Vesting Booster",
+      "Settlement option for death benefit up to 5 years",
+      "No loan facility"
+    ]
+  },
+
+  "plan_variants": [
+    {
+      "variant_name": "Variant 1: Classic",
+      "death_benefit_structure": "Higher of Fund Value or Guaranteed Death Benefit",
+      "waiver_of_premium": false,
+      "max_entry_age": 65,
+      "max_vesting_age": 75
+    },
+    {
+      "variant_name": "Variant 2: Assure",
+      "death_benefit_structure": "Guaranteed Death Benefit paid immediately + policy continues with company-funded premiums",
+      "waiver_of_premium": true,
+      "max_entry_age": 55,
+      "max_vesting_age": 70
+    }
+  ],
+
+  "core_benefits": [
+    {
+      "benefit_name": "Vesting Benefit",
+      "details": "On survival till vesting date, Fund Value as on vesting date is payable provided premiums are paid and policy is in force.",
+      "vesting_use_rules": [
+        "Use entire corpus to buy annuity (immediate/deferred)",
+        "Commute up to 60% corpus and annuitize remainder",
+        "Up to 50% of annuity purchase may be from another insurer"
+      ],
+      "minimum_annuity_rule": "If proceeds insufficient for minimum annuity, paid as lump sum."
+    },
+    {
+      "benefit_name": "Death Benefit – Classic Variant",
+      "details": "Nominee receives higher of Fund Value or Guaranteed Death Benefit.",
+      "guaranteed_death_benefit": "105% of Total Premiums Paid including top-ups",
+      "termination": "Policy terminates on death intimation unless settlement option chosen."
+    },
+    {
+      "benefit_name": "Death Benefit – Assure Variant",
+      "details": "Nominee receives Guaranteed Death Benefit immediately. Policy continues till end of term with all future premiums funded by company. At vesting, Fund Value paid to nominee.",
+      "mortality_charge_stop": "No mortality charges deducted after death",
+      "fund_growth_continues": true
+    },
+    {
+      "benefit_name": "Partial Withdrawal",
+      "details": "Allowed only after completion of 5 years. Maximum 25% Fund Value.",
+      "restrictions": [
+        "Minimum withdrawal ₹6,000",
+        "Only 3 withdrawals during policy term",
+        "Allowed only for IRDAI permitted reasons (education, marriage, house purchase, critical illness, disability, start-up, etc.)"
+      ]
+    }
+  ],
+
+  "eligibility_and_parameters": {
+    "minimum_entry_age": 18,
+    "maximum_entry_age": {
+      "classic": 65,
+      "assure": 55
+    },
+    "minimum_vesting_age": 45,
+    "maximum_vesting_age": {
+      "classic": 75,
+      "assure": 70
+    },
+    "policy_term_range": {
+      "classic": "10 to 57 years",
+      "assure": "10 to 52 years"
+    },
+    "premium_payment_term": {
+      "single_pay": "Single Premium",
+      "limited_pay": "5 years to (Policy Term – 1)",
+      "regular_pay": "Equal to Policy Term"
+    },
+    "minimum_premium": {
+      "single": "₹20,000",
+      "annual": "₹12,000",
+      "half_yearly": "₹6,000",
+      "quarterly": "₹3,000",
+      "monthly": "₹1,000",
+      "top_up_minimum": "₹5,000"
+    },
+    "maximum_premium": "As per Board Approved Underwriting Policy (BAUP)",
+    "female_advantage": "Female Life Assured eligible for age setback of 3 years"
+  },
+
+  "charges_structure": {
+    "premium_allocation_charge": {
+      "regular_limited": {
+        "year1_to3": "6% (AP<5L), 3% (5L–10L), Nil (>=10L)",
+        "year4_to5": "3%",
+        "year6_onwards": "Nil"
+      },
+      "single_pay": {
+        "year1": "4.5% (<10L), 3% (10L–25L), Nil (>=25L)"
+      },
+      "top_up": "2%"
+    },
+    "policy_administration_charge": {
+      "regular_limited": {
+        "AP<5L": "0.175% p.m (Yr1–5), 0.25% p.m (Yr6–10)",
+        "AP>=5L": "₹500/month (Yr1–5)"
+      },
+      "single_pay": {
+        "SP<10L": "0.09% p.m (Yr1–5)",
+        "SP>=10L": "₹500/month (Yr1–5)"
+      },
+      "cap": "₹500/month max as per IRDAI"
+    },
+    "fund_management_charge": {
+      "liquid_pension_fund": "0.95%",
+      "bond_pension_fund": "0.95%",
+      "equity_index_funds": "1.35%",
+      "discontinued_fund": "0.50%"
+    },
+    "mortality_charge": "Deducted monthly till death of life assured.",
+    "waiver_of_premium_charge": "Applicable only for Variant 2: Assure.",
+    "miscellaneous_charge": "₹100 per transaction",
+    "gst": "Applicable on charges"
+  },
+
+  "fund_additions": {
+    "return_of_allocation_charges": {
+      "benefit_name": "ROAC",
+      "timing": "End of 15th policy year",
+      "details": "Total premium allocation charges deducted are added back (excluding GST)."
+    },
+    "loyalty_additions": {
+      "start": "End of 16th policy year onwards",
+      "rate": "0.25% of average fund value of last 3 years"
+    },
+    "vesting_booster": {
+      "timing": "End of policy term",
+      "rate": "2% of average fund value of last 3 years"
+    }
+  },
+
+  "fund_options": {
+    "portfolio_strategies": [
+      "Investor Selectable Portfolio Strategy",
+      "Auto Transfer Portfolio Strategy"
+    ],
+    "available_funds_sample": [
+      "Liquid Pension Fund II",
+      "Bond Pension Fund II",
+      "Asset Allocation Pension Fund II",
+      "Pure Stock Pension Fund II",
+      "Flexi Cap Pension Fund",
+      "Nifty Alpha 50 Index Pension Fund",
+      "Nifty 200 Alpha 30 Index Pension Fund",
+      "BSE Dividend Leaders 50 Index Pension Fund"
+    ],
+    "switching_rules": {
+      "free_switches": "Unlimited",
+      "minimum_switch_amount": "₹5,000"
+    }
+  },
+
+  "optional_features": {
+    "postponement_of_vesting": {
+      "allowed_if_age_below": 60,
+      "max_extension": "Up to age 75",
+      "not_allowed_after_death": "Variant 2 nominee cannot change vesting date"
+    },
+    "settlement_option_death": {
+      "period": "Up to 5 years",
+      "frequencies": ["Monthly", "Quarterly", "Half-yearly", "Yearly"],
+      "no_withdrawal_rule": "No partial withdrawal during settlement period"
+    },
+    "top_up_premium": {
+      "allowed": true,
+      "minimum": "₹5,000",
+      "lock_in_each_topup": "5 years"
+    },
+    "change_ppt": {
+      "allowed_after": "First 5 premiums paid",
+      "charge": "₹100 per transaction"
+    },
+    "premium_reduction": {
+      "allowed_after": "5 policy years",
+      "max_reduction": "50%",
+      "irreversible": true
+    }
+  },
+
+  "riders": [
+    {
+      "rider_name": "Bajaj Life Care Plus Rider",
+      "uin": "116A059V01"
+    }
+  ],
+
+  "sample_illustrations": [
+    {
+      "scenario": "Variant 1: Classic",
+      "example_person": "Mr. Sumit",
+      "age": 40,
+      "premium": "₹2,00,000 p.a.",
+      "ppt": 10,
+      "policy_term": 20,
+      "vesting_value_8pct": "₹57,23,566",
+      "vesting_value_4pct": "₹31,70,685",
+      "annuity_value_8pct": "₹4,00,649",
+      "annuity_value_4pct": "₹2,21,948"
+    },
+    {
+      "scenario": "Variant 2: Assure",
+      "example_person": "Mr. Mukesh",
+      "age": 40,
+      "premium": "₹2,00,000 p.a.",
+      "ppt": 10,
+      "policy_term": 20,
+      "immediate_death_payout": "105% of premiums paid (₹10,50,000)",
+      "vesting_value_8pct": "₹53,74,624",
+      "vesting_value_4pct": "₹29,13,936"
+    }
+  ],
+
+  "compliance_guardrails": {
+    "pension_ulip_rule": "No liquidity allowed for first 5 years under IRDAI ULIP guidelines.",
+    "annuity_purchase_rule": "At vesting or surrender, corpus must be used for annuity purchase except commutation up to 60%.",
+    "suicide_exclusion": "Suicide within 12 months → nominee gets Fund Value as on death intimation date.",
+    "loan_rule": "No loan facility under this plan.",
+    "free_look_period": "30 days from receipt of policy document.",
+    "grace_period": {
+      "monthly": "15 days",
+      "other_modes": "30 days"
+    }
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "SMARTPENSION_VESTING_001",
+      "topic": "Vesting Benefit",
+      "text": "At vesting, fund value is payable and must be used to buy annuity; up to 60% commutation allowed.",
+      "tags": ["vesting", "annuity", "commutation"]
+    },
+    {
+      "chunk_id": "SMARTPENSION_ASSURE_002",
+      "topic": "Assure Variant Waiver of Premium",
+      "text": "Variant 2 pays Guaranteed Death Benefit immediately and future premiums are waived while corpus continues till vesting.",
+      "tags": ["WOP", "assure variant"]
+    },
+    {
+      "chunk_id": "SMARTPENSION_ROAC_003",
+      "topic": "Return of Allocation Charges",
+      "text": "At end of year 15, all allocation charges deducted are added back to fund value (excluding GST).",
+      "tags": ["ROAC", "charge return"]
+    },
+    {
+      "chunk_id": "SMARTPENSION_LOYALTY_004",
+      "topic": "Loyalty Additions + Vesting Booster",
+      "text": "Loyalty additions begin from year 16 and vesting booster adds 2% at policy term end.",
+      "tags": ["loyalty", "vesting booster"]
+    },
+    {
+      "chunk_id": "SMARTPENSION_WITHDRAWAL_005",
+      "topic": "Partial Withdrawal Rules",
+      "text": "Withdrawals allowed only after 5 years, max 25%, only 3 times, only for IRDAI permitted retirement reasons.",
+      "tags": ["withdrawal", "retirement liquidity"]
+    }
+  ]
+}

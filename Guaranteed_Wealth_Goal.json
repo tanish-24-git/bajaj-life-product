@@ -1,0 +1,208 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life Guaranteed Wealth Goal",
+    "category": "Guaranteed Savings + Income Plan",
+    "plan_type": "Non-linked, Non-participating, Individual Life Insurance Savings Plan",
+    "benefit_type": "100% Guaranteed Benefits",
+    "uin": null,
+    "mode_of_sale": "Online",
+    "source_document": "guaranteed-wealth-goal-sl.pdf",
+    "company": "Bajaj Life Insurance Limited",
+    "tax_positioning": "Tax-free returns as per Section 10(10D) (subject to conditions)",
+    "key_disclaimer": "Guaranteed benefits depend on PT, PPT and other factors."
+  },
+
+  "product_summary": {
+    "objective": "Guaranteed Wealth Goal is designed to help customers achieve long-term goals like education, retirement, home or legacy by offering guaranteed lump sum or income payouts under three variants with life cover protection.",
+    "key_highlights": [
+      "Life cover during the entire policy term",
+      "Choice of three plan variants based on goal need",
+      "Guaranteed lump sum corpus or guaranteed income",
+      "Guaranteed Additions and Income Boosters accrue over term",
+      "Return of Premium (ROP) option available in income variants",
+      "Death benefit minimum floor of 105% of premiums paid",
+      "Tax benefits under prevailing laws"
+    ]
+  },
+
+  "plan_variants": [
+    {
+      "variant_name": "Variant 1: Wealth Creation",
+      "goal_type": "Guaranteed corpus at end of policy term",
+      "benefit_structure": [
+        "Guaranteed Maturity Benefit (GMB)",
+        "Accrued Guaranteed Additions (GA)"
+      ],
+      "maturity_type": "Lump sum only"
+    },
+    {
+      "variant_name": "Variant 2: Assured Income",
+      "goal_type": "Guaranteed income stream + lumpsum ROP at end",
+      "special_feature": "Income continues even if life assured dies during income period",
+      "benefit_structure": [
+        "Income Instalments = Base Income + Income Boosters",
+        "ROP Benefit with last instalment",
+        "Death Benefit Instalments + ROP on death"
+      ]
+    },
+    {
+      "variant_name": "Variant 3: Second Income",
+      "goal_type": "Guaranteed second source of income + optional ROP",
+      "special_feature": "Life cover continues throughout policy term including income period",
+      "benefit_structure": [
+        "Guaranteed Income Instalments",
+        "Optional ROP multiple",
+        "Lump sum Death Benefit during policy term"
+      ]
+    }
+  ],
+
+  "core_benefits": [
+    {
+      "benefit_name": "Maturity Benefit (Wealth Creation)",
+      "details": "Guaranteed Maturity Benefit (GMB) plus accrued Guaranteed Additions payable as lump sum at end of policy term.",
+      "gmb_formula": "GMB Factor × Total Premiums Paid (factor varies by age, PPT, PT and SA multiple).",
+      "ga_accrual": "Added at end of each year from year 2 onwards."
+    },
+    {
+      "benefit_name": "Income Benefit (Assured Income & Second Income)",
+      "details": "Income Instalments payable during Income Period = Base Income + Accrued Income Boosters.",
+      "base_income": "Base Income% × Total Premiums Paid",
+      "income_booster": "Accrues yearly from end of 2nd policy year till end of Deferment Period."
+    },
+    {
+      "benefit_name": "Return of Premium (ROP)",
+      "details": "ROP benefit paid along with last income instalment.",
+      "multiple_range": "50% to 300% of total premiums paid (in steps of 25%)."
+    },
+    {
+      "benefit_name": "Death Benefit (All Variants)",
+      "details": "At least Sum Assured on Death payable, subject to 105% premium floor.",
+      "sum_assured_on_death": "Annualized Premium × Sum Assured Multiple",
+      "guaranteed_floor": "Death benefit never less than 105% of Total Premiums Paid or surrender value."
+    },
+    {
+      "benefit_name": "Death Benefit Special Rule (Assured Income)",
+      "details": "Nominee receives Death Benefit Instalments annually during income period plus ROP at end. Option available to take PV lump sum at discount rate 8.25%."
+    },
+    {
+      "benefit_name": "Death Benefit Rule (Second Income)",
+      "details": "Nominee receives lump sum Sum Assured on Death. Income variant maturity benefit depends on whether ROP was chosen."
+    }
+  ],
+
+  "eligibility_and_parameters": {
+    "entry_age": {
+      "minimum": 0,
+      "maximum": 60
+    },
+    "female_advantage": "Age setback of 3 years applicable for SA multiple, Base Income, GMB calculation.",
+    "premium_payment_term_options": [2, 3, 4, 5, 6, 7, 8, 10, 12],
+    "income_period_options": {
+      "assured_income": [15, 20, 25, 30, 35, 40],
+      "second_income": [15, 20, 25, 30, 35, 40]
+    },
+    "deferment_period_options": [0, 1, 2, 3, 4, 5],
+    "policy_term_rules": {
+      "wealth_creation": "10 to 50 years depending on PPT",
+      "assured_income": "PT = PPT + Deferment Period",
+      "second_income": "PT = PPT + DP + Income Period"
+    },
+    "sum_assured_multiple_rules": {
+      "wealth_creation": {
+        "age_le_50": [7, 11, 15, 20],
+        "age_gt_50": [5, 11, 15, 20]
+      },
+      "income_variants": "Multiples vary by age band and option (refer company factors)."
+    }
+  },
+
+  "optional_features": {
+    "pv_lump_sum_option": {
+      "available_in": "Assured Income Death Benefit",
+      "discount_rate": "8.25% p.a.",
+      "details": "Nominee can commute instalments + ROP into lump sum."
+    },
+    "multiple_variant_selection": {
+      "rule": "At inception, customer can choose one or more variants under same policy.",
+      "change_rule": "Variant and parameters cannot be changed later."
+    }
+  },
+
+  "riders": [],
+
+  "sample_illustrations": [
+    {
+      "variant": "Wealth Creation",
+      "example_person": "Rahul (30 years)",
+      "premium": "₹1,00,000 p.a. for 12 years",
+      "policy_term": 15,
+      "total_premium": "₹12,00,000",
+      "maturity_corpus": "₹19,37,356 lumpsum",
+      "death_in_14th_year": "₹17,98,422 lumpsum"
+    },
+    {
+      "variant": "Assured Income",
+      "example_person": "Manish (35 years)",
+      "premium": "₹1,00,000 p.a. for 10 years",
+      "ppt": 10,
+      "dp": 5,
+      "policy_term": 15,
+      "income_period": 30,
+      "annual_income": "₹1,30,560 p.a.",
+      "rop": "₹10,00,000 at end of income period",
+      "total_benefit_multiple": "4.91× premiums"
+    },
+    {
+      "variant": "Second Income",
+      "example_person": "Ajay (35 years)",
+      "premium": "₹1,00,000 p.a. for 10 years",
+      "dp": 5,
+      "policy_term": 45,
+      "income_period": 30,
+      "annual_income": "₹1,35,296 p.a.",
+      "rop": "₹10,00,000 at end",
+      "total_multiple": "5.05× premiums"
+    }
+  ],
+
+  "compliance_guardrails": {
+    "guaranteed_disclaimer": "All benefits are guaranteed provided policy is in-force and premiums are paid.",
+    "tax_disclaimer": "Tax benefits subject to Section 10(10D) and prevailing laws.",
+    "death_floor_rule": "Death benefit minimum 105% of premiums paid or surrender value.",
+    "parameter_lock": "Variant, DP, IP, PPT, PT once chosen cannot be changed."
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "GWG_VARIANTS_001",
+      "topic": "Three Variant Structure",
+      "text": "Guaranteed Wealth Goal offers Wealth Creation, Assured Income and Second Income variants depending on whether customer wants lump sum or long-term income.",
+      "tags": ["variants", "wealth creation", "assured income"]
+    },
+    {
+      "chunk_id": "GWG_GMB_GA_002",
+      "topic": "Wealth Creation Benefit",
+      "text": "Wealth Creation variant pays Guaranteed Maturity Benefit plus Guaranteed Additions accrued yearly from year 2 onwards.",
+      "tags": ["GMB", "GA", "lumpsum"]
+    },
+    {
+      "chunk_id": "GWG_INCOMEBOOST_003",
+      "topic": "Income Booster Mechanism",
+      "text": "Income Boosters accrue each year from end of year 2 till deferment completion and are paid as part of every income instalment.",
+      "tags": ["income booster", "assured payout"]
+    },
+    {
+      "chunk_id": "GWG_ROP_004",
+      "topic": "Return of Premium Option",
+      "text": "ROP benefit payable with last instalment, selectable from 50% to 300% of premiums in steps of 25%.",
+      "tags": ["ROP", "premium back"]
+    },
+    {
+      "chunk_id": "GWG_DEATH_005",
+      "topic": "Death Benefit Guarantee",
+      "text": "Death benefit is Annualized Premium × SA multiple with minimum floor of 105% premiums paid or surrender value, whichever is higher.",
+      "tags": ["death benefit", "105% guarantee"]
+    }
+  ]
+}

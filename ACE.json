@@ -1,0 +1,241 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life ACE",
+    "category": "Savings + Income Plan",
+    "plan_type": "Non-Linked, Participating, Individual Life Insurance Savings Plan",
+    "uin": "116N186V03",
+    "mode_of_sale": "Online",
+    "source_document": "ace-brochure.pdf",
+    "company": "Bajaj Life Insurance Limited",
+    "participating_nature": true,
+    "bonus_applicable": "Cash Bonus + Terminal Bonus (if declared)",
+    "key_positioning": "Flexible plan where customer designs income/lump sum structure"
+  },
+
+  "product_summary": {
+    "objective": "Bajaj Life ACE allows customers to design their financial returns through flexible combinations of income or lump sum payout options, while ensuring life cover throughout the policy term up to 100 years of age.",
+    "key_highlights": [
+      "Flexibility: Choose income, lump sum or both",
+      "4 Product Options: Deferred Income, Early Income, Increasing Income, Wealth",
+      "Guaranteed Income payable as % of Benefit Sum Assured",
+      "Cash Bonuses and Terminal Bonus (if declared) under participating plan",
+      "Goal Protection Benefit (GPB): Policy continues even after death during PPT",
+      "Option to accumulate income benefits at 10-year G-Sec linked return",
+      "Maturity benefit includes 105% premiums paid + accumulated payouts + terminal bonus",
+      "Life cover up to age 100",
+      "Optional Riders available"
+    ]
+  },
+
+  "plan_variants": [
+    {
+      "variant_name": "Deferred Income Option",
+      "income_start": "After PPT + Deferment Period",
+      "income_components": ["Guaranteed Income", "Cash Bonus (if declared)"],
+      "guaranteed_income_rate": "4% × Benefit Sum Assured",
+      "deferment_period": "Up to 5 years"
+    },
+    {
+      "variant_name": "Early Income Option",
+      "income_start": "From end of 1st month/year after deferment",
+      "income_components": ["Cash Bonus (if declared)", "Guaranteed Income"],
+      "guaranteed_income_rate": "4% × Benefit Sum Assured",
+      "income_frequency": ["Monthly", "Yearly"],
+      "deferment_period": "Up to 5 years"
+    },
+    {
+      "variant_name": "Increasing Income Option",
+      "income_start": "After PPT + Deferment Period",
+      "special_feature": "Benefit Sum Assured increases at 5% p.a. compounded",
+      "guaranteed_income_rate": "2% × Increasing Benefit Sum Assured",
+      "deferment_period": "Up to 5 years"
+    },
+    {
+      "variant_name": "Wealth Option",
+      "payout_type": "Lump sum at maturity",
+      "maturity_amount": "Maturity Sum Assured Rate × Annualized Premium + Bonuses (if declared)"
+    }
+  ],
+
+  "core_benefits": [
+    {
+      "benefit_name": "Death Benefit",
+      "details": "Sum Assured on Death + accumulated income benefits (105%) + Terminal Bonus (if declared).",
+      "sum_assured_rule": "11× Annualized Premium",
+      "guaranteed_floor": "Guaranteed Death Benefit = 105% of Total Premiums Paid",
+      "payout_type": ["Lump sum", "Installments option available"]
+    },
+    {
+      "benefit_name": "Maturity Benefit (Options 1–3)",
+      "details": "On maturity policyholder receives: 105% of total premiums paid + accumulated income benefits (if any) + Terminal Bonus (if declared)."
+    },
+    {
+      "benefit_name": "Maturity Benefit (Wealth Option)",
+      "details": "Maturity Sum Assured Rate × Annualized Premium + Simple Reversionary Bonus + Terminal Bonus (if declared)."
+    },
+    {
+      "benefit_name": "Guaranteed Income",
+      "income_rate": {
+        "deferred_income": "4% × Benefit Sum Assured",
+        "early_income": "4% × Benefit Sum Assured",
+        "increasing_income": "2% × Increasing Benefit Sum Assured"
+      },
+      "payable_until": "End of Policy Term"
+    },
+    {
+      "benefit_name": "Cash Bonus",
+      "details": "Declared annually depending on company performance. Payable as income under Options 1–3."
+    },
+    {
+      "benefit_name": "Terminal Bonus",
+      "details": "May be declared at maturity or death depending on bonus performance."
+    }
+  ],
+
+  "eligibility_and_parameters": {
+    "entry_age": {
+      "with_gpb": "18–55 years",
+      "without_gpb": "0–60 years"
+    },
+    "maturity_age": {
+      "with_gpb": "Up to age 85",
+      "without_gpb": "Up to age 100"
+    },
+    "premium_payment_term": [5, 6, 7, 8, 9, 10, 12],
+    "deferment_period": "0–5 years",
+    "policy_term": {
+      "limited_term": "10–45 years",
+      "whole_life": "Up to age 85 or 100"
+    },
+    "minimum_premium": "₹25,000 per annum",
+    "maximum_premium": "No limit (subject to underwriting)",
+    "sum_assured": "11× Annualized Premium",
+    "female_advantage": "2% markup on Benefit Sum Assured"
+  },
+
+  "optional_features": {
+    "goal_protection_benefit": {
+      "description": "If death occurs during PPT, nominee receives Sum Assured on Death + 5% of accumulated income. Policy continues with no future premiums, and benefits continue till maturity.",
+      "premium_waiver": true
+    },
+    "accumulate_income_benefits": {
+      "available_for": ["Deferred Income", "Early Income", "Increasing Income"],
+      "accumulation_return": "Prevailing 10-year G-Sec yield declared annually",
+      "withdrawal": "Partial or full withdrawal allowed anytime"
+    },
+    "income_frequency_change": {
+      "allowed": true,
+      "modes": ["Monthly", "Quarterly", "Half-yearly", "Yearly"],
+      "arrear_factor": {
+        "monthly": "95%",
+        "quarterly": "96%",
+        "half_yearly": "96.5%",
+        "yearly": "100%"
+      },
+      "advance_factor": {
+        "monthly": "94.5%",
+        "quarterly": "94.25%",
+        "half_yearly": "93%",
+        "yearly": "92%"
+      }
+    },
+    "maturity_installments": {
+      "available": true,
+      "periods": [5, 10, 15, 20],
+      "interest_basis": "Relevant G-Sec yield minus 25 bps"
+    },
+    "death_installments": {
+      "available": true,
+      "periods": [5, 10],
+      "interest_basis": "10-year G-Sec yield minus 1%"
+    },
+    "policy_loan": {
+      "available": true,
+      "limit": "80% of surrender value + 50% terminal bonus portion",
+      "loan_interest": "10% p.a. compounded half yearly"
+    }
+  },
+
+  "riders": [
+    {
+      "rider_name": "Accidental Death Benefit Rider",
+      "uin": "116B034V02"
+    },
+    {
+      "rider_name": "Accidental Permanent Total/Partial Disability Rider",
+      "uin": "116B036V02"
+    },
+    {
+      "rider_name": "Bajaj Life Family Protect Rider",
+      "uin": "116B056V01"
+    }
+  ],
+
+  "surrender_and_lapse_rules": {
+    "surrender_value": "Higher of Guaranteed Surrender Value (GSV) or Special Surrender Value (SSV).",
+    "gsv_start": "After 2 full years premiums paid",
+    "ssv_start": "After 1 full year premium paid",
+    "policy_termination": "Policy terminates on surrender date.",
+    "lapse_rule": "If no surrender value acquired, policy lapses after grace period.",
+    "paid_up_rule": "Policy converts to reduced paid-up if surrender value acquired."
+  },
+
+  "sample_illustrations": [
+    {
+      "example_person": "Male 35 years",
+      "annual_premium": "₹1,00,000",
+      "ppt": 10,
+      "policy_term": 65,
+      "options_selected": ["Early Income", "Wealth"],
+      "total_premiums_paid": "₹10,00,000",
+      "annual_income_8pct": "₹38,142",
+      "maturity_value_8pct": "₹91,80,975 – ₹3,93,84,384 (depending on allocation)",
+      "note": "Illustrative rates are not guaranteed."
+    }
+  ],
+
+  "compliance_guardrails": {
+    "participating_bonus_disclaimer": "Bonuses are not guaranteed and depend on company performance.",
+    "guaranteed_floor": "Death benefit will not be less than 105% of premiums paid.",
+    "free_look_period": "30 days from receipt of policy document.",
+    "grace_period": {
+      "monthly": "15 days",
+      "other_modes": "30 days"
+    },
+    "suicide_exclusion": "Within 12 months, nominee gets higher of 80% premiums paid or surrender value.",
+    "fraud_warning": "IRDAI does not sell policies or announce bonuses."
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "ACE_OPTIONS_001",
+      "topic": "Four Product Options",
+      "text": "Bajaj Life ACE offers Deferred Income, Early Income, Increasing Income and Wealth options which can be combined to design returns.",
+      "tags": ["options", "income flexibility"]
+    },
+    {
+      "chunk_id": "ACE_GPB_002",
+      "topic": "Goal Protection Benefit",
+      "text": "GPB ensures policy continues even if death occurs during PPT, with nominee receiving benefits till maturity without future premiums.",
+      "tags": ["GPB", "premium waiver"]
+    },
+    {
+      "chunk_id": "ACE_GI_003",
+      "topic": "Guaranteed Income Structure",
+      "text": "Guaranteed income equals 4% of Benefit Sum Assured in Deferred/Early Income and 2% in Increasing Income option.",
+      "tags": ["guaranteed income", "BSA"]
+    },
+    {
+      "chunk_id": "ACE_BONUS_004",
+      "topic": "Participating Bonuses",
+      "text": "Cash Bonus and Terminal Bonus may be declared annually based on company performance and are not guaranteed.",
+      "tags": ["bonus", "participating plan"]
+    },
+    {
+      "chunk_id": "ACE_ELIGIBILITY_005",
+      "topic": "Eligibility Rules",
+      "text": "Entry age ranges from 0–60 (without GPB) and maturity age can extend up to 100 years under whole life option.",
+      "tags": ["eligibility", "whole life"]
+    }
+  ]
+}

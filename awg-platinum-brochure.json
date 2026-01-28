@@ -1,0 +1,197 @@
+{
+  "product_metadata": {
+    "product_name": "Bajaj Life Assured Wealth Goal Platinum",
+    "category": "Guaranteed Savings + Income Plan",
+    "plan_type": "Non-Linked, Non-Participating, Individual Life Insurance Savings Plan",
+    "variant": "Platinum",
+    "uin": null,
+    "mode_of_sale": "Online / POS",
+    "source_document": "awg-platinum-brochure.pdf",
+    "company": "Bajaj Life Insurance Limited",
+    "benefits_type": "All benefits are guaranteed",
+    "key_positioning": "Guaranteed liquidity and assured income for life goals"
+  },
+
+  "product_summary": {
+    "objective": "Assured Wealth Goal Platinum provides guaranteed life cover during policy term along with Early Guaranteed Payouts and Regular Guaranteed Income during Income Period, plus Enhanced Return of Premium (110%) at end of Income Period.",
+    "key_highlights": [
+      "Guaranteed payouts start as early as 1st policy year",
+      "Two plan options: Smart Income and Regular Income",
+      "Regular Guaranteed Income paid during Income Period",
+      "Enhanced Return of Premium = 110% of total premiums paid",
+      "Option to take future payouts as lump sum at discounted rate",
+      "Life cover available only during Policy Term (not during Income Period)",
+      "Income continues to nominee if death occurs during Income Period",
+      "Tax benefits available as per prevailing laws"
+    ]
+  },
+
+  "plan_variants": [
+    {
+      "variant_name": "Option 1: Smart Income",
+      "features": [
+        "Early Guaranteed Payouts during Policy Term",
+        "Regular Guaranteed Payouts during Income Period",
+        "Enhanced ROP (110%) at end of Income Period"
+      ],
+      "income_start_year": "1st to 8th year depending on PT chosen",
+      "early_payout_period": "Min 1 year, Max 20 years"
+    },
+    {
+      "variant_name": "Option 2: Regular Income",
+      "features": [
+        "Guaranteed payouts only during Income Period (after deferment)",
+        "Optional deferment period = PT − PPT",
+        "Enhanced ROP applicable only for selected Income Periods"
+      ]
+    }
+  ],
+
+  "core_benefits": [
+    {
+      "benefit_name": "Early Guaranteed Payouts (EGP)",
+      "option": "Smart Income only",
+      "details": "Paid from chosen Income Start Year till end of Policy Term as % of Annualized Premium.",
+      "special_feature": "EGPs can be adjusted against renewal premiums payable."
+    },
+    {
+      "benefit_name": "Regular Guaranteed Payouts",
+      "details": "Paid at the beginning of each policy year during Income Period as % of Annualized Premium.",
+      "nominee_continuation": true
+    },
+    {
+      "benefit_name": "Enhanced Return of Premium (ROP)",
+      "details": "110% of Total Premiums Paid payable at the end of Income Period.",
+      "applicable_in": ["Smart Income", "Regular Income (selected cases)"]
+    },
+    {
+      "benefit_name": "Maturity Benefit",
+      "details": "Guaranteed payouts continue through Income Period. Policy terminates automatically at end of Income Period.",
+      "termination_rule": "No life cover during Income Period."
+    },
+    {
+      "benefit_name": "Death Benefit",
+      "details": "During Policy Term, nominee receives Sum Assured on Death plus accrued Guaranteed Payouts (if any).",
+      "minimum_floor": "Death benefit will not be less than 105% of total premiums paid OR prevailing surrender value."
+    },
+    {
+      "benefit_name": "Death during Income Period",
+      "details": "Regular Guaranteed Payouts and Enhanced ROP continue to nominee. Nominee can opt for lump sum present value payout."
+    }
+  ],
+
+  "eligibility_and_parameters": {
+    "minimum_age_entry": 0,
+    "maximum_age_entry": 60,
+    "minimum_maturity_age": 18,
+    "maximum_maturity_age": 75,
+    "plan_options": ["Smart Income", "Regular Income"],
+    "premium_payment_term": {
+      "smart_income": [5, 6, 7, 8, 10, 12, 15],
+      "regular_income": [5, 6, 7, 8, 10, 12]
+    },
+    "policy_term": {
+      "smart_income_regular_pay": "Equal to PPT",
+      "smart_income_limited_pay": [10, 15, 20],
+      "regular_income": "5 to 17 years"
+    },
+    "income_period_options": {
+      "smart_income": [5, 15, 20, 25, 30],
+      "regular_income": [5, 7, 10, 12, 15, 20, 25, 30]
+    },
+    "minimum_annualized_premium": "₹30,000",
+    "maximum_premium": "No limit (subject to Board Approved Underwriting Policy)",
+    "female_advantage": "Age setback of 3 years for females for SA multiple and payout calculation"
+  },
+
+  "optional_features": {
+    "lump_sum_commutation": {
+      "available": true,
+      "details": "Policyholder can commute remaining payouts + Enhanced ROP as lump sum at discounted present value.",
+      "discount_rate_rules": {
+        "if_exercised_at_maturity": "9% p.a.",
+        "if_exercised_after_payouts_start": "Benchmark G-Sec +1% (10-yr or 30-yr depending on Income Period)"
+      }
+    },
+    "deferment_period": {
+      "available_in": "Regular Income option",
+      "definition": "PT − PPT"
+    }
+  },
+
+  "riders": [],
+
+  "sample_illustrations": [
+    {
+      "example_person": "Sunil",
+      "age": 30,
+      "premium": "₹1,00,000 p.a. for 10 years",
+      "option": "Smart Income",
+      "policy_term": 10,
+      "income_start_year": 2,
+      "income_period": 30,
+      "early_income": "₹30,000 p.a. (Year 2–10)",
+      "regular_income": "₹44,750 p.a. (Year 11–40)",
+      "enhanced_rop": "₹11,00,000 at end of Income Period",
+      "total_benefit": "₹27,12,500 (2.71× premium paid)"
+    },
+    {
+      "example_person": "Ajay",
+      "age": 35,
+      "premium": "₹1,00,000 p.a. for 10 years",
+      "option": "Regular Income",
+      "deferment_period": 2,
+      "policy_term": 12,
+      "income_period": 30,
+      "regular_income": "₹1,00,800 p.a. from Year 13",
+      "enhanced_rop": "₹11,00,000 at end",
+      "total_benefit": "₹41,24,000 (4.12× premium paid)"
+    }
+  ],
+
+  "compliance_guardrails": {
+    "guaranteed_disclaimer": "All benefits are guaranteed under this non-linked plan.",
+    "life_cover_rule": "Life cover is available only during Policy Term, not during Income Period.",
+    "tax_disclaimer": "Tax benefits are subject to prevailing Income Tax laws.",
+    "pos_restrictions": {
+      "max_entry_age": 55,
+      "max_maturity_age": 65,
+      "max_policy_term": 20,
+      "max_sum_assured": "₹25 Lakhs",
+      "riders": "Not applicable"
+    }
+  },
+
+  "retrieval_chunks": [
+    {
+      "chunk_id": "AWG_PLAT_EGP_001",
+      "topic": "Early Guaranteed Payouts",
+      "text": "Smart Income option provides Early Guaranteed Payouts starting as early as the 1st policy year till end of policy term.",
+      "tags": ["EGP", "early income"]
+    },
+    {
+      "chunk_id": "AWG_PLAT_ROP_002",
+      "topic": "Enhanced Return of Premium",
+      "text": "Enhanced ROP equals 110% of total premiums paid, payable at the end of the Income Period.",
+      "tags": ["ROP", "110% premium back"]
+    },
+    {
+      "chunk_id": "AWG_PLAT_DEATH_003",
+      "topic": "Death Benefit",
+      "text": "During Policy Term, nominee receives Sum Assured plus payouts accrued, with minimum 105% of premiums paid.",
+      "tags": ["death benefit", "105% floor"]
+    },
+    {
+      "chunk_id": "AWG_PLAT_LUMPSUM_004",
+      "topic": "Lump Sum Option",
+      "text": "Remaining guaranteed payouts can be taken as lump sum at discounted present value using G-Sec benchmark rates.",
+      "tags": ["commutation", "present value"]
+    },
+    {
+      "chunk_id": "AWG_PLAT_OPTIONS_005",
+      "topic": "Plan Options",
+      "text": "Two plan options: Smart Income (with Early + Regular payouts) and Regular Income (only Income Period payouts with deferment).",
+      "tags": ["smart income", "regular income"]
+    }
+  ]
+}
